@@ -1,4 +1,0 @@
-string name # Name to save the route as
-string guid # GUID of the route, as 32 hex digits
-marti_nav_msgs/Route route # The route that should be saved
-string thumbnail # base64-encoded JPG or PNG thumbnail image

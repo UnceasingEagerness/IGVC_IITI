@@ -1,9 +1,0 @@
-[ros2cli.command]
-swri = swri_cli_tools.command.swri:SwriCommand
-
-[ros2cli.extension_point]
-swri_cli_tools.verb = swri_cli_tools.verb:VerbExtension
-
-[swri_cli_tools.verb]
-document = swri_cli_tools.verb.document:DocumentVerb
-

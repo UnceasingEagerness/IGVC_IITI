@@ -1,8 +1,0 @@
-setup.py
-swri_transform_util/__init__.py
-swri_transform_util/origin_manager.py
-swri_transform_util/wgs84_transformer.py
-swri_transform_util.egg-info/PKG-INFO
-swri_transform_util.egg-info/SOURCES.txt
-swri_transform_util.egg-info/dependency_links.txt
-swri_transform_util.egg-info/top_level.txt

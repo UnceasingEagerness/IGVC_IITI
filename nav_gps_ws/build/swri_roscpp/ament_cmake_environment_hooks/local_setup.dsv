@@ -1,4 +1,0 @@
-source;share/swri_roscpp/environment/ament_prefix_path.sh
-source;share/swri_roscpp/environment/library_path.sh
-source;share/swri_roscpp/environment/path.sh
-source;share/swri_roscpp/environment/pythonpath.sh

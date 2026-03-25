@@ -1,0 +1,17 @@
+# ROS 2 build artifacts
+build/
+install/
+log/
+
+# Colcon workspaces
+*/build/
+*/install/
+*/log/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# Python
+__pycache__/
+*.pyc

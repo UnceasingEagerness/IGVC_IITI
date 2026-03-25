@@ -1,3 +1,0 @@
-swri_transform_util::DynamicTransformPublisher;lib/libswri_transform_util_nodes.so
-swri_transform_util::GpsTransformPublisher;lib/libswri_transform_util_nodes.so
-swri_transform_util::ObstacleTransformer;lib/libswri_transform_util_nodes.so

@@ -1,4 +1,0 @@
-source;share/marti_dbw_msgs/local_setup.bash
-source;share/marti_dbw_msgs/local_setup.dsv
-source;share/marti_dbw_msgs/local_setup.sh
-source;share/marti_dbw_msgs/local_setup.zsh

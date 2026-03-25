@@ -1,8 +1,0 @@
-setup.py
-marti_perception_msgs/__init__.py
-marti_perception_msgs.egg-info/PKG-INFO
-marti_perception_msgs.egg-info/SOURCES.txt
-marti_perception_msgs.egg-info/dependency_links.txt
-marti_perception_msgs.egg-info/top_level.txt
-marti_perception_msgs/msg/__init__.py
-marti_perception_msgs/msg/_pedestrian_image_id.py

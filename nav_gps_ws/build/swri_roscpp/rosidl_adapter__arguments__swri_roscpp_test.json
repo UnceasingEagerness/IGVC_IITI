@@ -1,7 +1,0 @@
-{
-  "package_name": "swri_roscpp",
-  "non_idl_tuples": [
-    "/home/ivdc/igvc2025/nav_gps_ws/src/marti_common/swri_roscpp:msg/TestTopicServiceRequest.msg",
-    "/home/ivdc/igvc2025/nav_gps_ws/src/marti_common/swri_roscpp:msg/TestTopicServiceResponse.msg"
-  ]
-}

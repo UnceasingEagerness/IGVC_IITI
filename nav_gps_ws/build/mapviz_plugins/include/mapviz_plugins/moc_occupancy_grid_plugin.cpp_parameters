@@ -1,6 +1,0 @@
--I/home/ivdc/igvc2025/nav_gps_ws/src/mapviz/mapviz_plugins
--I/home/ivdc/igvc2025/nav_gps_ws/build/mapviz_plugins
--DWFlags=WindowFlags
--o
-/home/ivdc/igvc2025/nav_gps_ws/build/mapviz_plugins/include/mapviz_plugins/moc_occupancy_grid_plugin.cpp
-/home/ivdc/igvc2025/nav_gps_ws/src/mapviz/mapviz_plugins/include/mapviz_plugins/occupancy_grid_plugin.h

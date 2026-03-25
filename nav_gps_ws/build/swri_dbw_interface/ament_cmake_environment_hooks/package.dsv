@@ -1,4 +1,0 @@
-source;share/swri_dbw_interface/local_setup.bash
-source;share/swri_dbw_interface/local_setup.dsv
-source;share/swri_dbw_interface/local_setup.sh
-source;share/swri_dbw_interface/local_setup.zsh
