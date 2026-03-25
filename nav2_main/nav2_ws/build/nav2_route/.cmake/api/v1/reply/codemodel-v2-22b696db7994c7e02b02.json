@@ -1,0 +1,348 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-1eef020112ffc536281f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						5,
+						7,
+						8,
+						9,
+						26
+					]
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-test-Release-ee0a183eb99705ff7791.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						6,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "nav2_route",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "edge_scorers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-edge_scorers-Release-2a71173687e350915edb.json",
+					"name" : "edge_scorers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graph_file_loaders::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graph_file_loaders-Release-2148a8de2a8e8fe16cb9.json",
+					"name" : "graph_file_loaders",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graph_file_savers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graph_file_savers-Release-cffa05ec75fd51abbcc3.json",
+					"name" : "graph_file_savers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-3c310c0ee0393a6c667a.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-4d1ce78d2b7c338fc853.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_route_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_route_uninstall-Release-e8b03c0f54cef8da872f.json",
+					"name" : "nav2_route_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "performance_benchmarking::@36f028580bb02cc8272a",
+					"jsonFile" : "target-performance_benchmarking-Release-f93803e8c3eb178f9a0c.json",
+					"name" : "performance_benchmarking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "route_operations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-route_operations-Release-24481a70bdc8e902ffe7.json",
+					"name" : "route_operations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "route_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-route_server-Release-b2a188117d7fbef0db73.json",
+					"name" : "route_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "route_server_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-route_server_core-Release-85b63c06117eb02a4696.json",
+					"name" : "route_server_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_collision_operation::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_collision_operation-Release-3418654bd9a734bc0179.json",
+					"name" : "test_collision_operation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_corner_smoothing::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_corner_smoothing-Release-3217d577a212cac8c8eb.json",
+					"name" : "test_corner_smoothing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_edge_scorers::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_edge_scorers-Release-8e3e6aa0d8d1a35ce17c.json",
+					"name" : "test_edge_scorers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_geojson_graph_file_loader::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_geojson_graph_file_loader-Release-c7ee3106d33a03f274f1.json",
+					"name" : "test_geojson_graph_file_loader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_geojson_graph_file_saver::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_geojson_graph_file_saver-Release-313d65f77233d43ccb5d.json",
+					"name" : "test_geojson_graph_file_saver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_goal_intent_extractor::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_goal_intent_extractor-Release-3dd561c89b75f2ff11f3.json",
+					"name" : "test_goal_intent_extractor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_goal_intent_search::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_goal_intent_search-Release-9a2c3f52a539ebe37e25.json",
+					"name" : "test_goal_intent_search",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_graph_loader::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_graph_loader-Release-5ed68c218928a4a96009.json",
+					"name" : "test_graph_loader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_graph_saver::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_graph_saver-Release-c043f9e354baf99e7126.json",
+					"name" : "test_graph_saver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_operations::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_operations-Release-c8dc221d75b7d04460d4.json",
+					"name" : "test_operations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_path_converter::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_path_converter-Release-b6c664a1d3631c712064.json",
+					"name" : "test_path_converter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_route_planner::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_route_planner-Release-5a095f302d5b2e6ec715.json",
+					"name" : "test_route_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_route_server::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_route_server-Release-e26d04fd96caf11c9422.json",
+					"name" : "test_route_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_route_tracker::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_route_tracker-Release-a7303c3e5ea24af05886.json",
+					"name" : "test_route_tracker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_spatial_tree::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_spatial_tree-Release-4e3b5f43c9da38eebe45.json",
+					"name" : "test_spatial_tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_utils_and_types::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_utils_and_types-Release-a8edb52585e801a5d3ff.json",
+					"name" : "test_utils_and_types",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-9a31fe87f348f651844c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_route",
+		"source" : "/home/ivdc/igvc2025/nav2_main/nav2_ws/src/navigation2/nav2_route"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,312 @@
+[0.062s] Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_introspection_msgs': /usr/bin/cmake /home/ivdc/igvc2025/nav_gps_ws/src/marti_messages/marti_introspection_msgs -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs
+[0.173s] -- The C compiler identification is GNU 11.4.0
+[0.285s] -- The CXX compiler identification is GNU 11.4.0
+[0.298s] -- Detecting C compiler ABI info
+[0.455s] -- Detecting C compiler ABI info - done
+[0.471s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.471s] -- Detecting C compile features
+[0.471s] -- Detecting C compile features - done
+[0.478s] -- Detecting CXX compiler ABI info
+[0.649s] -- Detecting CXX compiler ABI info - done
+[0.663s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.663s] -- Detecting CXX compile features
+[0.664s] -- Detecting CXX compile features - done
+[0.667s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.042s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.275s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.282s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.306s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.464s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[2.146s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.624s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.230s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.278s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.281s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.337s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.337s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.338s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.338s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.386s] -- Found PythonExtra: .so  
+[3.499s] -- Configuring done
+[3.582s] -- Generating done
+[3.605s] -- Build files have been written to: /home/ivdc/igvc2025/nav_gps_ws/build/marti_introspection_msgs
+[3.639s] Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_introspection_msgs' returned '0': /usr/bin/cmake /home/ivdc/igvc2025/nav_gps_ws/src/marti_messages/marti_introspection_msgs -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs
+[3.640s] Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_introspection_msgs': /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/marti_introspection_msgs -- -j8 -l8
+[3.893s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.894s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.894s] [  3%] Built target ament_cmake_python_copy_marti_introspection_msgs
+[5.603s] running egg_info
+[5.619s] creating marti_introspection_msgs.egg-info
+[5.620s] writing marti_introspection_msgs.egg-info/PKG-INFO
+[5.623s] writing dependency_links to marti_introspection_msgs.egg-info/dependency_links.txt
+[5.623s] writing top-level names to marti_introspection_msgs.egg-info/top_level.txt
+[5.635s] writing manifest file 'marti_introspection_msgs.egg-info/SOURCES.txt'
+[5.646s] reading manifest file 'marti_introspection_msgs.egg-info/SOURCES.txt'
+[5.647s] writing manifest file 'marti_introspection_msgs.egg-info/SOURCES.txt'
+[6.037s] [  3%] Built target ament_cmake_python_build_marti_introspection_msgs_egg
+[9.175s] [  3%] Built target marti_introspection_msgs__cpp
+[9.321s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.343s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.352s] [ 10%] [32mBuilding C object CMakeFiles/marti_introspection_msgs__rosidl_generator_c.dir/rosidl_generator_c/marti_introspection_msgs/msg/detail/node_info__functions.c.o[0m
+[9.367s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.379s] [ 12%] [32mBuilding C object CMakeFiles/marti_introspection_msgs__rosidl_generator_c.dir/rosidl_generator_c/marti_introspection_msgs/msg/detail/topic_info__functions.c.o[0m
+[9.411s] [ 14%] [32mBuilding C object CMakeFiles/marti_introspection_msgs__rosidl_generator_c.dir/rosidl_generator_c/marti_introspection_msgs/msg/detail/service_info__functions.c.o[0m
+[9.414s] [ 16%] [32mBuilding C object CMakeFiles/marti_introspection_msgs__rosidl_generator_c.dir/rosidl_generator_c/marti_introspection_msgs/msg/detail/param_info__functions.c.o[0m
+[10.084s] [ 18%] [32m[1mLinking C shared library libmarti_introspection_msgs__rosidl_generator_c.so[0m
+[10.586s] [ 18%] Built target marti_introspection_msgs__rosidl_generator_c
+[10.676s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.708s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.748s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[15.409s] [ 25%] [32mBuilding CXX object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_introspection_msgs/msg/service_info__type_support.cpp.o[0m
+[15.425s] [ 27%] [32mBuilding CXX object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_introspection_msgs/msg/node_info__type_support.cpp.o[0m
+[15.447s] [ 29%] [32mBuilding CXX object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_introspection_msgs/msg/param_info__type_support.cpp.o[0m
+[16.069s] [ 30%] [32mBuilding CXX object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/marti_introspection_msgs/msg/node_info__type_support.cpp.o[0m
+[16.244s] [ 32%] [32mBuilding CXX object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/marti_introspection_msgs/msg/detail/dds_fastrtps/node_info__type_support.cpp.o[0m
+[16.417s] [ 34%] [32mBuilding CXX object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/marti_introspection_msgs/msg/param_info__type_support.cpp.o[0m
+[16.682s] [ 36%] [32mBuilding CXX object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/marti_introspection_msgs/msg/service_info__type_support.cpp.o[0m
+[16.851s] [ 38%] [32mBuilding CXX object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/marti_introspection_msgs/msg/topic_info__type_support.cpp.o[0m
+[16.954s] [ 40%] [32mBuilding CXX object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/marti_introspection_msgs/msg/detail/node_info__type_support.cpp.o[0m
+[17.066s] [ 41%] [32m[1mLinking CXX shared library libmarti_introspection_msgs__rosidl_typesupport_c.so[0m
+[17.412s] [ 41%] Built target marti_introspection_msgs__rosidl_typesupport_c
+[17.528s] [ 43%] [32mBuilding CXX object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/marti_introspection_msgs/msg/detail/node_info__type_support_c.cpp.o[0m
+[17.546s] [ 45%] [32mBuilding C object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marti_introspection_msgs/msg/detail/node_info__type_support.c.o[0m
+[17.734s] [ 47%] [32mBuilding C object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marti_introspection_msgs/msg/detail/param_info__type_support.c.o[0m
+[17.769s] [ 49%] [32mBuilding CXX object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_introspection_msgs/msg/topic_info__type_support.cpp.o[0m
+[17.971s] [ 50%] [32mBuilding C object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marti_introspection_msgs/msg/detail/service_info__type_support.c.o[0m
+[18.235s] [ 52%] [32mBuilding C object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marti_introspection_msgs/msg/detail/topic_info__type_support.c.o[0m
+[18.471s] [ 54%] [32m[1mLinking C shared library libmarti_introspection_msgs__rosidl_typesupport_introspection_c.so[0m
+[18.721s] [ 54%] Built target marti_introspection_msgs__rosidl_typesupport_introspection_c
+[18.887s] [ 56%] [32m[1mLinking CXX shared library libmarti_introspection_msgs__rosidl_typesupport_cpp.so[0m
+[18.969s] [ 58%] [32mBuilding CXX object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/marti_introspection_msgs/msg/detail/param_info__type_support.cpp.o[0m
+[18.984s] [ 60%] [32mBuilding CXX object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/marti_introspection_msgs/msg/detail/topic_info__type_support_c.cpp.o[0m
+[19.163s] [ 60%] Built target marti_introspection_msgs__rosidl_typesupport_cpp
+[19.482s] [ 61%] [32mBuilding CXX object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/marti_introspection_msgs/msg/detail/dds_fastrtps/service_info__type_support.cpp.o[0m
+[20.246s] [ 63%] [32mBuilding CXX object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/marti_introspection_msgs/msg/detail/service_info__type_support_c.cpp.o[0m
+[20.652s] [ 65%] [32mBuilding CXX object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/marti_introspection_msgs/msg/detail/topic_info__type_support.cpp.o[0m
+[20.826s] [ 67%] [32mBuilding CXX object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/marti_introspection_msgs/msg/detail/dds_fastrtps/topic_info__type_support.cpp.o[0m
+[21.474s] [ 69%] [32mBuilding CXX object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/marti_introspection_msgs/msg/detail/param_info__type_support_c.cpp.o[0m
+[22.050s] [ 70%] [32mBuilding CXX object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/marti_introspection_msgs/msg/detail/service_info__type_support.cpp.o[0m
+[22.209s] [ 72%] [32mBuilding CXX object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/marti_introspection_msgs/msg/detail/dds_fastrtps/param_info__type_support.cpp.o[0m
+[22.575s] [ 74%] [32m[1mLinking CXX shared library libmarti_introspection_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[22.892s] [ 74%] Built target marti_introspection_msgs__rosidl_typesupport_fastrtps_c
+[23.149s] [ 76%] [32m[1mLinking CXX shared library libmarti_introspection_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[23.424s] [ 78%] [32m[1mLinking CXX shared library libmarti_introspection_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[23.462s] [ 78%] Built target marti_introspection_msgs__rosidl_typesupport_introspection_cpp
+[23.608s] [ 78%] Built target marti_introspection_msgs__rosidl_typesupport_fastrtps_cpp
+[23.653s] [ 78%] Built target marti_introspection_msgs
+[23.732s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[26.480s] [ 80%] Built target marti_introspection_msgs__py
+[26.530s] [ 81%] [32mBuilding C object CMakeFiles/marti_introspection_msgs__rosidl_generator_py.dir/rosidl_generator_py/marti_introspection_msgs/msg/_node_info_s.c.o[0m
+[26.789s] [ 83%] [32mBuilding C object CMakeFiles/marti_introspection_msgs__rosidl_generator_py.dir/rosidl_generator_py/marti_introspection_msgs/msg/_topic_info_s.c.o[0m
+[27.016s] [ 85%] [32mBuilding C object CMakeFiles/marti_introspection_msgs__rosidl_generator_py.dir/rosidl_generator_py/marti_introspection_msgs/msg/_service_info_s.c.o[0m
+[27.236s] [ 87%] [32mBuilding C object CMakeFiles/marti_introspection_msgs__rosidl_generator_py.dir/rosidl_generator_py/marti_introspection_msgs/msg/_param_info_s.c.o[0m
+[27.475s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/marti_introspection_msgs/libmarti_introspection_msgs__rosidl_generator_py.so[0m
+[27.588s] [ 89%] Built target marti_introspection_msgs__rosidl_generator_py
+[27.632s] [ 90%] [32mBuilding C object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/marti_introspection_msgs/_marti_introspection_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[27.857s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/marti_introspection_msgs/marti_introspection_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[27.933s] [ 92%] Built target marti_introspection_msgs__rosidl_typesupport_fastrtps_c__pyext
+[27.975s] [ 94%] [32mBuilding C object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/marti_introspection_msgs/_marti_introspection_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[28.186s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/marti_introspection_msgs/marti_introspection_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[28.266s] [ 96%] Built target marti_introspection_msgs__rosidl_typesupport_c__pyext
+[28.310s] [ 98%] [32mBuilding C object CMakeFiles/marti_introspection_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/marti_introspection_msgs/_marti_introspection_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[28.527s] [100%] [32m[1mLinking C shared library rosidl_generator_py/marti_introspection_msgs/marti_introspection_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[28.607s] [100%] Built target marti_introspection_msgs__rosidl_typesupport_introspection_c__pyext
+[28.639s] Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_introspection_msgs' returned '0': /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/marti_introspection_msgs -- -j8 -l8
+[28.640s] Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_introspection_msgs': /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/marti_introspection_msgs
+[28.656s] -- Install configuration: ""
+[28.656s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/ament_index/resource_index/rosidl_interfaces/marti_introspection_msgs
+[28.657s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs
+[28.657s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg
+[28.657s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/node_info.h
+[28.657s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail
+[28.657s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/node_info__functions.c
+[28.658s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/service_info__struct.h
+[28.658s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/param_info__struct.h
+[28.658s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/topic_info__functions.h
+[28.658s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/topic_info__struct.h
+[28.658s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/topic_info__type_support.h
+[28.659s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/param_info__functions.h
+[28.659s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/service_info__type_support.h
+[28.659s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/service_info__functions.c
+[28.660s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/node_info__functions.h
+[28.660s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/node_info__type_support.h
+[28.660s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/service_info__functions.h
+[28.660s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/param_info__functions.c
+[28.660s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/node_info__struct.h
+[28.661s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/topic_info__functions.c
+[28.661s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/param_info__type_support.h
+[28.661s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/topic_info.h
+[28.662s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/rosidl_generator_c__visibility_control.h
+[28.662s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/param_info.h
+[28.662s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/service_info.h
+[28.662s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/environment/library_path.sh
+[28.663s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/environment/library_path.dsv
+[28.664s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/lib/libmarti_introspection_msgs__rosidl_generator_c.so
+[28.664s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/lib/libmarti_introspection_msgs__rosidl_generator_c.so" to ""
+[28.665s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs
+[28.665s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg
+[28.665s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail
+[28.665s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/param_info__rosidl_typesupport_fastrtps_c.h
+[28.665s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/topic_info__rosidl_typesupport_fastrtps_c.h
+[28.666s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/node_info__rosidl_typesupport_fastrtps_c.h
+[28.666s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/service_info__rosidl_typesupport_fastrtps_c.h
+[28.666s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[28.667s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/lib/libmarti_introspection_msgs__rosidl_typesupport_fastrtps_c.so
+[28.667s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/lib/libmarti_introspection_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[28.667s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs
+[28.667s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg
+[28.667s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[28.667s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail
+[28.668s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/topic_info__type_support.c
+[28.668s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/node_info__rosidl_typesupport_introspection_c.h
+[28.668s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/service_info__rosidl_typesupport_introspection_c.h
+[28.668s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/param_info__type_support.c
+[28.668s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/topic_info__rosidl_typesupport_introspection_c.h
+[28.668s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/param_info__rosidl_typesupport_introspection_c.h
+[28.668s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/service_info__type_support.c
+[28.669s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/node_info__type_support.c
+[28.669s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/lib/libmarti_introspection_msgs__rosidl_typesupport_introspection_c.so
+[28.670s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/lib/libmarti_introspection_msgs__rosidl_typesupport_introspection_c.so" to ""
+[28.670s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/lib/libmarti_introspection_msgs__rosidl_typesupport_c.so
+[28.670s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/lib/libmarti_introspection_msgs__rosidl_typesupport_c.so" to ""
+[28.670s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs
+[28.671s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg
+[28.671s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail
+[28.671s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/param_info__builder.hpp
+[28.671s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/param_info__struct.hpp
+[28.671s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/param_info__type_support.hpp
+[28.671s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/service_info__type_support.hpp
+[28.672s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/node_info__builder.hpp
+[28.672s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/service_info__builder.hpp
+[28.672s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/node_info__traits.hpp
+[28.672s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/node_info__type_support.hpp
+[28.672s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/param_info__traits.hpp
+[28.673s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/topic_info__struct.hpp
+[28.673s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/node_info__struct.hpp
+[28.673s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/service_info__traits.hpp
+[28.673s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/topic_info__builder.hpp
+[28.674s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/topic_info__type_support.hpp
+[28.674s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/topic_info__traits.hpp
+[28.674s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/service_info__struct.hpp
+[28.674s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/service_info.hpp
+[28.674s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/param_info.hpp
+[28.675s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/node_info.hpp
+[28.675s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[28.675s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/topic_info.hpp
+[28.676s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs
+[28.676s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg
+[28.676s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail
+[28.676s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/topic_info__rosidl_typesupport_fastrtps_cpp.hpp
+[28.676s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/node_info__rosidl_typesupport_fastrtps_cpp.hpp
+[28.676s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/service_info__rosidl_typesupport_fastrtps_cpp.hpp
+[28.676s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/param_info__rosidl_typesupport_fastrtps_cpp.hpp
+[28.677s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/dds_fastrtps
+[28.677s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[28.677s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/lib/libmarti_introspection_msgs__rosidl_typesupport_fastrtps_cpp.so
+[28.678s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/lib/libmarti_introspection_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[28.678s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs
+[28.679s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg
+[28.679s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail
+[28.679s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/topic_info__rosidl_typesupport_introspection_cpp.hpp
+[28.679s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/node_info__rosidl_typesupport_introspection_cpp.hpp
+[28.679s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/param_info__type_support.cpp
+[28.679s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/node_info__type_support.cpp
+[28.679s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/topic_info__type_support.cpp
+[28.680s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/service_info__type_support.cpp
+[28.680s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/param_info__rosidl_typesupport_introspection_cpp.hpp
+[28.680s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/include/marti_introspection_msgs/marti_introspection_msgs/msg/detail/service_info__rosidl_typesupport_introspection_cpp.hpp
+[28.681s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/lib/libmarti_introspection_msgs__rosidl_typesupport_introspection_cpp.so
+[28.681s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/lib/libmarti_introspection_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[28.682s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/lib/libmarti_introspection_msgs__rosidl_typesupport_cpp.so
+[28.682s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/lib/libmarti_introspection_msgs__rosidl_typesupport_cpp.so" to ""
+[28.682s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/environment/pythonpath.sh
+[28.683s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/environment/pythonpath.dsv
+[28.683s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs-1.6.1-py3.10.egg-info
+[28.684s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs-1.6.1-py3.10.egg-info/dependency_links.txt
+[28.684s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs-1.6.1-py3.10.egg-info/SOURCES.txt
+[28.684s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs-1.6.1-py3.10.egg-info/top_level.txt
+[28.684s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs-1.6.1-py3.10.egg-info/PKG-INFO
+[28.685s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs
+[28.685s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/marti_introspection_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[28.685s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/marti_introspection_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[28.685s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/libmarti_introspection_msgs__rosidl_generator_py.so
+[28.686s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/__init__.py
+[28.686s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/msg
+[28.686s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/msg/_node_info_s.c
+[28.686s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/msg/_service_info.py
+[28.687s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/msg/_topic_info.py
+[28.687s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/msg/__init__.py
+[28.687s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/msg/_param_info_s.c
+[28.687s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/msg/_service_info_s.c
+[28.687s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/msg/_param_info.py
+[28.688s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/msg/_topic_info_s.c
+[28.688s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/msg/_node_info.py
+[28.688s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/_marti_introspection_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[28.688s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/marti_introspection_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[28.689s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/_marti_introspection_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[28.689s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/_marti_introspection_msgs_s.ep.rosidl_typesupport_c.c
+[28.771s] Listing '/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs'...
+[28.771s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/__init__.py'...
+[28.772s] Listing '/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/msg'...
+[28.772s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/msg/__init__.py'...
+[28.772s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/msg/_node_info.py'...
+[28.772s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/msg/_param_info.py'...
+[28.772s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/msg/_service_info.py'...
+[28.772s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/msg/_topic_info.py'...
+[28.787s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/marti_introspection_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[28.787s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/marti_introspection_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[28.788s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/marti_introspection_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[28.788s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/marti_introspection_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[28.788s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/marti_introspection_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[28.789s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/local/lib/python3.10/dist-packages/marti_introspection_msgs/marti_introspection_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[28.789s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/lib/libmarti_introspection_msgs__rosidl_generator_py.so
+[28.790s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/lib/libmarti_introspection_msgs__rosidl_generator_py.so" to ""
+[28.790s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/msg/NodeInfo.idl
+[28.790s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/msg/ParamInfo.idl
+[28.791s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/msg/ServiceInfo.idl
+[28.791s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/msg/TopicInfo.idl
+[28.791s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/msg/NodeInfo.msg
+[28.791s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/msg/ParamInfo.msg
+[28.792s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/msg/ServiceInfo.msg
+[28.792s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/msg/TopicInfo.msg
+[28.792s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/ament_index/resource_index/package_run_dependencies/marti_introspection_msgs
+[28.793s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/ament_index/resource_index/parent_prefix_path/marti_introspection_msgs
+[28.793s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/environment/ament_prefix_path.sh
+[28.793s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/environment/ament_prefix_path.dsv
+[28.793s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/environment/path.sh
+[28.794s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/environment/path.dsv
+[28.794s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/local_setup.bash
+[28.794s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/local_setup.sh
+[28.794s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/local_setup.zsh
+[28.795s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/local_setup.dsv
+[28.795s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/package.dsv
+[28.795s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/ament_index/resource_index/packages/marti_introspection_msgs
+[28.796s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/export_marti_introspection_msgs__rosidl_generator_cExport.cmake
+[28.796s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/export_marti_introspection_msgs__rosidl_generator_cExport-noconfig.cmake
+[28.796s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/export_marti_introspection_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[28.797s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/export_marti_introspection_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[28.797s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/marti_introspection_msgs__rosidl_typesupport_introspection_cExport.cmake
+[28.798s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/marti_introspection_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[28.798s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/marti_introspection_msgs__rosidl_typesupport_cExport.cmake
+[28.799s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/marti_introspection_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[28.799s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/export_marti_introspection_msgs__rosidl_generator_cppExport.cmake
+[28.800s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/export_marti_introspection_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[28.801s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/export_marti_introspection_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[28.801s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/marti_introspection_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[28.801s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/marti_introspection_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[28.802s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/marti_introspection_msgs__rosidl_typesupport_cppExport.cmake
+[28.802s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/marti_introspection_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[28.803s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/export_marti_introspection_msgs__rosidl_generator_pyExport.cmake
+[28.804s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/export_marti_introspection_msgs__rosidl_generator_pyExport-noconfig.cmake
+[28.804s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/rosidl_cmake-extras.cmake
+[28.805s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.806s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.807s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[28.807s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[28.807s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[28.807s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[28.807s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/marti_introspection_msgsConfig.cmake
+[28.808s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/cmake/marti_introspection_msgsConfig-version.cmake
+[28.808s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_introspection_msgs/share/marti_introspection_msgs/package.xml
+[28.816s] Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_introspection_msgs' returned '0': /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/marti_introspection_msgs

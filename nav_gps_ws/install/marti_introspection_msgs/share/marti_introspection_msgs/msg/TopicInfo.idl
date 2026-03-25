@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from marti_introspection_msgs/msg/TopicInfo.msg
+// generated code does not contain a copyright notice
+
+
+module marti_introspection_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message contains documentation data about a topic in a node")
+    struct TopicInfo {
+      @verbatim (language="comment", text=
+        "The internal name of the topic")
+      string name;
+
+      @verbatim (language="comment", text=
+        "The external, global name of the topic")
+      string resolved_name;
+
+      @verbatim (language="comment", text=
+        "A human readable description of the topic and how to use it")
+      string description;
+
+      @verbatim (language="comment", text=
+        "Used to group related components")
+      string group;
+
+      @verbatim (language="comment", text=
+        "The name of the message type")
+      string message_type;
+
+      @verbatim (language="comment", text=
+        "If the topic is being advertised, otherwise it is being subscribed to")
+      boolean advertised;
+    };
+  };
+};

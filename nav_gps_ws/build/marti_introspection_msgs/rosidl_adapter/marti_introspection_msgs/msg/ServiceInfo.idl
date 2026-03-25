@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from marti_introspection_msgs/msg/ServiceInfo.msg
+// generated code does not contain a copyright notice
+
+
+module marti_introspection_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message contains documentation data about a service client/server in a node")
+    struct ServiceInfo {
+      @verbatim (language="comment", text=
+        "The internal name of the service")
+      string name;
+
+      @verbatim (language="comment", text=
+        "The external, global name of the service")
+      string resolved_name;
+
+      @verbatim (language="comment", text=
+        "A human readable description of the service and how to use it")
+      string description;
+
+      @verbatim (language="comment", text=
+        "Used to group related components")
+      string group;
+
+      @verbatim (language="comment", text=
+        "The name of the message type")
+      string message_type;
+
+      @verbatim (language="comment", text=
+        "If this is a service server, otherwise it is a service client")
+      boolean server;
+
+      @verbatim (language="comment", text=
+        "Indicates if this is a topic service rather than a true service")
+      boolean topic_service;
+    };
+  };
+};

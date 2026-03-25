@@ -1,0 +1,117 @@
+[0.298s] Invoking command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_route': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_route -- -j8 -l8
+[0.501s] [  2%] Built target graph_file_savers
+[0.518s] [  5%] Built target graph_file_loaders
+[0.536s] [  8%] Built target gtest_main
+[0.541s] [ 21%] Built target edge_scorers
+[0.541s] [ 30%] Built target route_operations
+[0.544s] [ 32%] Built target gtest
+[0.553s] [ 48%] Built target route_server_core
+[0.657s] [ 51%] Built target performance_benchmarking
+[0.677s] [ 54%] Built target route_server
+[0.678s] [ 57%] Built target test_path_converter
+[0.682s] [ 60%] Built target test_utils_and_types
+[0.686s] [ 62%] Built target test_spatial_tree
+[0.686s] [ 65%] Built target test_graph_loader
+[0.688s] [ 68%] Built target test_operations
+[0.699s] [ 71%] Built target test_edge_scorers
+[0.758s] [ 74%] Built target test_graph_saver
+[0.783s] [ 77%] Built target test_geojson_graph_file_loader
+[0.800s] [ 80%] Built target test_goal_intent_extractor
+[0.802s] [ 82%] Built target test_geojson_graph_file_saver
+[0.803s] [ 91%] Built target test_route_server
+[0.805s] [ 85%] Built target test_route_tracker
+[0.805s] [ 88%] Built target test_collision_operation
+[0.815s] [ 94%] Built target test_route_planner
+[0.818s] [ 97%] Built target test_goal_intent_search
+[0.861s] [100%] Built target test_corner_smoothing
+[0.898s] Invoked command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_route' returned '0': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_route -- -j8 -l8
+[0.903s] Invoking command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_route': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_route
+[0.917s] -- Install configuration: "Release"
+[0.917s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/plugins.xml
+[0.918s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route
+[0.918s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route
+[0.918s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/graph_loader.hpp
+[0.918s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/utils.hpp
+[0.919s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/route_tracker.hpp
+[0.919s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/route_planner.hpp
+[0.919s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins
+[0.919s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/graph_file_loaders
+[0.919s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/graph_file_loaders/geojson_graph_file_loader.hpp
+[0.919s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/route_operation_client.hpp
+[0.919s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/route_operations
+[0.919s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/route_operations/rerouting_service.hpp
+[0.919s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/route_operations/adjust_speed_limit.hpp
+[0.920s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/route_operations/trigger_event.hpp
+[0.920s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/route_operations/time_marker.hpp
+[0.920s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/route_operations/collision_monitor.hpp
+[0.921s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions
+[0.921s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/time_scorer.hpp
+[0.921s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/costmap_scorer.hpp
+[0.922s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/start_pose_orientation_scorer.hpp
+[0.922s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/distance_scorer.hpp
+[0.922s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/goal_orientation_scorer.hpp
+[0.922s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/dynamic_edges_scorer.hpp
+[0.922s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/penalty_scorer.hpp
+[0.922s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/semantic_scorer.hpp
+[0.922s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/graph_file_savers
+[0.922s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/graph_file_savers/geojson_graph_file_saver.hpp
+[0.923s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/types.hpp
+[0.923s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/goal_intent_extractor.hpp
+[0.923s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/edge_scorer.hpp
+[0.923s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/interfaces
+[0.923s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/interfaces/graph_file_loader.hpp
+[0.923s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/interfaces/graph_file_saver.hpp
+[0.923s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/interfaces/route_operation.hpp
+[0.923s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/interfaces/edge_cost_function.hpp
+[0.923s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/goal_intent_search.hpp
+[0.924s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/graph_saver.hpp
+[0.924s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/node_spatial_tree.hpp
+[0.924s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/route_server.hpp
+[0.924s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/operations_manager.hpp
+[0.924s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/corner_smoothing.hpp
+[0.924s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/path_converter.hpp
+[0.924s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/nav2_route/route_server
+[0.926s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/libroute_server_core.so
+[0.926s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/libedge_scorers.so
+[0.926s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/libroute_operations.so
+[0.930s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/libgraph_file_loaders.so
+[0.931s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/libgraph_file_savers.so
+[0.931s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs
+[0.931s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs/aws_graph.geojson
+[0.931s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs/sample_graph.geojson
+[0.931s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs/turtlebot3_graph.geojson
+[0.932s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs/turtlebot4_graph.geojson
+[0.932s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs/scripts
+[0.932s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs/scripts/generate_start_and_end_id.sql
+[0.932s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs/scripts/export_shapefiles.py
+[0.932s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs/scripts/increment_node_id.json
+[0.932s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs/scripts/README.md
+[0.932s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs/scripts/increment_edge_id.json
+[0.933s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/test/test_graphs
+[0.933s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/test/test_graphs/error_codes.geojson
+[0.933s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/test/test_graphs/no_frame.json
+[0.933s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/test/test_graphs/invalid.json
+[0.933s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/environment/library_path.sh
+[0.933s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/environment/library_path.dsv
+[0.933s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/ament_index/resource_index/package_run_dependencies/nav2_route
+[0.933s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/ament_index/resource_index/parent_prefix_path/nav2_route
+[0.933s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/environment/ament_prefix_path.sh
+[0.934s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/environment/ament_prefix_path.dsv
+[0.934s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/environment/path.sh
+[0.934s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/environment/path.dsv
+[0.934s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/local_setup.bash
+[0.934s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/local_setup.sh
+[0.934s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/local_setup.zsh
+[0.934s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/local_setup.dsv
+[0.934s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/package.dsv
+[0.934s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/ament_index/resource_index/packages/nav2_route
+[0.934s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/ament_index/resource_index/nav2_route__pluginlib__plugin/nav2_route
+[0.935s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/ament_index/resource_index/rclcpp_components/nav2_route
+[0.935s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.935s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.935s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/cmake/ament_cmake_export_libraries-extras.cmake
+[0.935s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/cmake/nav2_routeConfig.cmake
+[0.935s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/cmake/nav2_routeConfig-version.cmake
+[0.935s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/package.xml
+[0.935s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/nav2_route/performance_benchmarking
+[0.941s] Invoked command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_route' returned '0': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_route

@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target swri_console_util[0m
+[100%] Built target swri_console_util
+-- Install configuration: ""
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/include/swri_console_util
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/include/swri_console_util/swri_console_util
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/include/swri_console_util/swri_console_util/progress_bar.h
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/lib/libswri_console_util.so
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/environment/library_path.sh
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/environment/library_path.dsv
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/ament_index/resource_index/package_run_dependencies/swri_console_util
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/ament_index/resource_index/parent_prefix_path/swri_console_util
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/environment/path.sh
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/environment/path.dsv
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/local_setup.bash
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/local_setup.sh
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/local_setup.zsh
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/local_setup.dsv
+-- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/package.dsv
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/ament_index/resource_index/packages/swri_console_util
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/cmake/export_swri_console_utilExport.cmake
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/cmake/export_swri_console_utilExport-noconfig.cmake
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/cmake/swri_console_utilConfig.cmake
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/cmake/swri_console_utilConfig-version.cmake
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/package.xml

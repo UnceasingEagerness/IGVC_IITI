@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from marti_nav_msgs/msg/RouteArray.msg
+// generated code does not contain a copyright notice
+
+#include "marti_common_msgs/msg/KeyValue.idl"
+#include "marti_nav_msgs/msg/Route.idl"
+#include "std_msgs/msg/Header.idl"
+
+module marti_nav_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "list of muliple routes, for instance to support multi-lane roads")
+    struct RouteArray {
+      std_msgs::msg::Header header;
+
+      sequence<marti_nav_msgs::msg::Route> routes;
+
+      @verbatim (language="comment", text=
+        "properties common to all routes")
+      sequence<marti_common_msgs::msg::KeyValue> properties;
+    };
+  };
+};

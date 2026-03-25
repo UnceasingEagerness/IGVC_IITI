@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-958f170b40e9c55cd68b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "marti_common_msgs__py",
+					"jsonFile" : "directory-marti_common_msgs__py-e6ae33b5af0ae5fb39a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ivdc/igvc2025/nav_gps_ws/build/marti_common_msgs/marti_common_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "marti_common_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_marti_common_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_marti_common_msgs_egg-6e617e9bdcc14c9c18b0.json",
+					"name" : "ament_cmake_python_build_marti_common_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_marti_common_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_marti_common_msgs-c983eb4f3882ee515e72.json",
+					"name" : "ament_cmake_python_copy_marti_common_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "marti_common_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-marti_common_msgs-cb6bbe5776099997b471.json",
+					"name" : "marti_common_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "marti_common_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-marti_common_msgs__cpp-ff2bb459c8d085e3c8b5.json",
+					"name" : "marti_common_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "marti_common_msgs__py::@9dec50e0657fbaadbb74",
+					"jsonFile" : "target-marti_common_msgs__py-4e4b8ce2ea6bbda8d450.json",
+					"name" : "marti_common_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "marti_common_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-marti_common_msgs__rosidl_generator_c-9fc6dbb113ecad400e3a.json",
+					"name" : "marti_common_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "marti_common_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-marti_common_msgs__rosidl_generator_py-2dbf8bd7c81e3075ab08.json",
+					"name" : "marti_common_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "marti_common_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-marti_common_msgs__rosidl_typesupport_c-1061fb20c9c016069eb2.json",
+					"name" : "marti_common_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "marti_common_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-marti_common_msgs__rosidl_typesupport_c__pyext-d081c57d44ce0ebf33c6.json",
+					"name" : "marti_common_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "marti_common_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-marti_common_msgs__rosidl_typesupport_cpp-b64070bc72eab94955e2.json",
+					"name" : "marti_common_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "marti_common_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-marti_common_msgs__rosidl_typesupport_fastrtps_c-898dc7537006782fcf71.json",
+					"name" : "marti_common_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "marti_common_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-marti_common_msgs__rosidl_typesupport_fastrtps_c__pyext-bd3511d01380047bfdd6.json",
+					"name" : "marti_common_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "marti_common_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-marti_common_msgs__rosidl_typesupport_fastrtps_cpp-2b7eca48559f25cd5982.json",
+					"name" : "marti_common_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "marti_common_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-marti_common_msgs__rosidl_typesupport_introspection_c-28dca7a4f13884f91f1e.json",
+					"name" : "marti_common_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "marti_common_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-marti_common_msgs__rosidl_typesupport_introspection_c__pyext-1189f311df12a8673682.json",
+					"name" : "marti_common_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "marti_common_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-marti_common_msgs__rosidl_typesupport_introspection_cpp-9255955a99d21787033a.json",
+					"name" : "marti_common_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "marti_common_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-marti_common_msgs_uninstall-4890df4978dd0e9ad677.json",
+					"name" : "marti_common_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-fc019465f6ef044fa7cc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ivdc/igvc2025/nav_gps_ws/build/marti_common_msgs",
+		"source" : "/home/ivdc/igvc2025/nav_gps_ws/src/marti_messages/marti_common_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,523 @@
+// generated from rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em
+// with input from marti_introspection_msgs:msg/NodeInfo.idl
+// generated code does not contain a copyright notice
+#include "marti_introspection_msgs/msg/detail/node_info__rosidl_typesupport_fastrtps_cpp.hpp"
+#include "marti_introspection_msgs/msg/detail/node_info__struct.hpp"
+
+#include <limits>
+#include <stdexcept>
+#include <string>
+#include "rosidl_typesupport_cpp/message_type_support.hpp"
+#include "rosidl_typesupport_fastrtps_cpp/identifier.hpp"
+#include "rosidl_typesupport_fastrtps_cpp/message_type_support.h"
+#include "rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp"
+#include "rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp"
+#include "fastcdr/Cdr.h"
+
+
+// forward declaration of message dependencies and their conversion functions
+namespace marti_introspection_msgs
+{
+namespace msg
+{
+namespace typesupport_fastrtps_cpp
+{
+bool cdr_serialize(
+  const marti_introspection_msgs::msg::TopicInfo &,
+  eprosima::fastcdr::Cdr &);
+bool cdr_deserialize(
+  eprosima::fastcdr::Cdr &,
+  marti_introspection_msgs::msg::TopicInfo &);
+size_t get_serialized_size(
+  const marti_introspection_msgs::msg::TopicInfo &,
+  size_t current_alignment);
+size_t
+max_serialized_size_TopicInfo(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+}  // namespace typesupport_fastrtps_cpp
+}  // namespace msg
+}  // namespace marti_introspection_msgs
+
+namespace marti_introspection_msgs
+{
+namespace msg
+{
+namespace typesupport_fastrtps_cpp
+{
+bool cdr_serialize(
+  const marti_introspection_msgs::msg::ParamInfo &,
+  eprosima::fastcdr::Cdr &);
+bool cdr_deserialize(
+  eprosima::fastcdr::Cdr &,
+  marti_introspection_msgs::msg::ParamInfo &);
+size_t get_serialized_size(
+  const marti_introspection_msgs::msg::ParamInfo &,
+  size_t current_alignment);
+size_t
+max_serialized_size_ParamInfo(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+}  // namespace typesupport_fastrtps_cpp
+}  // namespace msg
+}  // namespace marti_introspection_msgs
+
+namespace marti_introspection_msgs
+{
+namespace msg
+{
+namespace typesupport_fastrtps_cpp
+{
+bool cdr_serialize(
+  const marti_introspection_msgs::msg::ServiceInfo &,
+  eprosima::fastcdr::Cdr &);
+bool cdr_deserialize(
+  eprosima::fastcdr::Cdr &,
+  marti_introspection_msgs::msg::ServiceInfo &);
+size_t get_serialized_size(
+  const marti_introspection_msgs::msg::ServiceInfo &,
+  size_t current_alignment);
+size_t
+max_serialized_size_ServiceInfo(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+}  // namespace typesupport_fastrtps_cpp
+}  // namespace msg
+}  // namespace marti_introspection_msgs
+
+
+namespace marti_introspection_msgs
+{
+
+namespace msg
+{
+
+namespace typesupport_fastrtps_cpp
+{
+
+bool
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_marti_introspection_msgs
+cdr_serialize(
+  const marti_introspection_msgs::msg::NodeInfo & ros_message,
+  eprosima::fastcdr::Cdr & cdr)
+{
+  // Member: name
+  cdr << ros_message.name;
+  // Member: location
+  cdr << ros_message.location;
+  // Member: nodelet_manager
+  cdr << ros_message.nodelet_manager;
+  // Member: description
+  cdr << ros_message.description;
+  // Member: topics
+  {
+    size_t size = ros_message.topics.size();
+    cdr << static_cast<uint32_t>(size);
+    for (size_t i = 0; i < size; i++) {
+      marti_introspection_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
+        ros_message.topics[i],
+        cdr);
+    }
+  }
+  // Member: parameters
+  {
+    size_t size = ros_message.parameters.size();
+    cdr << static_cast<uint32_t>(size);
+    for (size_t i = 0; i < size; i++) {
+      marti_introspection_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
+        ros_message.parameters[i],
+        cdr);
+    }
+  }
+  // Member: services
+  {
+    size_t size = ros_message.services.size();
+    cdr << static_cast<uint32_t>(size);
+    for (size_t i = 0; i < size; i++) {
+      marti_introspection_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
+        ros_message.services[i],
+        cdr);
+    }
+  }
+  return true;
+}
+
+bool
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_marti_introspection_msgs
+cdr_deserialize(
+  eprosima::fastcdr::Cdr & cdr,
+  marti_introspection_msgs::msg::NodeInfo & ros_message)
+{
+  // Member: name
+  cdr >> ros_message.name;
+
+  // Member: location
+  cdr >> ros_message.location;
+
+  // Member: nodelet_manager
+  cdr >> ros_message.nodelet_manager;
+
+  // Member: description
+  cdr >> ros_message.description;
+
+  // Member: topics
+  {
+    uint32_t cdrSize;
+    cdr >> cdrSize;
+    size_t size = static_cast<size_t>(cdrSize);
+    ros_message.topics.resize(size);
+    for (size_t i = 0; i < size; i++) {
+      marti_introspection_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
+        cdr, ros_message.topics[i]);
+    }
+  }
+
+  // Member: parameters
+  {
+    uint32_t cdrSize;
+    cdr >> cdrSize;
+    size_t size = static_cast<size_t>(cdrSize);
+    ros_message.parameters.resize(size);
+    for (size_t i = 0; i < size; i++) {
+      marti_introspection_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
+        cdr, ros_message.parameters[i]);
+    }
+  }
+
+  // Member: services
+  {
+    uint32_t cdrSize;
+    cdr >> cdrSize;
+    size_t size = static_cast<size_t>(cdrSize);
+    ros_message.services.resize(size);
+    for (size_t i = 0; i < size; i++) {
+      marti_introspection_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
+        cdr, ros_message.services[i]);
+    }
+  }
+
+  return true;
+}
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_marti_introspection_msgs
+get_serialized_size(
+  const marti_introspection_msgs::msg::NodeInfo & ros_message,
+  size_t current_alignment)
+{
+  size_t initial_alignment = current_alignment;
+
+  const size_t padding = 4;
+  const size_t wchar_size = 4;
+  (void)padding;
+  (void)wchar_size;
+
+  // Member: name
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.name.size() + 1);
+  // Member: location
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.location.size() + 1);
+  // Member: nodelet_manager
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.nodelet_manager.size() + 1);
+  // Member: description
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.description.size() + 1);
+  // Member: topics
+  {
+    size_t array_size = ros_message.topics.size();
+
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment +=
+        marti_introspection_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
+        ros_message.topics[index], current_alignment);
+    }
+  }
+  // Member: parameters
+  {
+    size_t array_size = ros_message.parameters.size();
+
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment +=
+        marti_introspection_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
+        ros_message.parameters[index], current_alignment);
+    }
+  }
+  // Member: services
+  {
+    size_t array_size = ros_message.services.size();
+
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment +=
+        marti_introspection_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
+        ros_message.services[index], current_alignment);
+    }
+  }
+
+  return current_alignment - initial_alignment;
+}
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_marti_introspection_msgs
+max_serialized_size_NodeInfo(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment)
+{
+  size_t initial_alignment = current_alignment;
+
+  const size_t padding = 4;
+  const size_t wchar_size = 4;
+  size_t last_member_size = 0;
+  (void)last_member_size;
+  (void)padding;
+  (void)wchar_size;
+
+  full_bounded = true;
+  is_plain = true;
+
+
+  // Member: name
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+
+  // Member: location
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+
+  // Member: nodelet_manager
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+
+  // Member: description
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+
+  // Member: topics
+  {
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
+        marti_introspection_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_TopicInfo(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+
+  // Member: parameters
+  {
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
+        marti_introspection_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_ParamInfo(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+
+  // Member: services
+  {
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
+        marti_introspection_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_ServiceInfo(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+
+  size_t ret_val = current_alignment - initial_alignment;
+  if (is_plain) {
+    // All members are plain, and type is not empty.
+    // We still need to check that the in-memory alignment
+    // is the same as the CDR mandated alignment.
+    using DataType = marti_introspection_msgs::msg::NodeInfo;
+    is_plain =
+      (
+      offsetof(DataType, services) +
+      last_member_size
+      ) == ret_val;
+  }
+
+  return ret_val;
+}
+
+static bool _NodeInfo__cdr_serialize(
+  const void * untyped_ros_message,
+  eprosima::fastcdr::Cdr & cdr)
+{
+  auto typed_message =
+    static_cast<const marti_introspection_msgs::msg::NodeInfo *>(
+    untyped_ros_message);
+  return cdr_serialize(*typed_message, cdr);
+}
+
+static bool _NodeInfo__cdr_deserialize(
+  eprosima::fastcdr::Cdr & cdr,
+  void * untyped_ros_message)
+{
+  auto typed_message =
+    static_cast<marti_introspection_msgs::msg::NodeInfo *>(
+    untyped_ros_message);
+  return cdr_deserialize(cdr, *typed_message);
+}
+
+static uint32_t _NodeInfo__get_serialized_size(
+  const void * untyped_ros_message)
+{
+  auto typed_message =
+    static_cast<const marti_introspection_msgs::msg::NodeInfo *>(
+    untyped_ros_message);
+  return static_cast<uint32_t>(get_serialized_size(*typed_message, 0));
+}
+
+static size_t _NodeInfo__max_serialized_size(char & bounds_info)
+{
+  bool full_bounded;
+  bool is_plain;
+  size_t ret_val;
+
+  ret_val = max_serialized_size_NodeInfo(full_bounded, is_plain, 0);
+
+  bounds_info =
+    is_plain ? ROSIDL_TYPESUPPORT_FASTRTPS_PLAIN_TYPE :
+    full_bounded ? ROSIDL_TYPESUPPORT_FASTRTPS_BOUNDED_TYPE : ROSIDL_TYPESUPPORT_FASTRTPS_UNBOUNDED_TYPE;
+  return ret_val;
+}
+
+static message_type_support_callbacks_t _NodeInfo__callbacks = {
+  "marti_introspection_msgs::msg",
+  "NodeInfo",
+  _NodeInfo__cdr_serialize,
+  _NodeInfo__cdr_deserialize,
+  _NodeInfo__get_serialized_size,
+  _NodeInfo__max_serialized_size
+};
+
+static rosidl_message_type_support_t _NodeInfo__handle = {
+  rosidl_typesupport_fastrtps_cpp::typesupport_identifier,
+  &_NodeInfo__callbacks,
+  get_message_typesupport_handle_function,
+};
+
+}  // namespace typesupport_fastrtps_cpp
+
+}  // namespace msg
+
+}  // namespace marti_introspection_msgs
+
+namespace rosidl_typesupport_fastrtps_cpp
+{
+
+template<>
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_EXPORT_marti_introspection_msgs
+const rosidl_message_type_support_t *
+get_message_type_support_handle<marti_introspection_msgs::msg::NodeInfo>()
+{
+  return &marti_introspection_msgs::msg::typesupport_fastrtps_cpp::_NodeInfo__handle;
+}
+
+}  // namespace rosidl_typesupport_fastrtps_cpp
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cpp, marti_introspection_msgs, msg, NodeInfo)() {
+  return &marti_introspection_msgs::msg::typesupport_fastrtps_cpp::_NodeInfo__handle;
+}
+
+#ifdef __cplusplus
+}
+#endif

@@ -1,0 +1,126 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from marti_nav_msgs/msg/PathPlanning.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module marti_nav_msgs {
+  module msg {
+    struct PathPlanning {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Type of path segment")
+      int32 segment_type;
+
+      @verbatim (language="comment", text=
+        "Length of path segment")
+      float length;
+
+      @verbatim (language="comment", text=
+        "Desired speed at start of path segment")
+      float start_speed;
+
+      @verbatim (language="comment", text=
+        "Desired speed at end of path segment")
+      float end_speed;
+
+      @verbatim (language="comment", text=
+        "Starting x-coordinate of the vehicle")
+      float startx;
+
+      @verbatim (language="comment", text=
+        "Starting y-coordinate of the vehicle")
+      float starty;
+
+      @verbatim (language="comment", text=
+        "Ending x-coordinate of the vehicle")
+      float endx;
+
+      @verbatim (language="comment", text=
+        "Ending y-coordinate of the vehicle")
+      float endy;
+
+      @verbatim (language="comment", text=
+        "theta0 (constant) parameter for initial heading")
+      float theta0;
+
+      @verbatim (language="comment", text=
+        "a1 (linear) parameter for the x-y track")
+      float a1;
+
+      @verbatim (language="comment", text=
+        "a2 (quadratric) parameter for the x-y track")
+      float a2;
+
+      @verbatim (language="comment", text=
+        "k0 (constant) parameter for the curvature")
+      float k0;
+
+      @verbatim (language="comment", text=
+        "c1 (linear) parameter for the curvature")
+      float c1;
+
+      @verbatim (language="comment", text=
+        "c2 (quadratic) parameter for the curvature")
+      float c2;
+
+      @verbatim (language="comment", text=
+        "Type of behavior for the segment")
+      int32 behavior;
+
+      @verbatim (language="comment", text=
+        "Whether we should be in creep mode of not (0-No, 1-Yes)")
+      int32 creep;
+
+      @verbatim (language="comment", text=
+        "Whether ACC Override is on (0-Normal ACC, 1-Override ACC)")
+      int32 acc;
+
+      @verbatim (language="comment", text=
+        "Whether we should be in reverse or not (0-No, 1-Yes)")
+      int32 reverse;
+
+      @verbatim (language="comment", text=
+        "Whether we are tracking a vehicle (0-No, 1-Yes)")
+      int32 vehicle_track;
+
+      @verbatim (language="comment", text=
+        "The following items are used in Intelligence, but won't be transmitted with" "\n"
+        "the segments to C&C" "\n"
+        "Flag to indicate whether the path segment has been" "\n"
+        "transmitted")
+      boolean transmitted;
+
+      boolean aux_transmitted;
+
+      @verbatim (language="comment", text=
+        "End heading (provided explicitly)")
+      float theta_end;
+
+      @verbatim (language="comment", text=
+        "End curvature")
+      float k_end;
+
+      @verbatim (language="comment", text=
+        "Number of route points used to calculate the segment")
+      int32 seg_len;
+
+      @verbatim (language="comment", text=
+        "Minimum speed of route points used (comes from MDF or -1)")
+      float speed_limit;
+
+      @verbatim (language="comment", text=
+        "Other variables")
+      float max_error;
+
+      float max_smooth;
+
+      float max_curv;
+
+      int32 possible_points;
+
+      boolean exit_segment;
+    };
+  };
+};

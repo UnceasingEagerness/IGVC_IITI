@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:16 (find_package):
+  By not providing "Findmarti_common_msgs.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "marti_common_msgs", but CMake did not find one.
+
+  Could not find a package configuration file provided by "marti_common_msgs"
+  with any of the following names:
+
+    marti_common_msgsConfig.cmake
+    marti_common_msgs-config.cmake
+
+  Add the installation prefix of "marti_common_msgs" to CMAKE_PREFIX_PATH or
+  set "marti_common_msgs_DIR" to a directory containing one of the above
+  files.  If "marti_common_msgs" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m

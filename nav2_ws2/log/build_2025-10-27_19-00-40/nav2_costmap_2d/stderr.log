@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/nav2_costmap_2d_core.dir/build.make:146: CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_publisher.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:269: CMakeFiles/nav2_costmap_2d_core.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

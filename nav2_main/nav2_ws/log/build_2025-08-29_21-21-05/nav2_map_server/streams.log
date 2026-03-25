@@ -1,0 +1,160 @@
+[0.071s] Invoking command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ivdc/igvc2025/nav2_main/nav2_ws/src/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server
+[0.184s] -- The C compiler identification is GNU 11.4.0
+[0.292s] -- The CXX compiler identification is GNU 11.4.0
+[0.305s] -- Detecting C compiler ABI info
+[0.467s] -- Detecting C compiler ABI info - done
+[0.479s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.479s] -- Detecting C compile features
+[0.479s] -- Detecting C compile features - done
+[0.485s] -- Detecting CXX compiler ABI info
+[0.644s] -- Detecting CXX compiler ABI info - done
+[0.661s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.661s] -- Detecting CXX compile features
+[0.662s] -- Detecting CXX compile features - done
+[0.670s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.001s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.213s] -- Found nav2_common: 1.1.18 (/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[1.217s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.305s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.315s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.333s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.357s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.391s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.482s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.488s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.654s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.713s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.798s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.817s] -- Looking for pthread.h
+[1.966s] -- Looking for pthread.h - found
+[1.966s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.103s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.105s] -- Found Threads: TRUE  
+[2.205s] -- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.246s] -- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.303s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.355s] -- Found nav2_msgs: 1.1.18 (/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[2.440s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[2.454s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[2.463s] -- Found nav2_util: 1.1.18 (/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/nav2_util/cmake)
+[2.594s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.597s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.598s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.668s] -- Found GRAPHICSMAGICKCPP: /usr/include/GraphicsMagick  
+[2.668s] -- Setting build type to Release as none was specified.
+[2.903s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.142s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.159s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.172s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.191s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.193s] -- Configured cppcheck include dirs: /home/ivdc/igvc2025/nav2_main/nav2_ws/src/navigation2/nav2_map_server/include
+[3.193s] -- Configured cppcheck exclude dirs and/or files: 
+[3.198s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.199s] -- Configured cpplint exclude dirs and/or files: 
+[3.200s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.202s] -- Added test 'lint_cmake' to check CMake code style
+[3.204s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.208s] -- Added test 'uncrustify' to check C / C++ code style
+[3.209s] -- Configured uncrustify additional arguments: 
+[3.210s] -- Added test 'xmllint' to check XML markup files
+[3.217s] -- Configuring done
+[3.802s] -- Generating done
+[3.992s] -- Build files have been written to: /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_map_server
+[4.113s] Invoked command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ivdc/igvc2025/nav2_main/nav2_ws/src/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server
+[4.114s] Invoking command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_map_server -- -j8 -l8
+[4.559s] [  2%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_mode.cpp.o[0m
+[4.598s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.609s] [  8%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[4.639s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[9.842s] [ 13%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[10.102s] [ 13%] Built target gtest_main
+[34.041s] [ 16%] [32m[1mLinking CXX shared library libmap_io.so[0m
+[35.339s] [ 16%] Built target map_io
+[37.473s] [ 19%] [32m[1mLinking CXX static library libgtest.a[0m
+[37.769s] [ 19%] Built target gtest
+[37.929s] [ 22%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[54.126s] [ 25%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/__/test_constants.cpp.o[0m
+[54.421s] [ 27%] [32m[1mLinking CXX executable test_map_saver_publisher[0m
+[54.966s] [ 27%] Built target test_map_saver_publisher
+[55.024s] [ 30%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[70.903s] [ 33%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o[0m
+[71.160s] [ 36%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[71.461s] [ 36%] Built target test_map_saver_cli
+[71.504s] [ 38%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o[0m
+[84.132s] [ 41%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/__/test_constants.cpp.o[0m
+[84.418s] [ 44%] [32m[1mLinking CXX executable test_map_io[0m
+[84.937s] [ 44%] Built target test_map_io
+[84.979s] [ 47%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[105.243s] [ 50%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o[0m
+[121.115s] [ 52%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m
+[152.073s] [ 55%] [32m[1mLinking CXX shared library libmap_server_core.so[0m
+[152.828s] [ 55%] Built target map_server_core
+[152.871s] [ 58%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[161.865s] [ 61%] [32m[1mLinking CXX executable map_server[0m
+[162.623s] [ 61%] Built target map_server
+[162.671s] [ 63%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[177.274s] [ 66%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[177.598s] [ 69%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[179.314s] [ 69%] Built target test_map_saver_node
+[179.472s] [ 72%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[179.528s] [ 75%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[198.945s] [ 77%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[199.230s] [ 80%] [32m[1mLinking CXX executable test_map_server_node[0m
+[199.752s] [ 80%] Built target test_map_server_node
+[199.799s] [ 83%] [32mBuilding CXX object CMakeFiles/costmap_filter_info_server.dir/src/costmap_filter_info/main.cpp.o[0m
+[207.244s] [ 86%] [32m[1mLinking CXX executable costmap_filter_info_server[0m
+[208.195s] [ 86%] Built target costmap_filter_info_server
+[208.251s] [ 88%] [32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o[0m
+[211.901s] [ 91%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[212.770s] [ 91%] Built target test_costmap_filter_info_server
+[216.355s] [ 94%] [32m[1mLinking CXX executable map_saver_server[0m
+[217.069s] [ 94%] Built target map_saver_server
+[217.118s] [ 97%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[226.577s] [100%] [32m[1mLinking CXX executable map_saver_cli[0m
+[227.301s] [100%] Built target map_saver_cli
+[227.337s] Invoked command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_map_server -- -j8 -l8
+[227.338s] Invoking command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_map_server
+[227.353s] -- Install configuration: "Release"
+[227.354s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib/libmap_server_core.so
+[227.359s] -- Set runtime path of "/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib/libmap_server_core.so" to ""
+[227.359s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib/libmap_io.so
+[227.360s] -- Set runtime path of "/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib/libmap_io.so" to ""
+[227.361s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib/nav2_map_server/map_server
+[227.362s] -- Set runtime path of "/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib/nav2_map_server/map_server" to ""
+[227.362s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[227.363s] -- Set runtime path of "/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_cli" to ""
+[227.363s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[227.364s] -- Set runtime path of "/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_server" to ""
+[227.364s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[227.365s] -- Set runtime path of "/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server" to ""
+[227.365s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/include/
+[227.366s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/include//nav2_map_server
+[227.366s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[227.367s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[227.367s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[227.368s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+[227.368s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[227.368s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/nav2_map_server/launch
+[227.369s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[227.369s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[227.370s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[227.371s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[227.371s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[227.373s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[227.373s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[227.377s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[227.378s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[227.379s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[227.379s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[227.379s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[227.379s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[227.379s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/nav2_map_server/package.dsv
+[227.379s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[227.379s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[227.380s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[227.380s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[227.380s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[227.380s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[227.380s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[227.380s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/share/nav2_map_server/package.xml
+[227.400s] Invoked command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_map_server

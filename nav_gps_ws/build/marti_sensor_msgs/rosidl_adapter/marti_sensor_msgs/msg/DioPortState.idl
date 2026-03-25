@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from marti_sensor_msgs/msg/DioPortState.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module marti_sensor_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Message containing the value of a digital i/o port.  This is used by" "\n"
+      "the rtd_dm7820 driver to send digital input changes and accept" "\n"
+      "digital output commands.")
+    struct DioPortState {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "header contains the time that the event occurred.")
+      uint64 value;
+    };
+  };
+};

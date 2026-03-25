@@ -1,0 +1,48 @@
+[0.026s] Invoking command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_common': /usr/bin/cmake --build /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_common -- -j8 -l8
+[0.128s] Built target ament_cmake_python_copy_nav2_common
+[0.589s] running egg_info
+[0.590s] writing nav2_common.egg-info/PKG-INFO
+[0.591s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[0.591s] writing top-level names to nav2_common.egg-info/top_level.txt
+[0.595s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.596s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.673s] Built target ament_cmake_python_build_nav2_common_egg
+[0.696s] Invoked command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_common' returned '0': /usr/bin/cmake --build /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_common -- -j8 -l8
+[0.722s] Invoking command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_common': /usr/bin/cmake --install /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_common
+[0.739s] -- Install configuration: ""
+[0.740s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[0.740s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[0.740s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.18-py3.10.egg-info
+[0.740s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.18-py3.10.egg-info/dependency_links.txt
+[0.740s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.18-py3.10.egg-info/SOURCES.txt
+[0.740s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.18-py3.10.egg-info/top_level.txt
+[0.740s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.18-py3.10.egg-info/PKG-INFO
+[0.741s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common
+[0.741s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch
+[0.741s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/parse_multirobot_pose.py
+[0.741s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py
+[0.741s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py
+[0.741s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py
+[0.742s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py
+[0.742s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py
+[0.800s] Listing '/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common'...
+[0.801s] Listing '/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch'...
+[0.811s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[0.812s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[0.812s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[0.813s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[0.813s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/nav2_common/environment/path.sh
+[0.813s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/nav2_common/environment/path.dsv
+[0.813s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/nav2_common/local_setup.bash
+[0.813s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/nav2_common/local_setup.sh
+[0.814s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/nav2_common/local_setup.zsh
+[0.814s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/nav2_common/local_setup.dsv
+[0.814s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/nav2_common/package.dsv
+[0.814s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[0.815s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[0.815s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[0.815s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[0.815s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/nav2_common/package.xml
+[0.816s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/nav2_common/cmake
+[0.817s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[0.818s] Invoked command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_common' returned '0': /usr/bin/cmake --install /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_common

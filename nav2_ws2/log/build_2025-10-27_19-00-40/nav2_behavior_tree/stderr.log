@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/nav2_goal_checker_selector_bt_node.dir/build.make:76: CMakeFiles/nav2_goal_checker_selector_bt_node.dir/plugins/action/goal_checker_selector_node.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:1690: CMakeFiles/nav2_goal_checker_selector_bt_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-55451c1e7a8debb84b83.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nav2_gradient_costmap_plugin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_gradient_costmap_plugin_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_gradient_costmap_plugin_core-0466d83c27c7068d1ee4.json",
+					"name" : "nav2_gradient_costmap_plugin_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_gradient_costmap_plugin_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_gradient_costmap_plugin_uninstall-2219defd6a0481da6c6e.json",
+					"name" : "nav2_gradient_costmap_plugin_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a7a5105272b8cd30ca1f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ivdc/igvc2025/nav_gps_2/build/nav2_gradient_costmap_plugin",
+		"source" : "/home/ivdc/igvc2025/nav_gps_2/src/navigation2_tutorials/nav2_gradient_costmap_plugin"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,66 @@
+running egg_info
+creating ../../../build/swri_cli_tools/swri_cli_tools.egg-info
+writing ../../../build/swri_cli_tools/swri_cli_tools.egg-info/PKG-INFO
+writing dependency_links to ../../../build/swri_cli_tools/swri_cli_tools.egg-info/dependency_links.txt
+writing entry points to ../../../build/swri_cli_tools/swri_cli_tools.egg-info/entry_points.txt
+writing requirements to ../../../build/swri_cli_tools/swri_cli_tools.egg-info/requires.txt
+writing top-level names to ../../../build/swri_cli_tools/swri_cli_tools.egg-info/top_level.txt
+writing manifest file '../../../build/swri_cli_tools/swri_cli_tools.egg-info/SOURCES.txt'
+reading manifest file '../../../build/swri_cli_tools/swri_cli_tools.egg-info/SOURCES.txt'
+writing manifest file '../../../build/swri_cli_tools/swri_cli_tools.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build
+creating /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib
+creating /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools
+copying swri_cli_tools/__init__.py -> /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools
+creating /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/document
+copying swri_cli_tools/document/_document.py -> /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/document
+copying swri_cli_tools/document/__init__.py -> /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/document
+creating /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/command
+copying swri_cli_tools/command/__init__.py -> /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/command
+copying swri_cli_tools/command/swri.py -> /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/command
+creating /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/api
+copying swri_cli_tools/api/_parameter_info.py -> /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/api
+copying swri_cli_tools/api/__init__.py -> /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/api
+copying swri_cli_tools/api/_node_info.py -> /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/api
+creating /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/verb
+copying swri_cli_tools/verb/document.py -> /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/verb
+copying swri_cli_tools/verb/__init__.py -> /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/verb
+running install
+running install_lib
+creating /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools
+creating /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/document
+copying /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/document/_document.py -> /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/document
+copying /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/document/__init__.py -> /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/document
+creating /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/command
+copying /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/command/__init__.py -> /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/command
+copying /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/command/swri.py -> /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/command
+copying /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/__init__.py -> /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools
+creating /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/api
+copying /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/api/_parameter_info.py -> /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/api
+copying /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/api/__init__.py -> /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/api
+copying /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/api/_node_info.py -> /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/api
+creating /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/verb
+copying /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/verb/document.py -> /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/verb
+copying /home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/build/lib/swri_cli_tools/verb/__init__.py -> /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/verb
+byte-compiling /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/document/_document.py to _document.cpython-310.pyc
+byte-compiling /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/document/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/command/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/command/swri.py to swri.cpython-310.pyc
+byte-compiling /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/api/_parameter_info.py to _parameter_info.cpython-310.pyc
+byte-compiling /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/api/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/api/_node_info.py to _node_info.cpython-310.pyc
+byte-compiling /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/verb/document.py to document.cpython-310.pyc
+byte-compiling /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools/verb/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/share/ament_index
+creating /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/share/ament_index/resource_index
+creating /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/share/ament_index/resource_index/packages
+copying resource/swri_cli_tools -> /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/share/ament_index/resource_index/packages
+copying package.xml -> /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/share/swri_cli_tools
+running install_egg_info
+Copying ../../../build/swri_cli_tools/swri_cli_tools.egg-info to /home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools/lib/python3.10/site-packages/swri_cli_tools-3.8.7-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ivdc/igvc2025/nav_gps_ws/build/swri_cli_tools/install.log'

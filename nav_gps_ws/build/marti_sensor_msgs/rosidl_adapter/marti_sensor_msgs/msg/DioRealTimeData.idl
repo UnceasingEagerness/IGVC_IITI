@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from marti_sensor_msgs/msg/DioRealTimeData.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module marti_sensor_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Message for containing digital data obtained by a real-time DAQ.")
+    struct DioRealTimeData {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "header contains the timestamp of when this data was obtained from" "\n"
+        "the device.")
+      double sample_frequency;
+
+      @verbatim (language="comment", text=
+        "The sampling frequency of the DAQ.")
+      @unit (value="Hz")
+      uint64 latest_sample_time;
+
+      @verbatim (language="comment", text=
+        "The most recent time (in sampling clock ticks) that the port was" "\n"
+        "sampled.")
+      sequence<uint16> sample_states;
+
+      sequence<uint32> sample_times;
+    };
+  };
+};

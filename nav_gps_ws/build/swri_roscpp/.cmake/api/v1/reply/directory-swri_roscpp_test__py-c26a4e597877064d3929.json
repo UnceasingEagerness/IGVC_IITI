@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "swri_roscpp_test__py",
+		"source" : "/home/ivdc/igvc2025/nav_gps_ws/build/swri_roscpp/swri_roscpp_test__py"
+	}
+}

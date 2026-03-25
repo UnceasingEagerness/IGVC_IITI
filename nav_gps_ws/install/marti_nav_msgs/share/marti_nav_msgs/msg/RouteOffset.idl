@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from marti_nav_msgs/msg/RouteOffset.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "marti_nav_msgs/msg/RoutePosition.idl"
+#include "std_msgs/msg/Header.idl"
+
+module marti_nav_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Gives a position and orientation relative to a position on a route")
+    struct RouteOffset {
+      @verbatim (language="comment", text=
+        "only stamp used")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "pose relative to position on route")
+      geometry_msgs::msg::Pose relative_pose;
+
+      @verbatim (language="comment", text=
+        "position on route")
+      marti_nav_msgs::msg::RoutePosition route_position;
+    };
+  };
+};

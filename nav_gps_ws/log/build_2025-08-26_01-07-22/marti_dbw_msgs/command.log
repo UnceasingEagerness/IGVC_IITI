@@ -1,0 +1,4 @@
+Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_dbw_msgs': /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/marti_dbw_msgs -- -j8 -l8
+Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_dbw_msgs' returned '0': /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/marti_dbw_msgs -- -j8 -l8
+Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_dbw_msgs': /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/marti_dbw_msgs
+Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_dbw_msgs' returned '0': /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/marti_dbw_msgs

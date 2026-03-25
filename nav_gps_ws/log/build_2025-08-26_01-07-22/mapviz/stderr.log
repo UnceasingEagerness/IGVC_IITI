@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:42 (find_package):
+  By not providing "Findswri_math_util.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "swri_math_util", but CMake did not find one.
+
+  Could not find a package configuration file provided by "swri_math_util"
+  with any of the following names:
+
+    swri_math_utilConfig.cmake
+    swri_math_util-config.cmake
+
+  Add the installation prefix of "swri_math_util" to CMAKE_PREFIX_PATH or set
+  "swri_math_util_DIR" to a directory containing one of the above files.  If
+  "swri_math_util" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m

@@ -1,0 +1,4 @@
+Invoking command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav_2d_msgs': /usr/bin/cmake --build /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav_2d_msgs -- -j8 -l8
+Invoked command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav_2d_msgs' returned '0': /usr/bin/cmake --build /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav_2d_msgs -- -j8 -l8
+Invoking command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav_2d_msgs': /usr/bin/cmake --install /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav_2d_msgs
+Invoked command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav_2d_msgs' returned '0': /usr/bin/cmake --install /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav_2d_msgs

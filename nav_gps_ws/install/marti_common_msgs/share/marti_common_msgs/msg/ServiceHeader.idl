@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from marti_common_msgs/msg/ServiceHeader.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module marti_common_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message contains all of the data filled in automatically by the service system" "\n"
+      "It is required in each request and response message to be named srv_header")
+    struct ServiceHeader {
+      builtin_interfaces::msg::Time stamp;
+
+      uint32 sequence;
+
+      string sender;
+
+      @verbatim (language="comment", text=
+        "Used to indicate if the service request was successful or not")
+      boolean result;
+    };
+  };
+};

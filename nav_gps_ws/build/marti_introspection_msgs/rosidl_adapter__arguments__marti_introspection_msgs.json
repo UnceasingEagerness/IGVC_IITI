@@ -1,0 +1,9 @@
+{
+  "package_name": "marti_introspection_msgs",
+  "non_idl_tuples": [
+    "/home/ivdc/igvc2025/nav_gps_ws/src/marti_messages/marti_introspection_msgs:msg/NodeInfo.msg",
+    "/home/ivdc/igvc2025/nav_gps_ws/src/marti_messages/marti_introspection_msgs:msg/ParamInfo.msg",
+    "/home/ivdc/igvc2025/nav_gps_ws/src/marti_messages/marti_introspection_msgs:msg/ServiceInfo.msg",
+    "/home/ivdc/igvc2025/nav_gps_ws/src/marti_messages/marti_introspection_msgs:msg/TopicInfo.msg"
+  ]
+}

@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/swri_roscpp_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/swri_roscpp/msg/detail/test_topic_service_request__type_support.c.o"
+  "CMakeFiles/swri_roscpp_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/swri_roscpp/msg/detail/test_topic_service_request__type_support.c.o.d"
+  "CMakeFiles/swri_roscpp_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/swri_roscpp/msg/detail/test_topic_service_response__type_support.c.o"
+  "CMakeFiles/swri_roscpp_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/swri_roscpp/msg/detail/test_topic_service_response__type_support.c.o.d"
+  "libswri_roscpp__rosidl_typesupport_introspection_c.pdb"
+  "libswri_roscpp__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/swri_roscpp/msg/detail/test_topic_service_request__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/swri_roscpp/msg/detail/test_topic_service_request__type_support.c"
+  "rosidl_typesupport_introspection_c/swri_roscpp/msg/detail/test_topic_service_response__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/swri_roscpp/msg/detail/test_topic_service_response__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/swri_roscpp_test__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

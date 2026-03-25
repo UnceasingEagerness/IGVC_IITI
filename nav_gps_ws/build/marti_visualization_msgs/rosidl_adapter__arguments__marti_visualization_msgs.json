@@ -1,0 +1,7 @@
+{
+  "package_name": "marti_visualization_msgs",
+  "non_idl_tuples": [
+    "/home/ivdc/igvc2025/nav_gps_ws/src/marti_messages/marti_visualization_msgs:msg/TexturedMarker.msg",
+    "/home/ivdc/igvc2025/nav_gps_ws/src/marti_messages/marti_visualization_msgs:msg/TexturedMarkerArray.msg"
+  ]
+}

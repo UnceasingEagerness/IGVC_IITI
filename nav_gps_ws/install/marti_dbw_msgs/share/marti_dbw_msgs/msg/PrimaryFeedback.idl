@@ -1,0 +1,60 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from marti_dbw_msgs/msg/PrimaryFeedback.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module marti_dbw_msgs {
+  module msg {
+    struct PrimaryFeedback {
+      std_msgs::msg::Header header;
+
+      boolean present;
+
+      @verbatim (language="comment", text=
+        "Boolean flag indicating that DBW system is present and communicating" "\n"
+        "properly.  If this is false, none of the remaining data in the" "\n"
+        "feedback can be considered valid." "\n"
+        "Boolean flag indicating that DBW system is in robotic mode.")
+      boolean robotic_mode;
+
+      float steering_command;
+
+      float steering_measure;
+
+      @verbatim (language="comment", text=
+        "The current steering command and measured value of the steering" "\n"
+        "axies in the range.  Typically 0.0 is full left and 1.0" "\n"
+        "is full right, but the steering calibration can handle either" "\n"
+        "direction.")
+      @unit (value="0.0 to 1.0")
+      float throttle_command;
+
+      float throttle_measure;
+
+      @verbatim (language="comment", text=
+        "The current throttle command and measured value of the throttle" "\n"
+        "control in the range")
+      @unit (value="0.0 to 1.0")
+      float brake_command;
+
+      float brake_measure;
+
+      @verbatim (language="comment", text=
+        "The current throttle command and measured value of the throttle" "\n"
+        "control in the range")
+      @unit (value="0.0 to 1.0")
+      boolean estop_command;
+
+      boolean estop_measure;
+
+      boolean error_steering;
+
+      boolean error_throttle;
+
+      boolean error_brake;
+
+      boolean error_other;
+    };
+  };
+};

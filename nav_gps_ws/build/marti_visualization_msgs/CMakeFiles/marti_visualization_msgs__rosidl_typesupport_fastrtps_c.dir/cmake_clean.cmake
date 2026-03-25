@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/marti_visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/marti_visualization_msgs/msg/detail/textured_marker__type_support_c.cpp.o"
+  "CMakeFiles/marti_visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/marti_visualization_msgs/msg/detail/textured_marker__type_support_c.cpp.o.d"
+  "CMakeFiles/marti_visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/marti_visualization_msgs/msg/detail/textured_marker_array__type_support_c.cpp.o"
+  "CMakeFiles/marti_visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/marti_visualization_msgs/msg/detail/textured_marker_array__type_support_c.cpp.o.d"
+  "libmarti_visualization_msgs__rosidl_typesupport_fastrtps_c.pdb"
+  "libmarti_visualization_msgs__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/marti_visualization_msgs/msg/detail/textured_marker__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/marti_visualization_msgs/msg/detail/textured_marker__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/marti_visualization_msgs/msg/detail/textured_marker_array__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/marti_visualization_msgs/msg/detail/textured_marker_array__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/marti_visualization_msgs__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,65 @@
+[0.025s] Invoking command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_gps': CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization:/home/ivdc/igvc2025/sensors/rplidar_ros/install/rplidar_ros:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_gps -- -j8 -l8
+[0.198s] [ 13%] Built target ublox_logger_node
+[0.276s] [ 18%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/node.cpp.o[0m
+[32.105s] [ 22%] [32m[1mLinking CXX shared library libublox_gps.so[0m
+[37.810s] [ 90%] Built target ublox_gps
+[37.893s] [ 95%] [32m[1mLinking CXX executable ublox_gps_node[0m
+[39.915s] [100%] Built target ublox_gps_node
+[39.940s] Invoked command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_gps' returned '0': CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization:/home/ivdc/igvc2025/sensors/rplidar_ros/install/rplidar_ros:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_gps -- -j8 -l8
+[39.949s] Invoking command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_gps': CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization:/home/ivdc/igvc2025/sensors/rplidar_ros/install/rplidar_ros:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_gps
+[39.966s] -- Install configuration: ""
+[39.966s] -- Installing: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib/libublox_gps.so
+[40.017s] -- Set runtime path of "/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib/libublox_gps.so" to ""
+[40.018s] -- Installing: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib/ublox_gps/ublox_gps_node
+[40.018s] -- Set runtime path of "/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib/ublox_gps/ublox_gps_node" to ""
+[40.021s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib/ublox_gps/ublox_logger
+[40.021s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include
+[40.022s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps
+[40.022s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/ublox_firmware7plus.hpp
+[40.023s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/raw_data_product.hpp
+[40.023s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/adr_udr_product.hpp
+[40.023s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/utils.hpp
+[40.023s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/node.hpp
+[40.023s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/hpg_ref_product.hpp
+[40.023s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/hpg_rov_product.hpp
+[40.023s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/ublox_firmware7.hpp
+[40.024s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/ublox_firmware.hpp
+[40.024s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/callback.hpp
+[40.024s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/tim_product.hpp
+[40.024s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/gnss.hpp
+[40.025s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/gps.hpp
+[40.025s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/fts_product.hpp
+[40.025s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/fix_diagnostic.hpp
+[40.025s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/raw_data_pa.hpp
+[40.025s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/async_worker.hpp
+[40.025s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/ublox_firmware9.hpp
+[40.026s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/ublox_firmware6.hpp
+[40.026s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/mkgmtime.h
+[40.026s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/worker.hpp
+[40.026s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/ublox_topic_diagnostic.hpp
+[40.026s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/rtcm.hpp
+[40.026s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/component_interface.hpp
+[40.026s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/ublox_firmware8.hpp
+[40.026s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/include/ublox_gps/hp_pos_rec_product.hpp
+[40.026s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/launch
+[40.027s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node_zedf9p-launch.py
+[40.027s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-composed-launch.py
+[40.027s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/config
+[40.027s] -- Installing: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/config/zed_f9p.yaml
+[40.027s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ament_index/resource_index/package_run_dependencies/ublox_gps
+[40.027s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ament_index/resource_index/parent_prefix_path/ublox_gps
+[40.027s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.sh
+[40.027s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.dsv
+[40.027s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/environment/path.sh
+[40.028s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/environment/path.dsv
+[40.028s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/local_setup.bash
+[40.028s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/local_setup.sh
+[40.028s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/local_setup.zsh
+[40.028s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/local_setup.dsv
+[40.028s] -- Installing: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/package.dsv
+[40.028s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ament_index/resource_index/packages/ublox_gps
+[40.028s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ament_index/resource_index/rclcpp_components/ublox_gps
+[40.028s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig.cmake
+[40.028s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig-version.cmake
+[40.028s] -- Up-to-date: /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/package.xml
+[40.032s] Invoked command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_gps' returned '0': CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization:/home/ivdc/igvc2025/sensors/rplidar_ros/install/rplidar_ros:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_gps

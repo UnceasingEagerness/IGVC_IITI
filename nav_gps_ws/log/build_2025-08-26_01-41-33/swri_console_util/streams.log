@@ -1,0 +1,32 @@
+[0.196s] Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_console_util': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/swri_console_util -- -j8 -l8
+[0.319s] [35m[1mConsolidate compiler generated dependencies of target swri_console_util[0m
+[0.381s] [100%] Built target swri_console_util
+[0.415s] Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_console_util' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/swri_console_util -- -j8 -l8
+[0.427s] Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_console_util': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/swri_console_util
+[0.572s] -- Install configuration: ""
+[0.572s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/include/swri_console_util
+[0.572s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/include/swri_console_util/swri_console_util
+[0.572s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/include/swri_console_util/swri_console_util/progress_bar.h
+[0.572s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/lib/libswri_console_util.so
+[0.573s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/environment/library_path.sh
+[0.573s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/environment/library_path.dsv
+[0.573s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/ament_index/resource_index/package_run_dependencies/swri_console_util
+[0.573s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/ament_index/resource_index/parent_prefix_path/swri_console_util
+[0.573s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/environment/ament_prefix_path.sh
+[0.573s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/environment/ament_prefix_path.dsv
+[0.573s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/environment/path.sh
+[0.573s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/environment/path.dsv
+[0.573s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/local_setup.bash
+[0.574s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/local_setup.sh
+[0.574s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/local_setup.zsh
+[0.574s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/local_setup.dsv
+[0.574s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/package.dsv
+[0.574s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/ament_index/resource_index/packages/swri_console_util
+[0.574s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/cmake/export_swri_console_utilExport.cmake
+[0.574s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/cmake/export_swri_console_utilExport-noconfig.cmake
+[0.574s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/cmake/ament_cmake_export_targets-extras.cmake
+[0.574s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.574s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/cmake/swri_console_utilConfig.cmake
+[0.575s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/cmake/swri_console_utilConfig-version.cmake
+[0.575s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_console_util/share/swri_console_util/package.xml
+[0.605s] Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_console_util' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/swri_console_util

@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from marti_nav_msgs/srv/PlanRoute.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "marti_nav_msgs/msg/Route.idl"
+#include "std_msgs/msg/Header.idl"
+
+module marti_nav_msgs {
+  module srv {
+    struct PlanRoute_Request {
+      @verbatim (language="comment", text=
+        "the frame the request and response are" "\n"
+        "referenced in")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "series of points the route should pass through")
+      sequence<geometry_msgs::msg::Pose> waypoints;
+
+      @verbatim (language="comment", text=
+        "add the vehicle position as the first waypoint")
+      boolean plan_from_vehicle;
+    };
+    struct PlanRoute_Response {
+      @verbatim (language="comment", text=
+        "planned route")
+      marti_nav_msgs::msg::Route route;
+
+      @verbatim (language="comment", text=
+        "indicate successful run of service")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "informational, e.g. for error messages")
+      string message;
+
+      @verbatim (language="comment", text=
+        "informational, cost of planned route")
+      double cost;
+    };
+  };
+};

@@ -1,0 +1,101 @@
+[0.055s] Invoking command in '/home/ivdc/igvc2025/nav_gps_2/build/nav2_gps_waypoint_follower_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivdc/igvc2025/nav_gps_2/install/nav2_simple_commander:/home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_simple_commander /usr/bin/cmake /home/ivdc/igvc2025/nav_gps_2/src/navigation2_tutorials/nav2_gps_waypoint_follower_demo -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo
+[0.198s] -- The C compiler identification is GNU 11.4.0
+[0.354s] -- The CXX compiler identification is GNU 11.4.0
+[0.372s] -- Detecting C compiler ABI info
+[0.555s] -- Detecting C compiler ABI info - done
+[0.568s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.568s] -- Detecting C compile features
+[0.569s] -- Detecting C compile features - done
+[0.575s] -- Detecting CXX compiler ABI info
+[0.790s] -- Detecting CXX compiler ABI info - done
+[0.804s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.804s] -- Detecting CXX compile features
+[0.804s] -- Detecting CXX compile features - done
+[0.817s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.211s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.519s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.835s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.840s] -- Added test 'lint_cmake' to check CMake code style
+[1.844s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.854s] -- Added test 'xmllint' to check XML markup files
+[1.862s] -- Configuring done
+[1.870s] -- Generating done
+[1.874s] -- Build files have been written to: /home/ivdc/igvc2025/nav_gps_2/build/nav2_gps_waypoint_follower_demo
+[1.887s] Invoked command in '/home/ivdc/igvc2025/nav_gps_2/build/nav2_gps_waypoint_follower_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivdc/igvc2025/nav_gps_2/install/nav2_simple_commander:/home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_simple_commander /usr/bin/cmake /home/ivdc/igvc2025/nav_gps_2/src/navigation2_tutorials/nav2_gps_waypoint_follower_demo -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo
+[1.888s] Invoking command in '/home/ivdc/igvc2025/nav_gps_2/build/nav2_gps_waypoint_follower_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivdc/igvc2025/nav_gps_2/install/nav2_simple_commander:/home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_simple_commander /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_2/build/nav2_gps_waypoint_follower_demo -- -j8 -l8
+[2.038s] Invoked command in '/home/ivdc/igvc2025/nav_gps_2/build/nav2_gps_waypoint_follower_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivdc/igvc2025/nav_gps_2/install/nav2_simple_commander:/home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_simple_commander /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_2/build/nav2_gps_waypoint_follower_demo -- -j8 -l8
+[2.040s] Invoking command in '/home/ivdc/igvc2025/nav_gps_2/build/nav2_gps_waypoint_follower_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivdc/igvc2025/nav_gps_2/install/nav2_simple_commander:/home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_simple_commander /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_2/build/nav2_gps_waypoint_follower_demo
+[2.078s] -- Install configuration: ""
+[2.078s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//worlds
+[2.078s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//worlds/sonoma_raceway.world
+[2.078s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models
+[2.079s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/turtlebot_waffle_gps
+[2.079s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/turtlebot_waffle_gps/meshes
+[2.079s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/turtlebot_waffle_gps/meshes/r200.dae
+[2.080s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/turtlebot_waffle_gps/meshes/lds.dae
+[2.083s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/turtlebot_waffle_gps/meshes/waffle_base.dae
+[2.084s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/turtlebot_waffle_gps/meshes/burger_base.dae
+[2.084s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/turtlebot_waffle_gps/meshes/waffle_pi_base.dae
+[2.084s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/turtlebot_waffle_gps/meshes/tire.dae
+[2.088s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/turtlebot_waffle_gps/model.sdf
+[2.088s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/turtlebot_waffle_gps/model.config
+[2.088s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway
+[2.089s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/meshes
+[2.089s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/meshes/Raceway.mtl
+[2.089s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/meshes/Raceway.obj
+[2.095s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/model.sdf
+[2.095s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/materials
+[2.095s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/materials/textures
+[2.096s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/materials/textures/RumbleStrip&Barrier.png
+[2.100s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/materials/textures/Asphalt.png
+[2.101s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/materials/textures/Fence.png
+[2.101s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/materials/textures/Checker.png
+[2.101s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/materials/textures/Wall.png
+[2.101s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/materials/textures/Concrete.png
+[2.101s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/materials/textures/Trim.png
+[2.101s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/materials/textures/RumbleStrip.png
+[2.102s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/materials/textures/Window.png
+[2.102s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/materials/textures/Railing.png
+[2.102s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/materials/textures/Bridge.png
+[2.102s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/materials/textures/Grass.png
+[2.109s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/materials/textures/Fence_Opacity.png
+[2.109s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/materials/textures/TireStack.png
+[2.109s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/materials/textures/Roof.png
+[2.110s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/materials/textures/Stands.png
+[2.116s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/materials/textures/Track.png
+[2.118s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/thumbnails
+[2.119s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/thumbnails/5.png
+[2.119s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/thumbnails/3.png
+[2.120s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/thumbnails/1.png
+[2.120s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/thumbnails/2.png
+[2.121s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/thumbnails/4.png
+[2.121s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//models/sonoma_raceway/model.config
+[2.121s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//launch
+[2.121s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//launch/gazebo_gps_world.launch.py
+[2.122s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//launch/gps_waypoint_follower.launch.py
+[2.122s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//launch/mapviz.launch.py
+[2.123s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//launch/dual_ekf_navsat.launch.py
+[2.124s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//urdf
+[2.124s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//urdf/turtlebot3_waffle_gps.urdf
+[2.124s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//config
+[2.124s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//config/nav2_no_map_params.yaml
+[2.127s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//config/behavior.xml
+[2.127s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//config/gps_wpf_demo.mvc
+[2.127s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//config/dual_ekf_navsat_params.yaml
+[2.128s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo//config/demo_waypoints.yaml
+[2.128s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/ament_index/resource_index/package_run_dependencies/nav2_gps_waypoint_follower_demo
+[2.129s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/ament_index/resource_index/parent_prefix_path/nav2_gps_waypoint_follower_demo
+[2.130s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/environment/ament_prefix_path.sh
+[2.131s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/environment/ament_prefix_path.dsv
+[2.131s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/environment/path.sh
+[2.131s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/environment/path.dsv
+[2.132s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/local_setup.bash
+[2.132s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/local_setup.sh
+[2.132s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/local_setup.zsh
+[2.132s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/local_setup.dsv
+[2.133s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/package.dsv
+[2.133s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/ament_index/resource_index/packages/nav2_gps_waypoint_follower_demo
+[2.133s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/cmake/nav2_gps_waypoint_follower_demoConfig.cmake
+[2.133s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/cmake/nav2_gps_waypoint_follower_demoConfig-version.cmake
+[2.133s] -- Installing: /home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/package.xml
+[2.166s] Invoked command in '/home/ivdc/igvc2025/nav_gps_2/build/nav2_gps_waypoint_follower_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivdc/igvc2025/nav_gps_2/install/nav2_simple_commander:/home/ivdc/igvc2025/nav_gps_2/install/nav2_gps_waypoint_follower_demo:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_simple_commander /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_2/build/nav2_gps_waypoint_follower_demo

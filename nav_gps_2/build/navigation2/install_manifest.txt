@@ -1,0 +1,15 @@
+/home/ivdc/igvc2025/nav_gps_2/install/navigation2/share/ament_index/resource_index/package_run_dependencies/navigation2
+/home/ivdc/igvc2025/nav_gps_2/install/navigation2/share/ament_index/resource_index/parent_prefix_path/navigation2
+/home/ivdc/igvc2025/nav_gps_2/install/navigation2/share/navigation2/environment/ament_prefix_path.sh
+/home/ivdc/igvc2025/nav_gps_2/install/navigation2/share/navigation2/environment/ament_prefix_path.dsv
+/home/ivdc/igvc2025/nav_gps_2/install/navigation2/share/navigation2/environment/path.sh
+/home/ivdc/igvc2025/nav_gps_2/install/navigation2/share/navigation2/environment/path.dsv
+/home/ivdc/igvc2025/nav_gps_2/install/navigation2/share/navigation2/local_setup.bash
+/home/ivdc/igvc2025/nav_gps_2/install/navigation2/share/navigation2/local_setup.sh
+/home/ivdc/igvc2025/nav_gps_2/install/navigation2/share/navigation2/local_setup.zsh
+/home/ivdc/igvc2025/nav_gps_2/install/navigation2/share/navigation2/local_setup.dsv
+/home/ivdc/igvc2025/nav_gps_2/install/navigation2/share/navigation2/package.dsv
+/home/ivdc/igvc2025/nav_gps_2/install/navigation2/share/ament_index/resource_index/packages/navigation2
+/home/ivdc/igvc2025/nav_gps_2/install/navigation2/share/navigation2/cmake/navigation2Config.cmake
+/home/ivdc/igvc2025/nav_gps_2/install/navigation2/share/navigation2/cmake/navigation2Config-version.cmake
+/home/ivdc/igvc2025/nav_gps_2/install/navigation2/share/navigation2/package.xml

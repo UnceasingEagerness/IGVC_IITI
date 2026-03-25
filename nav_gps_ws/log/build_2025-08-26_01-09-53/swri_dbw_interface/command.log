@@ -1,0 +1,6 @@
+Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_dbw_interface': /usr/bin/cmake /home/ivdc/igvc2025/nav_gps_ws/src/marti_common/swri_dbw_interface -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/nav_gps_ws/install/swri_dbw_interface
+Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_dbw_interface' returned '0': /usr/bin/cmake /home/ivdc/igvc2025/nav_gps_ws/src/marti_common/swri_dbw_interface -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/nav_gps_ws/install/swri_dbw_interface
+Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_dbw_interface': /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/swri_dbw_interface -- -j8 -l8
+Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_dbw_interface' returned '0': /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/swri_dbw_interface -- -j8 -l8
+Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_dbw_interface': /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/swri_dbw_interface
+Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_dbw_interface' returned '0': /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/swri_dbw_interface

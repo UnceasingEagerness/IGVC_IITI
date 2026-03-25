@@ -1,0 +1,6 @@
+Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_visualization_msgs': /usr/bin/cmake /home/ivdc/igvc2025/nav_gps_ws/src/marti_messages/marti_visualization_msgs -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs
+Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_visualization_msgs' returned '0': /usr/bin/cmake /home/ivdc/igvc2025/nav_gps_ws/src/marti_messages/marti_visualization_msgs -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs
+Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_visualization_msgs': /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/marti_visualization_msgs -- -j8 -l8
+Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_visualization_msgs' returned '0': /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/marti_visualization_msgs -- -j8 -l8
+Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_visualization_msgs': /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/marti_visualization_msgs
+Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_visualization_msgs' returned '0': /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/marti_visualization_msgs

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from marti_nav_msgs/msg/ObstacleArray.msg
+// generated code does not contain a copyright notice
+
+#include "marti_nav_msgs/msg/Obstacle.idl"
+#include "std_msgs/msg/Header.idl"
+
+module marti_nav_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message is used to communicate the position of one or more" "\n"
+      "obstacles.")
+    struct ObstacleArray {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "The header defines the frame that the obstacles are defined in.")
+      sequence<marti_nav_msgs::msg::Obstacle> obstacles;
+    };
+  };
+};

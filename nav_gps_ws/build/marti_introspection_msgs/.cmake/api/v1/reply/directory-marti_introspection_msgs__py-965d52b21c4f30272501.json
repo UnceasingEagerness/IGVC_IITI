@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "marti_introspection_msgs__py",
+		"source" : "/home/ivdc/igvc2025/nav_gps_ws/build/marti_introspection_msgs/marti_introspection_msgs__py"
+	}
+}

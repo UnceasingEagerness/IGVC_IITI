@@ -1,0 +1,4 @@
+gmake[2]: *** Deleting file 'CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o'
+gmake[2]: *** [CMakeFiles/nav2_rviz_plugins.dir/build.make:104: CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/nav2_rviz_plugins.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

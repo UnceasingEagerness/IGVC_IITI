@@ -1,0 +1,26 @@
+[0.027s] Invoking command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_gps': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/gps_igvc/ublox_gps -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps
+[0.131s] -- The C compiler identification is GNU 11.4.0
+[0.232s] -- The CXX compiler identification is GNU 11.4.0
+[0.252s] -- Detecting C compiler ABI info
+[0.386s] -- Detecting C compiler ABI info - done
+[0.412s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.412s] -- Detecting C compile features
+[0.414s] -- Detecting C compile features - done
+[0.425s] -- Detecting CXX compiler ABI info
+[0.572s] -- Detecting CXX compiler ABI info - done
+[0.598s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.599s] -- Detecting CXX compile features
+[0.600s] -- Detecting CXX compile features - done
+[0.608s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.924s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.128s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+[1.128s]   Could NOT find asio (missing: ASIO_INCLUDE_DIR)
+[1.128s] Call Stack (most recent call first):
+[1.128s]   /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
+[1.128s]   cmake/Findasio.cmake:4 (find_package_handle_standard_args)
+[1.128s]   CMakeLists.txt:16 (find_package)
+[1.129s] 
+[1.129s] [0m
+[1.129s] -- Configuring incomplete, errors occurred!
+[1.129s] See also "/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_gps/CMakeFiles/CMakeOutput.log".
+[1.139s] Invoked command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_gps' returned '1': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/gps_igvc/ublox_gps -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps

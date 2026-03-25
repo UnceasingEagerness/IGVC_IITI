@@ -1,0 +1,11 @@
+source;share/nav2_gps_waypoint_follower_demo/hook/cmake_prefix_path.ps1
+source;share/nav2_gps_waypoint_follower_demo/hook/cmake_prefix_path.dsv
+source;share/nav2_gps_waypoint_follower_demo/hook/cmake_prefix_path.sh
+source;share/nav2_gps_waypoint_follower_demo/hook/pythonpath.ps1
+source;share/nav2_gps_waypoint_follower_demo/hook/pythonpath.dsv
+source;share/nav2_gps_waypoint_follower_demo/hook/pythonpath.sh
+source;share/nav2_gps_waypoint_follower_demo/local_setup.bash
+source;share/nav2_gps_waypoint_follower_demo/local_setup.dsv
+source;share/nav2_gps_waypoint_follower_demo/local_setup.ps1
+source;share/nav2_gps_waypoint_follower_demo/local_setup.sh
+source;share/nav2_gps_waypoint_follower_demo/local_setup.zsh

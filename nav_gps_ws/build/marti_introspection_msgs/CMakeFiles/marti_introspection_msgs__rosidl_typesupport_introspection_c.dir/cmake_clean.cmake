@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/marti_introspection_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marti_introspection_msgs/msg/detail/node_info__type_support.c.o"
+  "CMakeFiles/marti_introspection_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marti_introspection_msgs/msg/detail/node_info__type_support.c.o.d"
+  "CMakeFiles/marti_introspection_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marti_introspection_msgs/msg/detail/param_info__type_support.c.o"
+  "CMakeFiles/marti_introspection_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marti_introspection_msgs/msg/detail/param_info__type_support.c.o.d"
+  "CMakeFiles/marti_introspection_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marti_introspection_msgs/msg/detail/service_info__type_support.c.o"
+  "CMakeFiles/marti_introspection_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marti_introspection_msgs/msg/detail/service_info__type_support.c.o.d"
+  "CMakeFiles/marti_introspection_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marti_introspection_msgs/msg/detail/topic_info__type_support.c.o"
+  "CMakeFiles/marti_introspection_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marti_introspection_msgs/msg/detail/topic_info__type_support.c.o.d"
+  "libmarti_introspection_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libmarti_introspection_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/marti_introspection_msgs/msg/detail/node_info__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/marti_introspection_msgs/msg/detail/node_info__type_support.c"
+  "rosidl_typesupport_introspection_c/marti_introspection_msgs/msg/detail/param_info__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/marti_introspection_msgs/msg/detail/param_info__type_support.c"
+  "rosidl_typesupport_introspection_c/marti_introspection_msgs/msg/detail/service_info__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/marti_introspection_msgs/msg/detail/service_info__type_support.c"
+  "rosidl_typesupport_introspection_c/marti_introspection_msgs/msg/detail/topic_info__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/marti_introspection_msgs/msg/detail/topic_info__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/marti_introspection_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,6 @@
+Invoking command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_common': /usr/bin/cmake /home/ivdc/igvc2025/nav2_main/nav2_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common
+Invoked command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_common' returned '0': /usr/bin/cmake /home/ivdc/igvc2025/nav2_main/nav2_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common
+Invoking command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_common': /usr/bin/cmake --build /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_common -- -j8 -l8
+Invoked command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_common' returned '0': /usr/bin/cmake --build /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_common -- -j8 -l8
+Invoking command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_common': /usr/bin/cmake --install /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_common
+Invoked command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_common' returned '0': /usr/bin/cmake --install /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_common

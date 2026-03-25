@@ -1,0 +1,145 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target graph_file_loaders[0m
+[35m[1mConsolidate compiler generated dependencies of target graph_file_savers[0m
+[35m[1mConsolidate compiler generated dependencies of target edge_scorers[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target route_operations[0m
+[35m[1mConsolidate compiler generated dependencies of target route_server_core[0m
+[  2%] Built target graph_file_loaders
+[  5%] Built target gtest_main
+[  8%] Built target gtest
+[ 11%] Built target graph_file_savers
+[ 20%] Built target route_operations
+[ 32%] Built target edge_scorers
+[ 48%] Built target route_server_core
+[35m[1mConsolidate compiler generated dependencies of target test_path_converter[0m
+[35m[1mConsolidate compiler generated dependencies of target test_utils_and_types[0m
+[35m[1mConsolidate compiler generated dependencies of target performance_benchmarking[0m
+[35m[1mConsolidate compiler generated dependencies of target test_edge_scorers[0m
+[35m[1mConsolidate compiler generated dependencies of target route_server[0m
+[35m[1mConsolidate compiler generated dependencies of target test_operations[0m
+[35m[1mConsolidate compiler generated dependencies of target test_graph_loader[0m
+[35m[1mConsolidate compiler generated dependencies of target test_spatial_tree[0m
+[ 51%] Built target test_path_converter
+[ 57%] Built target test_edge_scorers
+[ 57%] Built target performance_benchmarking
+[ 60%] Built target route_server
+[ 62%] Built target test_utils_and_types
+[ 65%] Built target test_graph_loader
+[ 68%] Built target test_spatial_tree
+[35m[1mConsolidate compiler generated dependencies of target test_graph_saver[0m
+[ 71%] Built target test_operations
+[35m[1mConsolidate compiler generated dependencies of target test_geojson_graph_file_loader[0m
+[35m[1mConsolidate compiler generated dependencies of target test_geojson_graph_file_saver[0m
+[35m[1mConsolidate compiler generated dependencies of target test_route_planner[0m
+[35m[1mConsolidate compiler generated dependencies of target test_collision_operation[0m
+[35m[1mConsolidate compiler generated dependencies of target test_route_server[0m
+[35m[1mConsolidate compiler generated dependencies of target test_goal_intent_extractor[0m
+[35m[1mConsolidate compiler generated dependencies of target test_route_tracker[0m
+[ 74%] Built target test_geojson_graph_file_loader
+[ 77%] Built target test_graph_saver
+[ 80%] Built target test_route_planner
+[ 82%] Built target test_geojson_graph_file_saver
+[ 87%] Built target test_goal_intent_extractor
+[ 88%] Built target test_collision_operation
+[ 91%] Built target test_route_server
+[35m[1mConsolidate compiler generated dependencies of target test_corner_smoothing[0m
+[35m[1mConsolidate compiler generated dependencies of target test_goal_intent_search[0m
+[ 94%] Built target test_route_tracker
+[ 97%] Built target test_corner_smoothing
+[100%] Built target test_goal_intent_search
+-- Install configuration: "Release"
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/plugins.xml
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/graph_loader.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/utils.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/route_tracker.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/route_planner.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/graph_file_loaders
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/graph_file_loaders/geojson_graph_file_loader.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/route_operation_client.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/route_operations
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/route_operations/rerouting_service.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/route_operations/adjust_speed_limit.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/route_operations/trigger_event.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/route_operations/time_marker.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/route_operations/collision_monitor.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/time_scorer.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/costmap_scorer.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/start_pose_orientation_scorer.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/distance_scorer.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/goal_orientation_scorer.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/dynamic_edges_scorer.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/penalty_scorer.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/semantic_scorer.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/graph_file_savers
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/plugins/graph_file_savers/geojson_graph_file_saver.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/types.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/goal_intent_extractor.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/edge_scorer.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/interfaces
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/interfaces/graph_file_loader.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/interfaces/graph_file_saver.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/interfaces/route_operation.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/interfaces/edge_cost_function.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/goal_intent_search.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/graph_saver.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/node_spatial_tree.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/route_server.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/operations_manager.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/corner_smoothing.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/include/nav2_route/nav2_route/path_converter.hpp
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/nav2_route/route_server
+-- Set runtime path of "/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/nav2_route/route_server" to ""
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/libroute_server_core.so
+-- Set runtime path of "/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/libroute_server_core.so" to ""
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/libedge_scorers.so
+-- Set runtime path of "/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/libedge_scorers.so" to ""
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/libroute_operations.so
+-- Set runtime path of "/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/libroute_operations.so" to ""
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/libgraph_file_loaders.so
+-- Set runtime path of "/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/libgraph_file_loaders.so" to ""
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/libgraph_file_savers.so
+-- Set runtime path of "/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/libgraph_file_savers.so" to ""
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs/aws_graph.geojson
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs/sample_graph.geojson
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs/turtlebot3_graph.geojson
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs/turtlebot4_graph.geojson
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs/scripts
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs/scripts/generate_start_and_end_id.sql
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs/scripts/export_shapefiles.py
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs/scripts/increment_node_id.json
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs/scripts/README.md
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/graphs/scripts/increment_edge_id.json
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/test/test_graphs
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/test/test_graphs/error_codes.geojson
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/test/test_graphs/no_frame.json
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/test/test_graphs/invalid.json
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/environment/library_path.sh
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/environment/library_path.dsv
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/ament_index/resource_index/package_run_dependencies/nav2_route
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/ament_index/resource_index/parent_prefix_path/nav2_route
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/environment/ament_prefix_path.sh
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/environment/ament_prefix_path.dsv
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/environment/path.sh
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/environment/path.dsv
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/local_setup.bash
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/local_setup.sh
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/local_setup.zsh
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/local_setup.dsv
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/package.dsv
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/ament_index/resource_index/packages/nav2_route
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/ament_index/resource_index/nav2_route__pluginlib__plugin/nav2_route
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/ament_index/resource_index/rclcpp_components/nav2_route
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/cmake/nav2_routeConfig.cmake
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/cmake/nav2_routeConfig-version.cmake
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/share/nav2_route/package.xml
+-- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/nav2_route/performance_benchmarking
+-- Set runtime path of "/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_route/lib/nav2_route/performance_benchmarking" to ""

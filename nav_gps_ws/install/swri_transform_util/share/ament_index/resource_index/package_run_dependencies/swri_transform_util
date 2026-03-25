@@ -1,0 +1,1 @@
+cv_bridge;diagnostic_msgs;diagnostic_updater;geographic_msgs;geometry_msgs;geographiclib;gps_msgs;geos;libopencv-dev;marti_nav_msgs;proj;rcl_interfaces;rclcpp_components;rclcpp;rclpy;sensor_msgs;swri_math_util;swri_roscpp;tf2;tf2_geometry_msgs;tf2_ros;yaml_cpp_vendor;python3-numpy;python3-yaml;ament_cmake_gtest;ament_index_cpp;launch_ros;launch_testing;launch_testing_ament_cmake

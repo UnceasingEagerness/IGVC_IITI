@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from marti_visualization_msgs/msg/TexturedMarkerArray.msg
+// generated code does not contain a copyright notice
+
+#include "marti_visualization_msgs/msg/TexturedMarker.idl"
+
+module marti_visualization_msgs {
+  module msg {
+    struct TexturedMarkerArray {
+      sequence<marti_visualization_msgs::msg::TexturedMarker> markers;
+    };
+  };
+};

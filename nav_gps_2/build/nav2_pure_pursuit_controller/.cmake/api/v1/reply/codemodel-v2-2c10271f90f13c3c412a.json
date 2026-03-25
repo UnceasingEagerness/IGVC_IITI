@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-bbb9cb3a14e5011f24ec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nav2_pure_pursuit_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_pure_pursuit_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_pure_pursuit_controller-Release-16eb21e23952714360e6.json",
+					"name" : "nav2_pure_pursuit_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_pure_pursuit_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_pure_pursuit_controller_uninstall-Release-93b87c8f3bb894dbb9cc.json",
+					"name" : "nav2_pure_pursuit_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-1cfe0b85e552cba67698.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ivdc/igvc2025/nav_gps_2/build/nav2_pure_pursuit_controller",
+		"source" : "/home/ivdc/igvc2025/nav_gps_2/src/navigation2_tutorials/nav2_pure_pursuit_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

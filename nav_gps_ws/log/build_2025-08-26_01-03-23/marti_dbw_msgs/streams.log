@@ -1,0 +1,288 @@
+[0.061s] Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_dbw_msgs': /usr/bin/cmake /home/ivdc/igvc2025/nav_gps_ws/src/marti_messages/marti_dbw_msgs -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs
+[0.172s] -- The C compiler identification is GNU 11.4.0
+[0.278s] -- The CXX compiler identification is GNU 11.4.0
+[0.293s] -- Detecting C compiler ABI info
+[0.436s] -- Detecting C compiler ABI info - done
+[0.451s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.453s] -- Detecting C compile features
+[0.453s] -- Detecting C compile features - done
+[0.460s] -- Detecting CXX compiler ABI info
+[0.628s] -- Detecting CXX compiler ABI info - done
+[0.644s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.645s] -- Detecting CXX compile features
+[0.647s] -- Detecting CXX compile features - done
+[0.655s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.034s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.244s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.250s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.264s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.343s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.407s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.433s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[2.059s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.527s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.131s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.181s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.186s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.242s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.242s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.242s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.242s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.289s] -- Found PythonExtra: .so  
+[3.399s] -- Configuring done
+[3.484s] -- Generating done
+[3.540s] -- Build files have been written to: /home/ivdc/igvc2025/nav_gps_ws/build/marti_dbw_msgs
+[3.560s] Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_dbw_msgs' returned '0': /usr/bin/cmake /home/ivdc/igvc2025/nav_gps_ws/src/marti_messages/marti_dbw_msgs -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs
+[3.561s] Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_dbw_msgs': /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/marti_dbw_msgs -- -j8 -l8
+[3.688s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.737s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.844s] [  4%] Built target ament_cmake_python_copy_marti_dbw_msgs
+[5.331s] running egg_info
+[5.348s] creating marti_dbw_msgs.egg-info
+[5.349s] writing marti_dbw_msgs.egg-info/PKG-INFO
+[5.350s] writing dependency_links to marti_dbw_msgs.egg-info/dependency_links.txt
+[5.351s] writing top-level names to marti_dbw_msgs.egg-info/top_level.txt
+[5.360s] writing manifest file 'marti_dbw_msgs.egg-info/SOURCES.txt'
+[5.371s] reading manifest file 'marti_dbw_msgs.egg-info/SOURCES.txt'
+[5.372s] writing manifest file 'marti_dbw_msgs.egg-info/SOURCES.txt'
+[5.725s] [  4%] Built target ament_cmake_python_build_marti_dbw_msgs_egg
+[6.876s] [  4%] Built target marti_dbw_msgs__cpp
+[6.897s] [  6%] [32mBuilding C object CMakeFiles/marti_dbw_msgs__rosidl_generator_c.dir/rosidl_generator_c/marti_dbw_msgs/msg/detail/primary_control__functions.c.o[0m
+[6.930s] [  8%] [32mBuilding C object CMakeFiles/marti_dbw_msgs__rosidl_generator_c.dir/rosidl_generator_c/marti_dbw_msgs/msg/detail/transmission_feedback__functions.c.o[0m
+[6.958s] [ 10%] [32mBuilding C object CMakeFiles/marti_dbw_msgs__rosidl_generator_c.dir/rosidl_generator_c/marti_dbw_msgs/msg/detail/primary_feedback__functions.c.o[0m
+[6.970s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.989s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.996s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.482s] [ 19%] [32m[1mLinking C shared library libmarti_dbw_msgs__rosidl_generator_c.so[0m
+[7.876s] [ 19%] Built target marti_dbw_msgs__rosidl_generator_c
+[8.027s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.031s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.067s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.730s] [ 27%] [32mBuilding CXX object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_dbw_msgs/msg/primary_control__type_support.cpp.o[0m
+[10.733s] [ 29%] [32mBuilding CXX object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_dbw_msgs/msg/transmission_feedback__type_support.cpp.o[0m
+[10.752s] [ 31%] [32mBuilding CXX object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_dbw_msgs/msg/primary_feedback__type_support.cpp.o[0m
+[11.560s] [ 34%] [32mBuilding CXX object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/marti_dbw_msgs/msg/detail/dds_fastrtps/primary_control__type_support.cpp.o[0m
+[11.617s] [ 36%] [32mBuilding CXX object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/marti_dbw_msgs/msg/detail/primary_control__type_support.cpp.o[0m
+[12.164s] [ 38%] [32mBuilding CXX object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/marti_dbw_msgs/msg/primary_control__type_support.cpp.o[0m
+[12.448s] [ 40%] [32mBuilding CXX object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/marti_dbw_msgs/msg/primary_feedback__type_support.cpp.o[0m
+[12.769s] [ 42%] [32mBuilding C object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marti_dbw_msgs/msg/detail/primary_control__type_support.c.o[0m
+[12.770s] [ 44%] [32mBuilding CXX object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/marti_dbw_msgs/msg/transmission_feedback__type_support.cpp.o[0m
+[13.102s] [ 46%] [32m[1mLinking CXX shared library libmarti_dbw_msgs__rosidl_typesupport_c.so[0m
+[13.103s] [ 48%] [32mBuilding C object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marti_dbw_msgs/msg/detail/primary_feedback__type_support.c.o[0m
+[13.370s] [ 51%] [32mBuilding CXX object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/marti_dbw_msgs/msg/detail/primary_control__type_support_c.cpp.o[0m
+[13.417s] [ 53%] [32mBuilding CXX object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/marti_dbw_msgs/msg/detail/primary_feedback__type_support_c.cpp.o[0m
+[13.484s] [ 55%] [32mBuilding C object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/marti_dbw_msgs/msg/detail/transmission_feedback__type_support.c.o[0m
+[13.512s] [ 57%] [32mBuilding CXX object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/marti_dbw_msgs/msg/detail/primary_feedback__type_support.cpp.o[0m
+[13.516s] [ 57%] Built target marti_dbw_msgs__rosidl_typesupport_c
+[13.626s] [ 59%] [32mBuilding CXX object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/marti_dbw_msgs/msg/detail/dds_fastrtps/primary_feedback__type_support.cpp.o[0m
+[13.744s] [ 61%] [32m[1mLinking CXX shared library libmarti_dbw_msgs__rosidl_typesupport_cpp.so[0m
+[13.948s] [ 63%] [32m[1mLinking C shared library libmarti_dbw_msgs__rosidl_typesupport_introspection_c.so[0m
+[14.192s] [ 63%] Built target marti_dbw_msgs__rosidl_typesupport_cpp
+[14.291s] [ 65%] [32mBuilding CXX object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/marti_dbw_msgs/msg/detail/dds_fastrtps/transmission_feedback__type_support.cpp.o[0m
+[14.300s] [ 65%] Built target marti_dbw_msgs__rosidl_typesupport_introspection_c
+[14.428s] [ 68%] [32mBuilding CXX object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/marti_dbw_msgs/msg/detail/transmission_feedback__type_support_c.cpp.o[0m
+[15.445s] [ 70%] [32mBuilding CXX object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/marti_dbw_msgs/msg/detail/transmission_feedback__type_support.cpp.o[0m
+[17.827s] [ 72%] [32m[1mLinking CXX shared library libmarti_dbw_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[17.917s] [ 74%] [32m[1mLinking CXX shared library libmarti_dbw_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[18.247s] [ 74%] Built target marti_dbw_msgs__rosidl_typesupport_fastrtps_c
+[18.504s] [ 74%] Built target marti_dbw_msgs__rosidl_typesupport_fastrtps_cpp
+[18.674s] [ 76%] [32m[1mLinking CXX shared library libmarti_dbw_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[19.067s] [ 76%] Built target marti_dbw_msgs__rosidl_typesupport_introspection_cpp
+[19.182s] [ 76%] Built target marti_dbw_msgs
+[19.301s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[22.484s] [ 78%] Built target marti_dbw_msgs__py
+[22.653s] [ 80%] [32mBuilding C object CMakeFiles/marti_dbw_msgs__rosidl_generator_py.dir/rosidl_generator_py/marti_dbw_msgs/msg/_primary_control_s.c.o[0m
+[22.954s] [ 82%] [32mBuilding C object CMakeFiles/marti_dbw_msgs__rosidl_generator_py.dir/rosidl_generator_py/marti_dbw_msgs/msg/_transmission_feedback_s.c.o[0m
+[23.228s] [ 85%] [32mBuilding C object CMakeFiles/marti_dbw_msgs__rosidl_generator_py.dir/rosidl_generator_py/marti_dbw_msgs/msg/_primary_feedback_s.c.o[0m
+[23.551s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/marti_dbw_msgs/libmarti_dbw_msgs__rosidl_generator_py.so[0m
+[23.718s] [ 87%] Built target marti_dbw_msgs__rosidl_generator_py
+[23.827s] [ 89%] [32mBuilding C object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/marti_dbw_msgs/_marti_dbw_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[24.087s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/marti_dbw_msgs/marti_dbw_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[24.320s] [ 91%] Built target marti_dbw_msgs__rosidl_typesupport_fastrtps_c__pyext
+[24.444s] [ 93%] [32mBuilding C object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/marti_dbw_msgs/_marti_dbw_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[24.655s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/marti_dbw_msgs/marti_dbw_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[24.733s] [ 95%] Built target marti_dbw_msgs__rosidl_typesupport_c__pyext
+[24.778s] [ 97%] [32mBuilding C object CMakeFiles/marti_dbw_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/marti_dbw_msgs/_marti_dbw_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[24.994s] [100%] [32m[1mLinking C shared library rosidl_generator_py/marti_dbw_msgs/marti_dbw_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[25.071s] [100%] Built target marti_dbw_msgs__rosidl_typesupport_introspection_c__pyext
+[25.101s] Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_dbw_msgs' returned '0': /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/marti_dbw_msgs -- -j8 -l8
+[25.101s] Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_dbw_msgs': /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/marti_dbw_msgs
+[25.121s] -- Install configuration: ""
+[25.122s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/ament_index/resource_index/rosidl_interfaces/marti_dbw_msgs
+[25.123s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs
+[25.124s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg
+[25.125s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/primary_feedback.h
+[25.125s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail
+[25.126s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/transmission_feedback__functions.c
+[25.126s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_feedback__type_support.h
+[25.127s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_control__type_support.h
+[25.128s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_control__functions.h
+[25.128s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_control__functions.c
+[25.129s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_feedback__functions.c
+[25.129s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/transmission_feedback__type_support.h
+[25.130s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_feedback__functions.h
+[25.130s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/transmission_feedback__struct.h
+[25.131s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_control__struct.h
+[25.131s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_feedback__struct.h
+[25.132s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/transmission_feedback__functions.h
+[25.133s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/rosidl_generator_c__visibility_control.h
+[25.133s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/primary_control.h
+[25.134s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/transmission_feedback.h
+[25.135s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/environment/library_path.sh
+[25.135s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/environment/library_path.dsv
+[25.136s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/lib/libmarti_dbw_msgs__rosidl_generator_c.so
+[25.137s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/lib/libmarti_dbw_msgs__rosidl_generator_c.so" to ""
+[25.138s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs
+[25.138s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg
+[25.139s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail
+[25.139s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/transmission_feedback__rosidl_typesupport_fastrtps_c.h
+[25.140s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_control__rosidl_typesupport_fastrtps_c.h
+[25.140s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_feedback__rosidl_typesupport_fastrtps_c.h
+[25.141s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[25.141s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/lib/libmarti_dbw_msgs__rosidl_typesupport_fastrtps_c.so
+[25.142s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/lib/libmarti_dbw_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[25.143s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs
+[25.143s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg
+[25.144s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[25.144s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail
+[25.145s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_control__type_support.c
+[25.145s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/transmission_feedback__type_support.c
+[25.146s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_feedback__type_support.c
+[25.146s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_control__rosidl_typesupport_introspection_c.h
+[25.147s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_feedback__rosidl_typesupport_introspection_c.h
+[25.148s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/transmission_feedback__rosidl_typesupport_introspection_c.h
+[25.149s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/lib/libmarti_dbw_msgs__rosidl_typesupport_introspection_c.so
+[25.150s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/lib/libmarti_dbw_msgs__rosidl_typesupport_introspection_c.so" to ""
+[25.150s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/lib/libmarti_dbw_msgs__rosidl_typesupport_c.so
+[25.151s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/lib/libmarti_dbw_msgs__rosidl_typesupport_c.so" to ""
+[25.151s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs
+[25.152s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg
+[25.152s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail
+[25.153s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_feedback__traits.hpp
+[25.154s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_feedback__type_support.hpp
+[25.154s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/transmission_feedback__builder.hpp
+[25.155s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/transmission_feedback__type_support.hpp
+[25.155s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_control__traits.hpp
+[25.156s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_control__struct.hpp
+[25.156s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/transmission_feedback__traits.hpp
+[25.157s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_feedback__builder.hpp
+[25.158s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/transmission_feedback__struct.hpp
+[25.158s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_control__builder.hpp
+[25.159s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_feedback__struct.hpp
+[25.159s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_control__type_support.hpp
+[25.160s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/primary_feedback.hpp
+[25.161s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/transmission_feedback.hpp
+[25.161s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/primary_control.hpp
+[25.162s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[25.162s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs
+[25.163s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg
+[25.163s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail
+[25.164s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_control__rosidl_typesupport_fastrtps_cpp.hpp
+[25.164s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[25.165s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/dds_fastrtps
+[25.165s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/transmission_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[25.166s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[25.167s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/lib/libmarti_dbw_msgs__rosidl_typesupport_fastrtps_cpp.so
+[25.168s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/lib/libmarti_dbw_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[25.168s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs
+[25.168s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg
+[25.169s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail
+[25.169s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/transmission_feedback__type_support.cpp
+[25.170s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_control__type_support.cpp
+[25.170s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/transmission_feedback__rosidl_typesupport_introspection_cpp.hpp
+[25.171s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_feedback__rosidl_typesupport_introspection_cpp.hpp
+[25.172s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_control__rosidl_typesupport_introspection_cpp.hpp
+[25.172s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/msg/detail/primary_feedback__type_support.cpp
+[25.173s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/lib/libmarti_dbw_msgs__rosidl_typesupport_introspection_cpp.so
+[25.174s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/lib/libmarti_dbw_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[25.174s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/lib/libmarti_dbw_msgs__rosidl_typesupport_cpp.so
+[25.175s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/lib/libmarti_dbw_msgs__rosidl_typesupport_cpp.so" to ""
+[25.175s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/environment/pythonpath.sh
+[25.176s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/environment/pythonpath.dsv
+[25.176s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs-1.6.1-py3.10.egg-info
+[25.177s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs-1.6.1-py3.10.egg-info/dependency_links.txt
+[25.177s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs-1.6.1-py3.10.egg-info/SOURCES.txt
+[25.178s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs-1.6.1-py3.10.egg-info/top_level.txt
+[25.178s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs-1.6.1-py3.10.egg-info/PKG-INFO
+[25.179s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs
+[25.180s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/marti_dbw_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[25.180s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/marti_dbw_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[25.181s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/_marti_dbw_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[25.181s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/_marti_dbw_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[25.182s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/_marti_dbw_msgs_s.ep.rosidl_typesupport_c.c
+[25.182s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/libmarti_dbw_msgs__rosidl_generator_py.so
+[25.183s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/marti_dbw_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[25.184s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/__init__.py
+[25.184s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/msg
+[25.185s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/msg/_primary_control_s.c
+[25.185s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/msg/_primary_feedback_s.c
+[25.186s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/msg/_primary_feedback.py
+[25.186s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/msg/_primary_control.py
+[25.187s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/msg/_transmission_feedback.py
+[25.187s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/msg/__init__.py
+[25.188s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/msg/_transmission_feedback_s.c
+[25.289s] Listing '/home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs'...
+[25.290s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/__init__.py'...
+[25.290s] Listing '/home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/msg'...
+[25.290s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/msg/__init__.py'...
+[25.290s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/msg/_primary_control.py'...
+[25.290s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/msg/_primary_feedback.py'...
+[25.291s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/msg/_transmission_feedback.py'...
+[25.307s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/marti_dbw_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[25.308s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/marti_dbw_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[25.309s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/marti_dbw_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[25.310s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/marti_dbw_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[25.310s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/marti_dbw_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[25.312s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/local/lib/python3.10/dist-packages/marti_dbw_msgs/marti_dbw_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[25.312s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/lib/libmarti_dbw_msgs__rosidl_generator_py.so
+[25.313s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/lib/libmarti_dbw_msgs__rosidl_generator_py.so" to ""
+[25.314s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/msg/PrimaryControl.idl
+[25.314s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/msg/PrimaryFeedback.idl
+[25.315s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/msg/TransmissionFeedback.idl
+[25.316s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/msg/PrimaryControl.msg
+[25.316s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/msg/PrimaryFeedback.msg
+[25.317s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/msg/TransmissionFeedback.msg
+[25.318s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs
+[25.318s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs
+[25.318s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/include/marti_dbw_msgs/marti_dbw_msgs/constants.h
+[25.319s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/ament_index/resource_index/package_run_dependencies/marti_dbw_msgs
+[25.320s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/ament_index/resource_index/parent_prefix_path/marti_dbw_msgs
+[25.321s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/environment/ament_prefix_path.sh
+[25.322s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/environment/ament_prefix_path.dsv
+[25.322s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/environment/path.sh
+[25.323s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/environment/path.dsv
+[25.324s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/local_setup.bash
+[25.325s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/local_setup.sh
+[25.325s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/local_setup.zsh
+[25.326s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/local_setup.dsv
+[25.326s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/package.dsv
+[25.327s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/ament_index/resource_index/packages/marti_dbw_msgs
+[25.328s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/export_marti_dbw_msgs__rosidl_generator_cExport.cmake
+[25.329s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/export_marti_dbw_msgs__rosidl_generator_cExport-noconfig.cmake
+[25.330s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/export_marti_dbw_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[25.330s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/export_marti_dbw_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[25.331s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/marti_dbw_msgs__rosidl_typesupport_introspection_cExport.cmake
+[25.332s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/marti_dbw_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[25.332s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/marti_dbw_msgs__rosidl_typesupport_cExport.cmake
+[25.333s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/marti_dbw_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[25.334s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/export_marti_dbw_msgs__rosidl_generator_cppExport.cmake
+[25.334s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/export_marti_dbw_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[25.335s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/export_marti_dbw_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[25.336s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/marti_dbw_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[25.336s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/marti_dbw_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[25.337s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/marti_dbw_msgs__rosidl_typesupport_cppExport.cmake
+[25.338s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/marti_dbw_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[25.338s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/export_marti_dbw_msgs__rosidl_generator_pyExport.cmake
+[25.339s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/export_marti_dbw_msgs__rosidl_generator_pyExport-noconfig.cmake
+[25.340s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/export_marti_dbw_msgsExport.cmake
+[25.340s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/rosidl_cmake-extras.cmake
+[25.341s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.342s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.342s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[25.343s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[25.344s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[25.344s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[25.345s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/marti_dbw_msgsConfig.cmake
+[25.345s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/cmake/marti_dbw_msgsConfig-version.cmake
+[25.346s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_dbw_msgs/share/marti_dbw_msgs/package.xml
+[25.360s] Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_dbw_msgs' returned '0': /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/marti_dbw_msgs

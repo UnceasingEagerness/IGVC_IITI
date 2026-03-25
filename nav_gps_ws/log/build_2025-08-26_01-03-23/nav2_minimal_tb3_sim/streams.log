@@ -1,0 +1,49 @@
+[0.155s] Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/nav2_minimal_tb3_sim': /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/nav2_minimal_tb3_sim -- -j8 -l8
+[0.413s] Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/nav2_minimal_tb3_sim' returned '0': /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/nav2_minimal_tb3_sim -- -j8 -l8
+[0.415s] Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/nav2_minimal_tb3_sim': /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/nav2_minimal_tb3_sim
+[0.442s] -- Install configuration: ""
+[0.443s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/configs
+[0.443s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/configs/turtlebot3_waffle_gps_bridge.yaml
+[0.443s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/configs/turtlebot3_waffle_bridge.yaml
+[0.443s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/launch
+[0.443s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/launch/spawn_tb3_gps.launch.py
+[0.460s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/launch/spawn_tb3.launch.py
+[0.460s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/worlds
+[0.461s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/worlds/tb3_sandbox.sdf.xacro
+[0.461s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/worlds/tb3_empty_world.sdf.xacro
+[0.461s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/urdf
+[0.461s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/urdf/gz_waffle.sdf.xacro
+[0.461s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/urdf/gz_waffle_gps.sdf.xacro
+[0.462s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/urdf/turtlebot3_waffle.urdf
+[0.462s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/urdf/turtlebot3_waffle_gps.urdf
+[0.462s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models
+[0.462s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world
+[0.462s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/model-1_4.sdf
+[0.463s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/meshes
+[0.463s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/meshes/wall.dae
+[0.463s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/meshes/hexagon.dae
+[0.464s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/model.sdf
+[0.464s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/model.config
+[0.464s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model
+[0.464s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/meshes
+[0.464s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/meshes/r200.dae
+[0.464s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/meshes/lds.dae
+[0.465s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/meshes/waffle_base.dae
+[0.465s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/meshes/tire.dae
+[0.465s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/model.config
+[0.466s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/ament_index/resource_index/package_run_dependencies/nav2_minimal_tb3_sim
+[0.466s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/ament_index/resource_index/parent_prefix_path/nav2_minimal_tb3_sim
+[0.466s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/environment/ament_prefix_path.sh
+[0.467s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/environment/ament_prefix_path.dsv
+[0.467s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/environment/path.sh
+[0.467s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/environment/path.dsv
+[0.467s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/local_setup.bash
+[0.468s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/local_setup.sh
+[0.468s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/local_setup.zsh
+[0.468s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/local_setup.dsv
+[0.469s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/package.dsv
+[0.469s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/ament_index/resource_index/packages/nav2_minimal_tb3_sim
+[0.469s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/cmake/nav2_minimal_tb3_simConfig.cmake
+[0.470s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/cmake/nav2_minimal_tb3_simConfig-version.cmake
+[0.470s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/package.xml
+[0.496s] Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/nav2_minimal_tb3_sim' returned '0': /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/nav2_minimal_tb3_sim

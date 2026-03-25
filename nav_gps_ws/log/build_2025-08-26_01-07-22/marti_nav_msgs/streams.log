@@ -1,0 +1,769 @@
+[0.096s] Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_nav_msgs': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav_gps_ws/install/marti_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav_gps_ws/install/marti_common_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav_gps_ws/install/marti_common_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav_gps_ws/install/marti_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/marti_nav_msgs -- -j8 -l8
+[0.210s] [35m[1mConsolidate compiler generated dependencies of target marti_nav_msgs__rosidl_generator_c[0m
+[0.215s] [  0%] Built target marti_nav_msgs__cpp
+[0.241s] [  0%] Built target ament_cmake_python_copy_marti_nav_msgs
+[0.264s] [ 12%] Built target marti_nav_msgs__rosidl_generator_c
+[0.268s] [35m[1mConsolidate compiler generated dependencies of target marti_nav_msgs__rosidl_typesupport_cpp[0m
+[0.286s] [35m[1mConsolidate compiler generated dependencies of target marti_nav_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.288s] [35m[1mConsolidate compiler generated dependencies of target marti_nav_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.306s] [35m[1mConsolidate compiler generated dependencies of target marti_nav_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.313s] [35m[1mConsolidate compiler generated dependencies of target marti_nav_msgs__rosidl_typesupport_c[0m
+[0.338s] [ 24%] Built target marti_nav_msgs__rosidl_typesupport_cpp
+[0.338s] [35m[1mConsolidate compiler generated dependencies of target marti_nav_msgs__rosidl_typesupport_introspection_c[0m
+[0.362s] [ 37%] Built target marti_nav_msgs__rosidl_typesupport_introspection_cpp
+[0.368s] [ 49%] Built target marti_nav_msgs__rosidl_typesupport_c
+[0.386s] [ 69%] Built target marti_nav_msgs__rosidl_typesupport_introspection_c
+[0.386s] [ 74%] Built target marti_nav_msgs__rosidl_typesupport_fastrtps_c
+[0.390s] [ 86%] Built target marti_nav_msgs__rosidl_typesupport_fastrtps_cpp
+[0.432s] [ 86%] Built target marti_nav_msgs
+[0.478s] [ 86%] Built target marti_nav_msgs__py
+[0.510s] [35m[1mConsolidate compiler generated dependencies of target marti_nav_msgs__rosidl_generator_py[0m
+[0.573s] [ 98%] Built target marti_nav_msgs__rosidl_generator_py
+[0.593s] [35m[1mConsolidate compiler generated dependencies of target marti_nav_msgs__rosidl_typesupport_c__pyext[0m
+[0.593s] [35m[1mConsolidate compiler generated dependencies of target marti_nav_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.594s] [35m[1mConsolidate compiler generated dependencies of target marti_nav_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.621s] [100%] Built target marti_nav_msgs__rosidl_typesupport_introspection_c__pyext
+[0.622s] [100%] Built target marti_nav_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.622s] [100%] Built target marti_nav_msgs__rosidl_typesupport_c__pyext
+[0.750s] running egg_info
+[0.752s] writing marti_nav_msgs.egg-info/PKG-INFO
+[0.753s] writing dependency_links to marti_nav_msgs.egg-info/dependency_links.txt
+[0.753s] writing top-level names to marti_nav_msgs.egg-info/top_level.txt
+[0.759s] reading manifest file 'marti_nav_msgs.egg-info/SOURCES.txt'
+[0.760s] writing manifest file 'marti_nav_msgs.egg-info/SOURCES.txt'
+[0.838s] [100%] Built target ament_cmake_python_build_marti_nav_msgs_egg
+[0.865s] Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_nav_msgs' returned '0': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav_gps_ws/install/marti_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav_gps_ws/install/marti_common_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav_gps_ws/install/marti_common_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav_gps_ws/install/marti_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/marti_nav_msgs -- -j8 -l8
+[0.868s] Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_nav_msgs': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav_gps_ws/install/marti_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav_gps_ws/install/marti_common_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav_gps_ws/install/marti_common_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav_gps_ws/install/marti_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/marti_nav_msgs
+[0.884s] -- Install configuration: ""
+[0.885s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/ament_index/resource_index/rosidl_interfaces/marti_nav_msgs
+[0.885s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs
+[0.885s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv
+[0.885s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/plan_route.h
+[0.885s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/get_route.h
+[0.885s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/get_route_list.h
+[0.886s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/save_recorded_route.h
+[0.886s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail
+[0.886s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_route__functions.c
+[0.887s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/delete_route__functions.c
+[0.887s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route__type_support.h
+[0.887s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route_list__struct.h
+[0.887s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/plan_route__struct.h
+[0.887s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/delete_route__functions.h
+[0.887s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/set_route__functions.c
+[0.888s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route__functions.h
+[0.888s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/plan_route__functions.h
+[0.888s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_recorded_route__type_support.h
+[0.888s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_route__struct.h
+[0.888s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/set_route__type_support.h
+[0.889s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route__struct.h
+[0.889s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/update_route_metadata__functions.c
+[0.889s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/plan_route__type_support.h
+[0.889s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_recorded_route__struct.h
+[0.889s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/delete_route__type_support.h
+[0.890s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_route__type_support.h
+[0.890s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route_list__functions.c
+[0.890s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/update_route_metadata__struct.h
+[0.890s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/set_route__struct.h
+[0.890s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/update_route_metadata__functions.h
+[0.891s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route_list__type_support.h
+[0.891s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_recorded_route__functions.h
+[0.891s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route_list__functions.h
+[0.891s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_route__functions.h
+[0.891s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/delete_route__struct.h
+[0.892s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route__functions.c
+[0.892s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/set_route__functions.h
+[0.892s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/plan_route__functions.c
+[0.892s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/update_route_metadata__type_support.h
+[0.892s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_recorded_route__functions.c
+[0.893s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/delete_route.h
+[0.893s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/save_route.h
+[0.893s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/set_route.h
+[0.893s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/update_route_metadata.h
+[0.894s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg
+[0.894s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/route_array.h
+[0.894s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/route_point.h
+[0.894s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail
+[0.894s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/lead_vehicle__functions.c
+[0.894s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/grid_map__functions.c
+[0.895s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/grid_map__type_support.h
+[0.895s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object__functions.c
+[0.895s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle_array__functions.h
+[0.895s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_point__type_support.h
+[0.895s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/command__type_support.h
+[0.896s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle__struct.h
+[0.896s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/lead_vehicle__functions.h
+[0.896s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_position__type_support.h
+[0.896s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path__functions.h
+[0.896s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_planning__struct.h
+[0.897s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_array__functions.c
+[0.897s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/wgs84_sample__struct.h
+[0.897s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle_array__struct.h
+[0.897s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_offset__functions.c
+[0.897s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_point__struct.h
+[0.898s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path__type_support.h
+[0.898s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_array__functions.h
+[0.899s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_point__functions.h
+[0.899s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed__struct.h
+[0.900s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/teleop_state__type_support.h
+[0.901s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/teleop_state__functions.c
+[0.901s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_point__functions.c
+[0.901s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_point__struct.h
+[0.902s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route__functions.h
+[0.902s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_position__struct.h
+[0.902s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_array__struct.h
+[0.903s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_position__functions.h
+[0.903s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path__struct.h
+[0.903s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed__functions.c
+[0.903s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed__type_support.h
+[0.904s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed_array__functions.h
+[0.904s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route__struct.h
+[0.904s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle_array__functions.c
+[0.905s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_planning__type_support.h
+[0.907s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_offset__type_support.h
+[0.910s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/vehicle_control__type_support.h
+[0.911s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/command__struct.h
+[0.913s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle__type_support.h
+[0.914s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_offset__functions.h
+[0.915s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/grid_map__struct.h
+[0.916s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object_array__type_support.h
+[0.916s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object__functions.h
+[0.916s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/teleop_state__functions.h
+[0.917s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object_array__functions.c
+[0.917s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/grid_map__functions.h
+[0.918s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/vehicle_control__functions.c
+[0.918s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_array__type_support.h
+[0.918s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/vehicle_control__struct.h
+[0.919s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_position__functions.c
+[0.919s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/teleop_state__struct.h
+[0.921s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/vehicle_control__functions.h
+[0.921s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object__type_support.h
+[0.922s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path__functions.c
+[0.923s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/command__functions.c
+[0.923s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/wgs84_sample__type_support.h
+[0.924s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle_array__type_support.h
+[0.924s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_point__type_support.h
+[0.926s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/wgs84_sample__functions.h
+[0.926s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_planning__functions.h
+[0.927s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle__functions.h
+[0.927s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle__functions.c
+[0.930s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/wgs84_sample__functions.c
+[0.931s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object_array__functions.h
+[0.931s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed_array__struct.h
+[0.932s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route__functions.c
+[0.933s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/command__functions.h
+[0.934s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed__functions.h
+[0.935s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_offset__struct.h
+[0.935s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed_array__functions.c
+[0.936s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/lead_vehicle__type_support.h
+[0.936s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object_array__struct.h
+[0.936s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_point__functions.h
+[0.937s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route__type_support.h
+[0.938s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_planning__functions.c
+[0.938s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object__struct.h
+[0.939s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_point__functions.c
+[0.939s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed_array__type_support.h
+[0.940s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/lead_vehicle__struct.h
+[0.940s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/route_position.h
+[0.941s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/route_speed_array.h
+[0.943s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/route_speed.h
+[0.943s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/obstacle_array.h
+[0.944s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.945s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/teleop_state.h
+[0.945s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/tracked_object.h
+[0.945s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/path.h
+[0.946s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/path_point.h
+[0.947s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/wgs84_sample.h
+[0.947s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/vehicle_control.h
+[0.948s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/obstacle.h
+[0.948s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/lead_vehicle.h
+[0.949s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/route.h
+[0.950s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/command.h
+[0.950s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/route_offset.h
+[0.950s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/tracked_object_array.h
+[0.951s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/path_planning.h
+[0.951s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/grid_map.h
+[0.952s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/environment/library_path.sh
+[0.952s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/environment/library_path.dsv
+[0.953s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/lib/libmarti_nav_msgs__rosidl_generator_c.so
+[0.953s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/lib/libmarti_nav_msgs__rosidl_generator_c.so" to ""
+[0.954s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs
+[0.955s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv
+[0.955s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail
+[0.956s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/set_route__rosidl_typesupport_fastrtps_c.h
+[0.956s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/update_route_metadata__rosidl_typesupport_fastrtps_c.h
+[0.956s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_recorded_route__rosidl_typesupport_fastrtps_c.h
+[0.957s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/plan_route__rosidl_typesupport_fastrtps_c.h
+[0.957s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/delete_route__rosidl_typesupport_fastrtps_c.h
+[0.958s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route__rosidl_typesupport_fastrtps_c.h
+[0.960s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route_list__rosidl_typesupport_fastrtps_c.h
+[0.961s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_route__rosidl_typesupport_fastrtps_c.h
+[0.961s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg
+[0.961s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail
+[0.962s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/wgs84_sample__rosidl_typesupport_fastrtps_c.h
+[0.962s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object_array__rosidl_typesupport_fastrtps_c.h
+[0.963s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/vehicle_control__rosidl_typesupport_fastrtps_c.h
+[0.963s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle_array__rosidl_typesupport_fastrtps_c.h
+[0.964s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route__rosidl_typesupport_fastrtps_c.h
+[0.964s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/teleop_state__rosidl_typesupport_fastrtps_c.h
+[0.964s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed_array__rosidl_typesupport_fastrtps_c.h
+[0.965s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed__rosidl_typesupport_fastrtps_c.h
+[0.965s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/lead_vehicle__rosidl_typesupport_fastrtps_c.h
+[0.966s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle__rosidl_typesupport_fastrtps_c.h
+[0.966s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_array__rosidl_typesupport_fastrtps_c.h
+[0.966s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/grid_map__rosidl_typesupport_fastrtps_c.h
+[0.967s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_point__rosidl_typesupport_fastrtps_c.h
+[0.968s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_position__rosidl_typesupport_fastrtps_c.h
+[0.968s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path__rosidl_typesupport_fastrtps_c.h
+[0.968s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_point__rosidl_typesupport_fastrtps_c.h
+[0.969s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_planning__rosidl_typesupport_fastrtps_c.h
+[0.969s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object__rosidl_typesupport_fastrtps_c.h
+[0.969s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_offset__rosidl_typesupport_fastrtps_c.h
+[0.970s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/command__rosidl_typesupport_fastrtps_c.h
+[0.970s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.971s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/lib/libmarti_nav_msgs__rosidl_typesupport_fastrtps_c.so
+[0.972s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/lib/libmarti_nav_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[0.973s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs
+[0.973s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv
+[0.974s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail
+[0.974s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/set_route__type_support.c
+[0.975s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route_list__rosidl_typesupport_introspection_c.h
+[0.976s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route__type_support.c
+[0.976s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_route__type_support.c
+[0.976s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route_list__type_support.c
+[0.977s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/update_route_metadata__type_support.c
+[0.978s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/delete_route__type_support.c
+[0.978s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/plan_route__rosidl_typesupport_introspection_c.h
+[0.979s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/set_route__rosidl_typesupport_introspection_c.h
+[0.980s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/delete_route__rosidl_typesupport_introspection_c.h
+[0.980s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route__rosidl_typesupport_introspection_c.h
+[0.981s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_recorded_route__type_support.c
+[0.983s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_recorded_route__rosidl_typesupport_introspection_c.h
+[0.984s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_route__rosidl_typesupport_introspection_c.h
+[0.984s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/plan_route__type_support.c
+[0.985s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/update_route_metadata__rosidl_typesupport_introspection_c.h
+[0.986s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg
+[0.987s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.987s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail
+[0.987s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_point__rosidl_typesupport_introspection_c.h
+[0.988s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_position__rosidl_typesupport_introspection_c.h
+[0.989s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object_array__rosidl_typesupport_introspection_c.h
+[0.990s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/lead_vehicle__rosidl_typesupport_introspection_c.h
+[0.990s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/wgs84_sample__rosidl_typesupport_introspection_c.h
+[0.991s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_planning__type_support.c
+[0.992s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_offset__type_support.c
+[0.995s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/grid_map__rosidl_typesupport_introspection_c.h
+[0.995s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle_array__type_support.c
+[0.997s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route__rosidl_typesupport_introspection_c.h
+[0.997s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/vehicle_control__rosidl_typesupport_introspection_c.h
+[0.997s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/grid_map__type_support.c
+[0.998s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object__type_support.c
+[0.999s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_point__type_support.c
+[1.000s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_array__rosidl_typesupport_introspection_c.h
+[1.001s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed_array__rosidl_typesupport_introspection_c.h
+[1.002s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_offset__rosidl_typesupport_introspection_c.h
+[1.002s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_position__type_support.c
+[1.003s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/lead_vehicle__type_support.c
+[1.004s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path__type_support.c
+[1.004s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_point__rosidl_typesupport_introspection_c.h
+[1.005s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed__type_support.c
+[1.006s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle__rosidl_typesupport_introspection_c.h
+[1.007s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_point__type_support.c
+[1.008s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/teleop_state__rosidl_typesupport_introspection_c.h
+[1.008s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_planning__rosidl_typesupport_introspection_c.h
+[1.009s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/command__rosidl_typesupport_introspection_c.h
+[1.009s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route__type_support.c
+[1.010s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/command__type_support.c
+[1.010s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed_array__type_support.c
+[1.011s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_array__type_support.c
+[1.013s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle__type_support.c
+[1.014s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object_array__type_support.c
+[1.014s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed__rosidl_typesupport_introspection_c.h
+[1.015s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle_array__rosidl_typesupport_introspection_c.h
+[1.015s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path__rosidl_typesupport_introspection_c.h
+[1.015s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/wgs84_sample__type_support.c
+[1.016s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object__rosidl_typesupport_introspection_c.h
+[1.016s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/vehicle_control__type_support.c
+[1.016s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/teleop_state__type_support.c
+[1.017s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/lib/libmarti_nav_msgs__rosidl_typesupport_introspection_c.so
+[1.017s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/lib/libmarti_nav_msgs__rosidl_typesupport_introspection_c.so" to ""
+[1.017s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/lib/libmarti_nav_msgs__rosidl_typesupport_c.so
+[1.018s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/lib/libmarti_nav_msgs__rosidl_typesupport_c.so" to ""
+[1.018s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs
+[1.018s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv
+[1.019s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/get_route.hpp
+[1.019s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/update_route_metadata.hpp
+[1.019s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/set_route.hpp
+[1.020s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/plan_route.hpp
+[1.020s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/delete_route.hpp
+[1.020s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail
+[1.020s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/set_route__traits.hpp
+[1.021s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route__traits.hpp
+[1.022s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/delete_route__builder.hpp
+[1.022s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/delete_route__type_support.hpp
+[1.023s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route_list__type_support.hpp
+[1.023s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_recorded_route__traits.hpp
+[1.024s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route__type_support.hpp
+[1.024s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route__struct.hpp
+[1.025s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/plan_route__type_support.hpp
+[1.026s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route_list__builder.hpp
+[1.026s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_route__builder.hpp
+[1.027s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/delete_route__traits.hpp
+[1.027s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route_list__struct.hpp
+[1.028s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/set_route__struct.hpp
+[1.028s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/plan_route__traits.hpp
+[1.029s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/update_route_metadata__type_support.hpp
+[1.029s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_recorded_route__struct.hpp
+[1.029s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route__builder.hpp
+[1.030s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route_list__traits.hpp
+[1.030s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/plan_route__struct.hpp
+[1.031s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_recorded_route__type_support.hpp
+[1.031s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/update_route_metadata__traits.hpp
+[1.032s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/set_route__builder.hpp
+[1.032s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_route__struct.hpp
+[1.033s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/plan_route__builder.hpp
+[1.033s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_route__traits.hpp
+[1.034s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/set_route__type_support.hpp
+[1.034s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/update_route_metadata__struct.hpp
+[1.034s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_route__type_support.hpp
+[1.035s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/delete_route__struct.hpp
+[1.035s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_recorded_route__builder.hpp
+[1.036s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/update_route_metadata__builder.hpp
+[1.036s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/get_route_list.hpp
+[1.037s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/save_recorded_route.hpp
+[1.037s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/save_route.hpp
+[1.038s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg
+[1.038s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/route_array.hpp
+[1.039s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/command.hpp
+[1.039s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/teleop_state.hpp
+[1.040s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/vehicle_control.hpp
+[1.040s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/tracked_object_array.hpp
+[1.040s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/route_position.hpp
+[1.040s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/grid_map.hpp
+[1.041s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail
+[1.041s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_planning__builder.hpp
+[1.041s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_point__builder.hpp
+[1.041s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed_array__struct.hpp
+[1.042s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_point__type_support.hpp
+[1.042s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_point__type_support.hpp
+[1.043s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/teleop_state__type_support.hpp
+[1.044s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/wgs84_sample__type_support.hpp
+[1.044s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_point__builder.hpp
+[1.044s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_offset__traits.hpp
+[1.045s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle__builder.hpp
+[1.045s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path__traits.hpp
+[1.045s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/lead_vehicle__struct.hpp
+[1.046s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/lead_vehicle__type_support.hpp
+[1.046s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_array__struct.hpp
+[1.046s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_offset__type_support.hpp
+[1.047s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object__builder.hpp
+[1.047s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/command__builder.hpp
+[1.047s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object__struct.hpp
+[1.048s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/lead_vehicle__builder.hpp
+[1.048s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route__type_support.hpp
+[1.048s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle__traits.hpp
+[1.049s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/wgs84_sample__struct.hpp
+[1.049s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed__traits.hpp
+[1.049s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object_array__type_support.hpp
+[1.050s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object_array__traits.hpp
+[1.050s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/teleop_state__builder.hpp
+[1.050s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object_array__struct.hpp
+[1.051s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed_array__builder.hpp
+[1.051s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/command__traits.hpp
+[1.051s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_array__traits.hpp
+[1.051s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_position__traits.hpp
+[1.052s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_point__traits.hpp
+[1.052s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_point__struct.hpp
+[1.052s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route__builder.hpp
+[1.053s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/grid_map__builder.hpp
+[1.053s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed__builder.hpp
+[1.053s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle_array__type_support.hpp
+[1.054s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle_array__struct.hpp
+[1.054s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/grid_map__traits.hpp
+[1.054s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_offset__struct.hpp
+[1.055s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_position__struct.hpp
+[1.055s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/vehicle_control__builder.hpp
+[1.055s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/teleop_state__struct.hpp
+[1.056s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object__traits.hpp
+[1.056s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_point__struct.hpp
+[1.056s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path__struct.hpp
+[1.056s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/wgs84_sample__builder.hpp
+[1.057s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle_array__builder.hpp
+[1.058s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/vehicle_control__traits.hpp
+[1.058s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_position__type_support.hpp
+[1.060s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed_array__type_support.hpp
+[1.060s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_planning__traits.hpp
+[1.061s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_position__builder.hpp
+[1.062s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_point__traits.hpp
+[1.062s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle_array__traits.hpp
+[1.063s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/vehicle_control__struct.hpp
+[1.063s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route__struct.hpp
+[1.063s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/wgs84_sample__traits.hpp
+[1.063s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/vehicle_control__type_support.hpp
+[1.063s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed__type_support.hpp
+[1.064s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle__type_support.hpp
+[1.064s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object_array__builder.hpp
+[1.064s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/teleop_state__traits.hpp
+[1.064s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/grid_map__struct.hpp
+[1.064s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_planning__struct.hpp
+[1.064s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed_array__traits.hpp
+[1.064s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle__struct.hpp
+[1.064s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path__type_support.hpp
+[1.064s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_array__builder.hpp
+[1.064s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object__type_support.hpp
+[1.065s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed__struct.hpp
+[1.065s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/command__type_support.hpp
+[1.065s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/grid_map__type_support.hpp
+[1.065s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/command__struct.hpp
+[1.065s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path__builder.hpp
+[1.065s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_planning__type_support.hpp
+[1.065s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/lead_vehicle__traits.hpp
+[1.065s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route__traits.hpp
+[1.065s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_array__type_support.hpp
+[1.066s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_offset__builder.hpp
+[1.066s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/path_planning.hpp
+[1.066s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/path.hpp
+[1.066s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/obstacle.hpp
+[1.066s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/route_point.hpp
+[1.066s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/route_speed_array.hpp
+[1.066s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/lead_vehicle.hpp
+[1.066s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/path_point.hpp
+[1.066s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/route.hpp
+[1.066s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/route_speed.hpp
+[1.066s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/route_offset.hpp
+[1.067s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/wgs84_sample.hpp
+[1.067s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/obstacle_array.hpp
+[1.067s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.067s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/tracked_object.hpp
+[1.067s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs
+[1.067s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv
+[1.067s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail
+[1.067s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/set_route__rosidl_typesupport_fastrtps_cpp.hpp
+[1.067s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_route__rosidl_typesupport_fastrtps_cpp.hpp
+[1.067s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/plan_route__rosidl_typesupport_fastrtps_cpp.hpp
+[1.068s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_recorded_route__rosidl_typesupport_fastrtps_cpp.hpp
+[1.068s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/delete_route__rosidl_typesupport_fastrtps_cpp.hpp
+[1.068s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/dds_fastrtps
+[1.068s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/update_route_metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[1.068s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route__rosidl_typesupport_fastrtps_cpp.hpp
+[1.068s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route_list__rosidl_typesupport_fastrtps_cpp.hpp
+[1.068s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg
+[1.068s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail
+[1.068s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.068s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_offset__rosidl_typesupport_fastrtps_cpp.hpp
+[1.069s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.069s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed__rosidl_typesupport_fastrtps_cpp.hpp
+[1.069s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_point__rosidl_typesupport_fastrtps_cpp.hpp
+[1.069s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path__rosidl_typesupport_fastrtps_cpp.hpp
+[1.069s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_position__rosidl_typesupport_fastrtps_cpp.hpp
+[1.069s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/teleop_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.069s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object__rosidl_typesupport_fastrtps_cpp.hpp
+[1.069s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/grid_map__rosidl_typesupport_fastrtps_cpp.hpp
+[1.069s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route__rosidl_typesupport_fastrtps_cpp.hpp
+[1.069s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/wgs84_sample__rosidl_typesupport_fastrtps_cpp.hpp
+[1.069s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/dds_fastrtps
+[1.070s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/command__rosidl_typesupport_fastrtps_cpp.hpp
+[1.070s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.070s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_planning__rosidl_typesupport_fastrtps_cpp.hpp
+[1.070s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/vehicle_control__rosidl_typesupport_fastrtps_cpp.hpp
+[1.070s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.070s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/lead_vehicle__rosidl_typesupport_fastrtps_cpp.hpp
+[1.070s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle__rosidl_typesupport_fastrtps_cpp.hpp
+[1.070s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_point__rosidl_typesupport_fastrtps_cpp.hpp
+[1.071s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.071s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/lib/libmarti_nav_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.071s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/lib/libmarti_nav_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.071s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs
+[1.071s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv
+[1.071s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail
+[1.071s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_recorded_route__rosidl_typesupport_introspection_cpp.hpp
+[1.071s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route_list__rosidl_typesupport_introspection_cpp.hpp
+[1.071s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route__rosidl_typesupport_introspection_cpp.hpp
+[1.072s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/delete_route__type_support.cpp
+[1.072s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route_list__type_support.cpp
+[1.072s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/plan_route__rosidl_typesupport_introspection_cpp.hpp
+[1.072s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_route__type_support.cpp
+[1.072s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/update_route_metadata__rosidl_typesupport_introspection_cpp.hpp
+[1.072s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/delete_route__rosidl_typesupport_introspection_cpp.hpp
+[1.073s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/set_route__type_support.cpp
+[1.073s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/plan_route__type_support.cpp
+[1.074s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/set_route__rosidl_typesupport_introspection_cpp.hpp
+[1.074s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/update_route_metadata__type_support.cpp
+[1.074s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_recorded_route__type_support.cpp
+[1.074s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/get_route__type_support.cpp
+[1.075s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/srv/detail/save_route__rosidl_typesupport_introspection_cpp.hpp
+[1.075s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg
+[1.076s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail
+[1.076s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_point__type_support.cpp
+[1.076s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route__type_support.cpp
+[1.077s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object_array__type_support.cpp
+[1.077s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/lead_vehicle__type_support.cpp
+[1.078s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle__rosidl_typesupport_introspection_cpp.hpp
+[1.080s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path__type_support.cpp
+[1.081s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_point__rosidl_typesupport_introspection_cpp.hpp
+[1.081s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_array__rosidl_typesupport_introspection_cpp.hpp
+[1.081s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/wgs84_sample__rosidl_typesupport_introspection_cpp.hpp
+[1.081s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route__rosidl_typesupport_introspection_cpp.hpp
+[1.081s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/command__type_support.cpp
+[1.081s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/command__rosidl_typesupport_introspection_cpp.hpp
+[1.081s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object_array__rosidl_typesupport_introspection_cpp.hpp
+[1.081s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object__rosidl_typesupport_introspection_cpp.hpp
+[1.082s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/grid_map__rosidl_typesupport_introspection_cpp.hpp
+[1.082s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/tracked_object__type_support.cpp
+[1.082s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/wgs84_sample__type_support.cpp
+[1.082s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/lead_vehicle__rosidl_typesupport_introspection_cpp.hpp
+[1.082s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_position__rosidl_typesupport_introspection_cpp.hpp
+[1.082s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_point__type_support.cpp
+[1.082s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed__rosidl_typesupport_introspection_cpp.hpp
+[1.082s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/vehicle_control__rosidl_typesupport_introspection_cpp.hpp
+[1.082s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/teleop_state__type_support.cpp
+[1.083s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/vehicle_control__type_support.cpp
+[1.083s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle_array__rosidl_typesupport_introspection_cpp.hpp
+[1.083s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_planning__rosidl_typesupport_introspection_cpp.hpp
+[1.083s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed_array__rosidl_typesupport_introspection_cpp.hpp
+[1.083s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_point__rosidl_typesupport_introspection_cpp.hpp
+[1.083s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path_planning__type_support.cpp
+[1.083s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle__type_support.cpp
+[1.083s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/teleop_state__rosidl_typesupport_introspection_cpp.hpp
+[1.083s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_position__type_support.cpp
+[1.084s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/obstacle_array__type_support.cpp
+[1.084s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_offset__type_support.cpp
+[1.084s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_array__type_support.cpp
+[1.084s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed__type_support.cpp
+[1.084s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/path__rosidl_typesupport_introspection_cpp.hpp
+[1.084s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_speed_array__type_support.cpp
+[1.084s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/route_offset__rosidl_typesupport_introspection_cpp.hpp
+[1.084s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/include/marti_nav_msgs/marti_nav_msgs/msg/detail/grid_map__type_support.cpp
+[1.084s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/lib/libmarti_nav_msgs__rosidl_typesupport_introspection_cpp.so
+[1.085s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/lib/libmarti_nav_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[1.085s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/lib/libmarti_nav_msgs__rosidl_typesupport_cpp.so
+[1.085s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/lib/libmarti_nav_msgs__rosidl_typesupport_cpp.so" to ""
+[1.085s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/environment/pythonpath.sh
+[1.085s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/environment/pythonpath.dsv
+[1.085s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs-1.6.1-py3.10.egg-info
+[1.085s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs-1.6.1-py3.10.egg-info/dependency_links.txt
+[1.085s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs-1.6.1-py3.10.egg-info/SOURCES.txt
+[1.085s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs-1.6.1-py3.10.egg-info/top_level.txt
+[1.086s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs-1.6.1-py3.10.egg-info/PKG-INFO
+[1.086s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs
+[1.086s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/_marti_nav_msgs_s.ep.rosidl_typesupport_c.c
+[1.086s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/_marti_nav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.086s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/marti_nav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.086s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv
+[1.086s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_delete_route_s.c
+[1.086s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_get_route_list.py
+[1.086s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_plan_route.py
+[1.086s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_set_route.py
+[1.087s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_save_route.py
+[1.087s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_save_recorded_route_s.c
+[1.087s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_get_route_list_s.c
+[1.087s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_save_route_s.c
+[1.087s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_set_route_s.c
+[1.087s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_update_route_metadata_s.c
+[1.087s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_delete_route.py
+[1.087s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_save_recorded_route.py
+[1.087s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/__init__.py
+[1.088s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_plan_route_s.c
+[1.088s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_get_route_s.c
+[1.088s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_update_route_metadata.py
+[1.088s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_get_route.py
+[1.088s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/_marti_nav_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.088s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/marti_nav_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.088s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/__init__.py
+[1.088s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg
+[1.088s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_command.py
+[1.088s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route_position.py
+[1.089s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_wgs84_sample.py
+[1.089s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_wgs84_sample_s.c
+[1.089s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route_point.py
+[1.089s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_grid_map.py
+[1.089s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_obstacle_s.c
+[1.089s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route_speed_s.c
+[1.089s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_path_planning.py
+[1.089s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_path_point_s.c
+[1.089s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_path.py
+[1.090s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route_point_s.c
+[1.090s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_lead_vehicle_s.c
+[1.090s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route_speed.py
+[1.090s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_vehicle_control_s.c
+[1.090s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route_array_s.c
+[1.090s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/__init__.py
+[1.090s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_tracked_object_array.py
+[1.090s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route_speed_array_s.c
+[1.090s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_tracked_object_array_s.c
+[1.090s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route_position_s.c
+[1.091s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_path_planning_s.c
+[1.091s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_tracked_object_s.c
+[1.091s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_tracked_object.py
+[1.091s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_teleop_state.py
+[1.091s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route_s.c
+[1.091s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_path_point.py
+[1.091s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route_speed_array.py
+[1.091s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_obstacle.py
+[1.091s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_command_s.c
+[1.091s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_path_s.c
+[1.092s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_obstacle_array_s.c
+[1.092s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route.py
+[1.092s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_obstacle_array.py
+[1.092s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_vehicle_control.py
+[1.092s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route_offset_s.c
+[1.092s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_teleop_state_s.c
+[1.092s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route_array.py
+[1.092s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_grid_map_s.c
+[1.092s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_lead_vehicle.py
+[1.093s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route_offset.py
+[1.093s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/libmarti_nav_msgs__rosidl_generator_py.so
+[1.093s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/marti_nav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.154s] Listing '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs'...
+[1.154s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/__init__.py'...
+[1.154s] Listing '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg'...
+[1.155s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/__init__.py'...
+[1.155s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_command.py'...
+[1.155s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_grid_map.py'...
+[1.155s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_lead_vehicle.py'...
+[1.155s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_obstacle.py'...
+[1.155s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_obstacle_array.py'...
+[1.155s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_path.py'...
+[1.155s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_path_planning.py'...
+[1.155s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_path_point.py'...
+[1.155s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route.py'...
+[1.155s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route_array.py'...
+[1.156s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route_offset.py'...
+[1.156s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route_point.py'...
+[1.156s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route_position.py'...
+[1.156s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route_speed.py'...
+[1.156s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_route_speed_array.py'...
+[1.156s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_teleop_state.py'...
+[1.156s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_tracked_object.py'...
+[1.156s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_tracked_object_array.py'...
+[1.156s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_vehicle_control.py'...
+[1.156s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/msg/_wgs84_sample.py'...
+[1.157s] Listing '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv'...
+[1.157s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/__init__.py'...
+[1.157s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_delete_route.py'...
+[1.157s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_get_route.py'...
+[1.157s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_get_route_list.py'...
+[1.157s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_plan_route.py'...
+[1.157s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_save_recorded_route.py'...
+[1.157s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_save_route.py'...
+[1.157s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_set_route.py'...
+[1.158s] Compiling '/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/srv/_update_route_metadata.py'...
+[1.168s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/marti_nav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.169s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/marti_nav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[1.169s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/marti_nav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.170s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/marti_nav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[1.170s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/marti_nav_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.171s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/local/lib/python3.10/dist-packages/marti_nav_msgs/marti_nav_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[1.171s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/lib/libmarti_nav_msgs__rosidl_generator_py.so
+[1.172s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/lib/libmarti_nav_msgs__rosidl_generator_py.so" to ""
+[1.173s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/Command.idl
+[1.173s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/GridMap.idl
+[1.173s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/LeadVehicle.idl
+[1.174s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/Obstacle.idl
+[1.174s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/ObstacleArray.idl
+[1.174s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/PathPlanning.idl
+[1.174s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/Path.idl
+[1.175s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/PathPoint.idl
+[1.175s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/Route.idl
+[1.175s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/RouteArray.idl
+[1.176s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/RouteOffset.idl
+[1.176s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/RoutePoint.idl
+[1.176s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/RoutePosition.idl
+[1.176s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/RouteSpeed.idl
+[1.177s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/RouteSpeedArray.idl
+[1.177s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/TeleopState.idl
+[1.178s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/TrackedObject.idl
+[1.178s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/TrackedObjectArray.idl
+[1.178s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/VehicleControl.idl
+[1.178s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/Wgs84Sample.idl
+[1.179s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/DeleteRoute.idl
+[1.179s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/GetRoute.idl
+[1.179s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/GetRouteList.idl
+[1.180s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/PlanRoute.idl
+[1.180s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/SaveRecordedRoute.idl
+[1.180s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/SaveRoute.idl
+[1.180s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/SetRoute.idl
+[1.181s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/UpdateRouteMetadata.idl
+[1.181s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/Command.msg
+[1.181s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/GridMap.msg
+[1.182s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/LeadVehicle.msg
+[1.182s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/Obstacle.msg
+[1.182s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/ObstacleArray.msg
+[1.183s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/PathPlanning.msg
+[1.183s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/Path.msg
+[1.183s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/PathPoint.msg
+[1.183s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/Route.msg
+[1.184s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/RouteArray.msg
+[1.184s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/RouteOffset.msg
+[1.184s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/RoutePoint.msg
+[1.184s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/RoutePosition.msg
+[1.185s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/RouteSpeed.msg
+[1.185s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/RouteSpeedArray.msg
+[1.185s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/TeleopState.msg
+[1.186s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/TrackedObject.msg
+[1.186s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/TrackedObjectArray.msg
+[1.186s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/VehicleControl.msg
+[1.186s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/msg/Wgs84Sample.msg
+[1.187s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/DeleteRoute.srv
+[1.187s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/DeleteRoute_Request.msg
+[1.187s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/DeleteRoute_Response.msg
+[1.188s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/GetRoute.srv
+[1.188s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/GetRoute_Request.msg
+[1.188s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/GetRoute_Response.msg
+[1.188s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/GetRouteList.srv
+[1.189s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/GetRouteList_Request.msg
+[1.189s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/GetRouteList_Response.msg
+[1.189s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/PlanRoute.srv
+[1.190s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/PlanRoute_Request.msg
+[1.190s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/PlanRoute_Response.msg
+[1.190s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/SaveRecordedRoute.srv
+[1.190s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/SaveRecordedRoute_Request.msg
+[1.191s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/SaveRecordedRoute_Response.msg
+[1.191s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/SaveRoute.srv
+[1.191s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/SaveRoute_Request.msg
+[1.191s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/SaveRoute_Response.msg
+[1.192s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/SetRoute.srv
+[1.192s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/SetRoute_Request.msg
+[1.192s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/SetRoute_Response.msg
+[1.193s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/UpdateRouteMetadata.srv
+[1.193s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/UpdateRouteMetadata_Request.msg
+[1.193s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/srv/UpdateRouteMetadata_Response.msg
+[1.194s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/ament_index/resource_index/package_run_dependencies/marti_nav_msgs
+[1.194s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/ament_index/resource_index/parent_prefix_path/marti_nav_msgs
+[1.194s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/environment/ament_prefix_path.sh
+[1.195s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/environment/ament_prefix_path.dsv
+[1.195s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/environment/path.sh
+[1.195s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/environment/path.dsv
+[1.196s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/local_setup.bash
+[1.196s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/local_setup.sh
+[1.196s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/local_setup.zsh
+[1.197s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/local_setup.dsv
+[1.197s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/package.dsv
+[1.197s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/ament_index/resource_index/packages/marti_nav_msgs
+[1.198s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/export_marti_nav_msgs__rosidl_generator_cExport.cmake
+[1.198s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/export_marti_nav_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.198s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/export_marti_nav_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.199s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/export_marti_nav_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.199s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/marti_nav_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.199s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/marti_nav_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.200s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/marti_nav_msgs__rosidl_typesupport_cExport.cmake
+[1.200s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/marti_nav_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.200s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/export_marti_nav_msgs__rosidl_generator_cppExport.cmake
+[1.201s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/export_marti_nav_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.201s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/export_marti_nav_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.201s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/marti_nav_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.202s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/marti_nav_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.202s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/marti_nav_msgs__rosidl_typesupport_cppExport.cmake
+[1.202s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/marti_nav_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.203s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/export_marti_nav_msgs__rosidl_generator_pyExport.cmake
+[1.203s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/export_marti_nav_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.203s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/rosidl_cmake-extras.cmake
+[1.204s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.204s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.204s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.205s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.205s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.205s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.205s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/marti_nav_msgsConfig.cmake
+[1.206s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/cmake/marti_nav_msgsConfig-version.cmake
+[1.206s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_nav_msgs/share/marti_nav_msgs/package.xml
+[1.212s] Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_nav_msgs' returned '0': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav_gps_ws/install/marti_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav_gps_ws/install/marti_common_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav_gps_ws/install/marti_common_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav_gps_ws/install/marti_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/marti_nav_msgs

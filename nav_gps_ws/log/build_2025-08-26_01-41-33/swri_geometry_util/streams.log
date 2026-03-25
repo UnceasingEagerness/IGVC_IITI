@@ -1,0 +1,43 @@
+[0.097s] Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_geometry_util': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/swri_geometry_util -- -j8 -l8
+[0.201s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.219s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.240s] [35m[1mConsolidate compiler generated dependencies of target swri_geometry_util[0m
+[0.302s] [ 15%] Built target gtest_main
+[0.319s] [ 30%] Built target gtest
+[0.353s] [ 69%] Built target swri_geometry_util
+[0.445s] [35m[1mConsolidate compiler generated dependencies of target test_intersection[0m
+[0.484s] [35m[1mConsolidate compiler generated dependencies of target test_geometry_util[0m
+[0.610s] [ 84%] Built target test_intersection
+[0.647s] [100%] Built target test_geometry_util
+[0.741s] Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_geometry_util' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/swri_geometry_util -- -j8 -l8
+[0.807s] Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_geometry_util': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/swri_geometry_util
+[1.505s] -- Install configuration: ""
+[1.506s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/include/swri_geometry_util
+[1.507s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/include/swri_geometry_util/swri_geometry_util
+[1.507s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/include/swri_geometry_util/swri_geometry_util/intersection.h
+[1.507s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/include/swri_geometry_util/swri_geometry_util/geometry_util.h
+[1.508s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/include/swri_geometry_util/swri_geometry_util/polygon.h
+[1.508s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/include/swri_geometry_util/swri_geometry_util/cubic_spline.h
+[1.509s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/lib/libswri_geometry_util.so
+[1.509s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/swri_geometry_util/environment/library_path.sh
+[1.509s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/swri_geometry_util/environment/library_path.dsv
+[1.510s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/ament_index/resource_index/package_run_dependencies/swri_geometry_util
+[1.510s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/ament_index/resource_index/parent_prefix_path/swri_geometry_util
+[1.510s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/swri_geometry_util/environment/ament_prefix_path.sh
+[1.511s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/swri_geometry_util/environment/ament_prefix_path.dsv
+[1.511s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/swri_geometry_util/environment/path.sh
+[1.511s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/swri_geometry_util/environment/path.dsv
+[1.511s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/swri_geometry_util/local_setup.bash
+[1.511s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/swri_geometry_util/local_setup.sh
+[1.511s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/swri_geometry_util/local_setup.zsh
+[1.511s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/swri_geometry_util/local_setup.dsv
+[1.512s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/swri_geometry_util/package.dsv
+[1.512s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/ament_index/resource_index/packages/swri_geometry_util
+[1.512s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/swri_geometry_util/cmake/export_swri_geometry_utilExport.cmake
+[1.512s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/swri_geometry_util/cmake/export_swri_geometry_utilExport-noconfig.cmake
+[1.513s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/swri_geometry_util/cmake/ament_cmake_export_targets-extras.cmake
+[1.513s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/swri_geometry_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.513s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/swri_geometry_util/cmake/swri_geometry_utilConfig.cmake
+[1.514s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/swri_geometry_util/cmake/swri_geometry_utilConfig-version.cmake
+[1.514s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_geometry_util/share/swri_geometry_util/package.xml
+[1.533s] Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_geometry_util' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/swri_geometry_util

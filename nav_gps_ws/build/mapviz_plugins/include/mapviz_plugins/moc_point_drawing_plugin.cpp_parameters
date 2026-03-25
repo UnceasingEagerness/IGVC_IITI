@@ -1,0 +1,6 @@
+-I/home/ivdc/igvc2025/nav_gps_ws/src/mapviz/mapviz_plugins
+-I/home/ivdc/igvc2025/nav_gps_ws/build/mapviz_plugins
+-DWFlags=WindowFlags
+-o
+/home/ivdc/igvc2025/nav_gps_ws/build/mapviz_plugins/include/mapviz_plugins/moc_point_drawing_plugin.cpp
+/home/ivdc/igvc2025/nav_gps_ws/src/mapviz/mapviz_plugins/include/mapviz_plugins/point_drawing_plugin.h

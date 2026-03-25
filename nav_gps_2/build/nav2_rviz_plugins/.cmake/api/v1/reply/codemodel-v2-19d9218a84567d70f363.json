@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3c1222211986496a2401.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nav2_rviz_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_rviz_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_rviz_plugins-20a5602f929471b2461f.json",
+					"name" : "nav2_rviz_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_rviz_plugins_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_rviz_plugins_autogen-14aaa686d64fe72594d3.json",
+					"name" : "nav2_rviz_plugins_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_rviz_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_rviz_plugins_uninstall-c635ab1c74fbc0040b51.json",
+					"name" : "nav2_rviz_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-21aa1a54ad0168e1de78.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ivdc/igvc2025/nav_gps_2/build/nav2_rviz_plugins",
+		"source" : "/home/ivdc/igvc2025/nav_gps_2/src/navigation2/nav2_rviz_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

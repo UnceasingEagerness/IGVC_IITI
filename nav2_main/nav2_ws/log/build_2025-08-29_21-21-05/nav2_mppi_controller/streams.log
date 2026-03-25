@@ -1,0 +1,203 @@
+[0.069s] Invoking command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ivdc/igvc2025/nav2_main/nav2_ws/src/navigation2/nav2_mppi_controller -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller
+[5.840s] -- The C compiler identification is GNU 11.4.0
+[5.841s] -- The CXX compiler identification is GNU 11.4.0
+[5.841s] -- Detecting C compiler ABI info
+[5.843s] -- Detecting C compiler ABI info - done
+[5.844s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.844s] -- Detecting C compile features
+[5.844s] -- Detecting C compile features - done
+[5.844s] -- Detecting CXX compiler ABI info
+[5.844s] -- Detecting CXX compiler ABI info - done
+[5.844s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.844s] -- Detecting CXX compile features
+[5.844s] -- Detecting CXX compile features - done
+[5.845s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.845s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.845s] -- Performing Test arch_native_supported
+[5.845s] -- Performing Test arch_native_supported - Success
+[5.845s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[5.845s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.845s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.845s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.845s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.846s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.846s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.846s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.846s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.846s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.846s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.846s] -- Looking for pthread.h
+[5.846s] -- Looking for pthread.h - found
+[5.846s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.847s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.847s] -- Found Threads: TRUE  
+[5.847s] -- Found nav2_common: 1.1.18 (/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[5.847s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[5.847s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[5.847s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[5.847s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.847s] -- Found nav2_core: 1.1.18 (/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core/share/nav2_core/cmake)
+[5.847s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.847s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.848s] -- Found tf2_eigen: 0.25.16 (/opt/ros/humble/share/tf2_eigen/cmake)
+[5.848s] -- Setting build type to Release as none was specified.
+[5.848s] -- Performing Test COMPILER_SUPPORTS_AVX512
+[5.848s] -- Performing Test COMPILER_SUPPORTS_AVX512 - Failed
+[5.848s] -- Performing Test COMPILER_SUPPORTS_SSE4
+[5.848s] -- Performing Test COMPILER_SUPPORTS_SSE4 - Failed
+[5.848s] -- Performing Test COMPILER_SUPPORTS_AVX2
+[5.848s] -- Performing Test COMPILER_SUPPORTS_AVX2 - Failed
+[5.848s] -- Performing Test COMPILER_SUPPORTS_FMA
+[5.848s] -- Performing Test COMPILER_SUPPORTS_FMA - Failed
+[5.849s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.849s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[5.849s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.444s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.445s] -- Configured cppcheck include dirs: /home/ivdc/igvc2025/nav2_main/nav2_ws/src/navigation2/nav2_mppi_controller/include
+[7.446s] -- Configured cppcheck exclude dirs and/or files: 
+[7.453s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.453s] -- Configured cpplint exclude dirs and/or files: 
+[7.457s] -- Added test 'lint_cmake' to check CMake code style
+[7.465s] -- Added test 'uncrustify' to check C / C++ code style
+[7.465s] -- Configured uncrustify additional arguments: 
+[7.468s] -- Added test 'xmllint' to check XML markup files
+[7.475s] -- Configuring done
+[8.752s] -- Generating done
+[8.926s] -- Build files have been written to: /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_mppi_controller
+[8.990s] Invoked command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ivdc/igvc2025/nav2_main/nav2_ws/src/navigation2/nav2_mppi_controller -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller
+[8.991s] Invoking command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_mppi_controller -- -j8 -l8
+[19.662s] [  2%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/controller.cpp.o[0m
+[40.753s] [  4%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/path_handler.cpp.o[0m
+[62.474s] [  6%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/parameters_handler.cpp.o[0m
+[71.977s] [  8%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/noise_generator.cpp.o[0m
+[85.411s] [ 10%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/trajectory_visualizer.cpp.o[0m
+[110.852s] [ 12%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/critic_manager.cpp.o[0m
+[146.102s] [ 14%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/optimizer.cpp.o[0m
+[193.729s] [ 16%] [32m[1mLinking CXX shared library libmppi_controller.so[0m
+[194.880s] [ 16%] Built target mppi_controller
+[194.925s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[197.411s] [ 20%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[197.634s] [ 20%] Built target gtest_main
+[197.729s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[220.343s] [ 24%] [32m[1mLinking CXX static library libgtest.a[0m
+[220.438s] [ 24%] Built target gtest
+[220.490s] [ 26%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/obstacles_critic.cpp.o[0m
+[246.581s] [ 28%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/cost_critic.cpp.o[0m
+[271.442s] [ 30%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/goal_critic.cpp.o[0m
+[294.963s] [ 32%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/goal_angle_critic.cpp.o[0m
+[319.285s] [ 34%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_align_critic.cpp.o[0m
+[323.627s] [ 36%] [32mBuilding CXX object test/CMakeFiles/trajectory_visualizer_tests.dir/trajectory_visualizer_tests.cpp.o[0m
+[325.691s] [ 38%] [32mBuilding CXX object test/CMakeFiles/motion_model_tests.dir/motion_model_tests.cpp.o[0m
+[327.770s] [ 40%] [32mBuilding CXX object test/CMakeFiles/parameter_handler_test.dir/parameter_handler_test.cpp.o[0m
+[344.340s] [ 42%] [32m[1mLinking CXX executable parameter_handler_test[0m
+[345.642s] [ 44%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_align_legacy_critic.cpp.o[0m
+[345.847s] [ 44%] Built target parameter_handler_test
+[350.982s] [ 46%] [32m[1mLinking CXX executable motion_model_tests[0m
+[351.954s] [ 46%] Built target motion_model_tests
+[369.377s] [ 48%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_angle_critic.cpp.o[0m
+[381.277s] [ 51%] [32m[1mLinking CXX executable trajectory_visualizer_tests[0m
+[382.442s] [ 51%] Built target trajectory_visualizer_tests
+[389.423s] [ 53%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_follow_critic.cpp.o[0m
+[389.593s] [ 55%] [32mBuilding CXX object test/CMakeFiles/path_handler_test.dir/path_handler_test.cpp.o[0m
+[390.642s] [ 57%] [32mBuilding CXX object test/CMakeFiles/utils_test.dir/utils_test.cpp.o[0m
+[391.774s] [ 59%] [32mBuilding CXX object test/CMakeFiles/noise_generator_test.dir/noise_generator_test.cpp.o[0m
+[392.862s] [ 61%] [32mBuilding CXX object test/CMakeFiles/models_test.dir/models_test.cpp.o[0m
+[425.936s] [ 63%] [32m[1mLinking CXX executable models_test[0m
+[426.747s] [ 65%] [32m[1mLinking CXX executable noise_generator_test[0m
+[427.429s] [ 65%] Built target models_test
+[428.555s] [ 65%] Built target noise_generator_test
+[430.443s] [ 67%] [32m[1mLinking CXX executable path_handler_test[0m
+[432.597s] [ 67%] Built target path_handler_test
+[434.390s] [ 69%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/twirling_critic.cpp.o[0m
+[443.853s] [ 71%] [32m[1mLinking CXX executable utils_test[0m
+[444.744s] [ 71%] Built target utils_test
+[456.290s] [ 73%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/velocity_deadband_critic.cpp.o[0m
+[478.922s] [ 77%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/prefer_forward_critic.cpp.o[0m
+[478.922s] [ 77%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/constraint_critic.cpp.o[0m
+[512.883s] [ 79%] [32m[1mLinking CXX shared library libmppi_critics.so[0m
+[514.294s] [ 79%] Built target mppi_critics
+[514.344s] [ 81%] [32mBuilding CXX object test/CMakeFiles/optimizer_unit_tests.dir/optimizer_unit_tests.cpp.o[0m
+[528.472s] [01m[K/home/ivdc/igvc2025/nav2_main/nav2_ws/src/navigation2/nav2_mppi_controller/test/optimizer_unit_tests.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> OptimizerTester::getVelLimits()[m[K’:
+[528.472s] [01m[K/home/ivdc/igvc2025/nav2_main/nav2_ws/src/navigation2/nav2_mppi_controller/test/optimizer_unit_tests.cpp:149:3:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+[528.472s]   149 |   [01;36m[K{[m[K
+[528.473s]       |   [01;36m[K^[m[K
+[557.514s] [ 83%] [32m[1mLinking CXX executable optimizer_unit_tests[0m
+[559.103s] [ 83%] Built target optimizer_unit_tests
+[559.279s] [ 85%] [32mBuilding CXX object test/CMakeFiles/critics_tests.dir/critics_tests.cpp.o[0m
+[602.110s] [ 87%] [32m[1mLinking CXX executable critics_tests[0m
+[603.247s] [ 87%] Built target critics_tests
+[603.426s] [ 89%] [32mBuilding CXX object test/CMakeFiles/controller_state_transition_test.dir/controller_state_transition_test.cpp.o[0m
+[603.429s] [ 91%] [32mBuilding CXX object test/CMakeFiles/optimizer_smoke_test.dir/optimizer_smoke_test.cpp.o[0m
+[603.454s] [ 93%] [32mBuilding CXX object test/CMakeFiles/critic_manager_test.dir/critic_manager_test.cpp.o[0m
+[656.451s] [ 95%] [32m[1mLinking CXX executable critic_manager_test[0m
+[657.429s] [ 95%] Built target critic_manager_test
+[657.868s] [ 97%] [32m[1mLinking CXX executable controller_state_transition_test[0m
+[658.858s] [ 97%] Built target controller_state_transition_test
+[659.245s] [100%] [32m[1mLinking CXX executable optimizer_smoke_test[0m
+[660.211s] [100%] Built target optimizer_smoke_test
+[660.239s] Invoked command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_mppi_controller -- -j8 -l8
+[660.244s] Invoking command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_mppi_controller
+[660.259s] -- Install configuration: "Release"
+[660.259s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/lib/libmppi_controller.so
+[660.262s] -- Set runtime path of "/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/lib/libmppi_controller.so" to ""
+[660.263s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/lib/libmppi_critics.so
+[660.265s] -- Set runtime path of "/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/lib/libmppi_critics.so" to ""
+[660.265s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include/
+[660.265s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller
+[660.265s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_function.hpp
+[660.265s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/motion_models.hpp
+[660.266s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/optimizer.hpp
+[660.266s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_manager.hpp
+[660.266s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_data.hpp
+[660.266s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools
+[660.267s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/utils.hpp
+[660.267s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/parameters_handler.hpp
+[660.267s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/path_handler.hpp
+[660.267s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/trajectory_visualizer.hpp
+[660.267s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/noise_generator.hpp
+[660.267s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models
+[660.267s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/trajectories.hpp
+[660.268s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/optimizer_settings.hpp
+[660.268s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/constraints.hpp
+[660.268s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/path.hpp
+[660.268s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/state.hpp
+[660.268s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/control_sequence.hpp
+[660.268s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/controller.hpp
+[660.268s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics
+[660.268s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_angle_critic.hpp
+[660.269s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_align_critic.hpp
+[660.269s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/cost_critic.hpp
+[660.269s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_angle_critic.hpp
+[660.269s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_critic.hpp
+[660.269s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/constraint_critic.hpp
+[660.270s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/velocity_deadband_critic.hpp
+[660.270s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_follow_critic.hpp
+[660.270s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/obstacles_critic.hpp
+[660.270s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/prefer_forward_critic.hpp
+[660.270s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/twirling_critic.hpp
+[660.270s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_align_legacy_critic.hpp
+[660.271s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.sh
+[660.271s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.dsv
+[660.271s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/mppic.xml
+[660.272s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/critics.xml
+[660.272s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/package_run_dependencies/nav2_mppi_controller
+[660.273s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/parent_prefix_path/nav2_mppi_controller
+[660.273s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.sh
+[660.273s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.dsv
+[660.273s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.sh
+[660.273s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.dsv
+[660.274s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.bash
+[660.274s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.sh
+[660.274s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.zsh
+[660.274s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.dsv
+[660.275s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/package.dsv
+[660.275s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/packages/nav2_mppi_controller
+[660.275s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_mppi_controller
+[660.276s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_mppi_controller__pluginlib__plugin/nav2_mppi_controller
+[660.276s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[660.276s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[660.276s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[660.277s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig.cmake
+[660.277s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig-version.cmake
+[660.277s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/package.xml
+[660.283s] Invoked command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_core:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_costmap_2d/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_map_server/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_lifecycle_manager/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_voxel_grid/lib:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_mppi_controller

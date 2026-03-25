@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from marti_sensor_msgs/srv/SetExposure.srv
+// generated code does not contain a copyright notice
+
+
+module marti_sensor_msgs {
+  module srv {
+    struct SetExposure_Request {
+      boolean auto_exposure;
+
+      int64 time;
+    };
+    struct SetExposure_Response {
+      boolean auto_exposure;
+
+      int64 time;
+    };
+  };
+};

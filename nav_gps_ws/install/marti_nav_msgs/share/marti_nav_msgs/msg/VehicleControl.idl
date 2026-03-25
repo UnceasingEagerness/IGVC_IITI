@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from marti_nav_msgs/msg/VehicleControl.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module marti_nav_msgs {
+  module msg {
+    struct VehicleControl {
+      std_msgs::msg::Header header;
+
+      int32 engine;
+
+      int32 gear;
+
+      double steering;
+
+      double throttle;
+
+      double brake;
+
+      int16 steering_position;
+
+      int16 gb_position;
+    };
+  };
+};

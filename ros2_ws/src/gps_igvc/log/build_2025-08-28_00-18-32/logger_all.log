@@ -1,0 +1,347 @@
+[0.195s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.195s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb3e9fa90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb4114280>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb4114280>>)
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.501s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc) by extension 'ignore_ament_install'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc) by extensions ['colcon_pkg']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc) by extension 'colcon_pkg'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc) by extensions ['colcon_meta']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc) by extension 'colcon_meta'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc) by extensions ['ros']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc) by extension 'ros'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc) by extensions ['cmake', 'python']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc) by extension 'cmake'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc) by extension 'python'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc) by extensions ['python_setup_py']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc) by extension 'python_setup_py'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox) by extensions ['ignore', 'ignore_ament_install']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox) by extension 'ignore'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox) by extension 'ignore_ament_install'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox) by extensions ['colcon_pkg']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox) by extension 'colcon_pkg'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox) by extensions ['colcon_meta']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox) by extension 'colcon_meta'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox) by extensions ['ros']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox) by extension 'ros'
+[0.530s] DEBUG:colcon.colcon_core.package_identification:Package 'gps_igvc/ublox' with type 'ros.ament_cmake' and name 'ublox'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_gps) by extensions ['ignore', 'ignore_ament_install']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_gps) by extension 'ignore'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_gps) by extension 'ignore_ament_install'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_gps) by extensions ['colcon_pkg']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_gps) by extension 'colcon_pkg'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_gps) by extensions ['colcon_meta']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_gps) by extension 'colcon_meta'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_gps) by extensions ['ros']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_gps) by extension 'ros'
+[0.534s] DEBUG:colcon.colcon_core.package_identification:Package 'gps_igvc/ublox_gps' with type 'ros.ament_cmake' and name 'ublox_gps'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_msgs) by extension 'ignore'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_msgs) by extension 'ignore_ament_install'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_msgs) by extensions ['colcon_pkg']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_msgs) by extension 'colcon_pkg'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_msgs) by extensions ['colcon_meta']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_msgs) by extension 'colcon_meta'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_msgs) by extensions ['ros']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_msgs) by extension 'ros'
+[0.536s] DEBUG:colcon.colcon_core.package_identification:Package 'gps_igvc/ublox_msgs' with type 'ros.ament_cmake' and name 'ublox_msgs'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_serialization) by extensions ['ignore', 'ignore_ament_install']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_serialization) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_serialization) by extension 'ignore_ament_install'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_serialization) by extensions ['colcon_pkg']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_serialization) by extension 'colcon_pkg'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_serialization) by extensions ['colcon_meta']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_serialization) by extension 'colcon_meta'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_serialization) by extensions ['ros']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(gps_igvc/ublox_serialization) by extension 'ros'
+[0.538s] DEBUG:colcon.colcon_core.package_identification:Package 'gps_igvc/ublox_serialization' with type 'ros.ament_cmake' and name 'ublox_serialization'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.607s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install
+[0.608s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install
+[0.608s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ivdc/igvc2025/sensors/rplidar_ros/install
+[0.611s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 328 installed packages in /opt/ros/humble
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.689s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_args' from command line to 'None'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_target' from command line to 'None'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_clean_first' from command line to 'False'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_force_configure' from command line to 'False'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'ament_cmake_args' from command line to 'None'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.690s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_serialization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_serialization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization', 'merge_install': False, 'path': '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/gps_igvc/ublox_serialization', 'symlink_install': False, 'test_result_base': None}
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_args' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_target' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.691s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs', 'merge_install': False, 'path': '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/gps_igvc/ublox_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_target' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_clean_cache' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_clean_first' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_force_configure' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'ament_cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'catkin_cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.692s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_gps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_gps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps', 'merge_install': False, 'path': '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/gps_igvc/ublox_gps', 'symlink_install': False, 'test_result_base': None}
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_args' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_target' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_clean_cache' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_clean_first' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_force_configure' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'ament_cmake_args' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'catkin_cmake_args' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.693s] DEBUG:colcon.colcon_core.verb:Building package 'ublox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox', 'merge_install': False, 'path': '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/gps_igvc/ublox', 'symlink_install': False, 'test_result_base': None}
+[0.693s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.695s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.696s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/gps_igvc/ublox_serialization' with build type 'ament_cmake'
+[0.696s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/gps_igvc/ublox_serialization'
+[0.700s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.701s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.701s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_serialization': /usr/bin/cmake --build /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_serialization -- -j8 -l8
+[0.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_serialization' returned '0': /usr/bin/cmake --build /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_serialization -- -j8 -l8
+[0.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_serialization': /usr/bin/cmake --install /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_serialization
+[0.847s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_serialization)
+[0.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_serialization' returned '0': /usr/bin/cmake --install /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_serialization
+[0.858s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization' for CMake module files
+[0.860s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization' for CMake config files
+[0.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_serialization', 'cmake_prefix_path')
+[0.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.ps1'
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.dsv'
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.sh'
+[0.870s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/bin'
+[0.870s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/lib/pkgconfig/ublox_serialization.pc'
+[0.871s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/lib/python3.10/site-packages'
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/bin'
+[0.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/share/ublox_serialization/package.ps1'
+[0.877s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/share/ublox_serialization/package.dsv'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/share/ublox_serialization/package.sh'
+[0.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/share/ublox_serialization/package.bash'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/share/ublox_serialization/package.zsh'
+[0.887s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/share/colcon-core/packages/ublox_serialization)
+[0.889s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_serialization)
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization' for CMake module files
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization' for CMake config files
+[0.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_serialization', 'cmake_prefix_path')
+[0.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.ps1'
+[0.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.dsv'
+[0.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.sh'
+[0.899s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/bin'
+[0.899s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/lib/pkgconfig/ublox_serialization.pc'
+[0.900s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/lib/python3.10/site-packages'
+[0.900s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/bin'
+[0.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/share/ublox_serialization/package.ps1'
+[0.903s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/share/ublox_serialization/package.dsv'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/share/ublox_serialization/package.sh'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/share/ublox_serialization/package.bash'
+[0.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/share/ublox_serialization/package.zsh'
+[0.910s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization/share/colcon-core/packages/ublox_serialization)
+[0.911s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/gps_igvc/ublox_msgs' with build type 'ament_cmake'
+[0.911s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/gps_igvc/ublox_msgs'
+[0.912s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.913s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_msgs': CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs:/home/ivdc/igvc2025/sensors/rplidar_ros/install/rplidar_ros:/opt/ros/humble:/opt/ros/humble /usr/bin/cmake --build /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_msgs -- -j8 -l8
+[1.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs:/home/ivdc/igvc2025/sensors/rplidar_ros/install/rplidar_ros:/opt/ros/humble:/opt/ros/humble /usr/bin/cmake --build /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_msgs -- -j8 -l8
+[1.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_msgs': CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs:/home/ivdc/igvc2025/sensors/rplidar_ros/install/rplidar_ros:/opt/ros/humble:/opt/ros/humble /usr/bin/cmake --install /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_msgs
+[1.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_msgs)
+[1.995s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs' for CMake module files
+[1.999s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs' for CMake config files
+[2.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'cmake_prefix_path')
+[2.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.ps1'
+[2.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.dsv'
+[2.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.sh'
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib'
+[2.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'ld_library_path_lib')
+[2.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.ps1'
+[2.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.dsv'
+[2.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.sh'
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/bin'
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib/pkgconfig/ublox_msgs.pc'
+[2.017s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib/python3.10/site-packages'
+[2.018s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/bin'
+[2.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/package.ps1'
+[2.021s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/package.dsv'
+[2.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/package.sh'
+[2.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/package.bash'
+[2.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/package.zsh'
+[2.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/colcon-core/packages/ublox_msgs)
+[2.031s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_msgs)
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs' for CMake module files
+[2.038s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs' for CMake config files
+[2.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'cmake_prefix_path')
+[2.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.ps1'
+[2.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.dsv'
+[2.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.sh'
+[2.047s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib'
+[2.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'ld_library_path_lib')
+[2.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.ps1'
+[2.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.dsv'
+[2.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.sh'
+[2.053s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/bin'
+[2.053s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib/pkgconfig/ublox_msgs.pc'
+[2.054s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib/python3.10/site-packages'
+[2.055s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/bin'
+[2.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/package.ps1'
+[2.058s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/package.dsv'
+[2.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/package.sh'
+[2.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/package.bash'
+[2.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/ublox_msgs/package.zsh'
+[2.066s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/share/colcon-core/packages/ublox_msgs)
+[2.067s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/gps_igvc/ublox_gps' with build type 'ament_cmake'
+[2.068s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/gps_igvc/ublox_gps'
+[2.068s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.068s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs:/home/ivdc/igvc2025/sensors/rplidar_ros/install/rplidar_ros:/opt/ros/humble:/opt/ros/humble /usr/bin/cmake --install /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_msgs
+[2.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_gps': CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps:/home/ivdc/igvc2025/sensors/rplidar_ros/install/rplidar_ros:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_gps -- -j8 -l8
+[2.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_gps' returned '0': CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps:/home/ivdc/igvc2025/sensors/rplidar_ros/install/rplidar_ros:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_gps -- -j8 -l8
+[2.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_gps': CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps:/home/ivdc/igvc2025/sensors/rplidar_ros/install/rplidar_ros:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_gps
+[2.437s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_gps)
+[2.439s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps' for CMake module files
+[2.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_gps' returned '0': CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps:/home/ivdc/igvc2025/sensors/rplidar_ros/install/rplidar_ros:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_gps
+[2.444s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps' for CMake config files
+[2.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'cmake_prefix_path')
+[2.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.ps1'
+[2.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.dsv'
+[2.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.sh'
+[2.452s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib'
+[2.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'ld_library_path_lib')
+[2.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.ps1'
+[2.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.dsv'
+[2.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.sh'
+[2.458s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/bin'
+[2.458s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib/pkgconfig/ublox_gps.pc'
+[2.459s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib/python3.10/site-packages'
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/bin'
+[2.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/package.ps1'
+[2.463s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/package.dsv'
+[2.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/package.sh'
+[2.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/package.bash'
+[2.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/package.zsh'
+[2.469s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/colcon-core/packages/ublox_gps)
+[2.472s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_gps)
+[2.472s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps' for CMake module files
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps' for CMake config files
+[2.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'cmake_prefix_path')
+[2.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.ps1'
+[2.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.dsv'
+[2.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.sh'
+[2.480s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib'
+[2.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'ld_library_path_lib')
+[2.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.ps1'
+[2.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.dsv'
+[2.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.sh'
+[2.485s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/bin'
+[2.485s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib/pkgconfig/ublox_gps.pc'
+[2.486s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib/python3.10/site-packages'
+[2.487s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/bin'
+[2.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/package.ps1'
+[2.489s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/package.dsv'
+[2.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/package.sh'
+[2.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/package.bash'
+[2.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/ublox_gps/package.zsh'
+[2.495s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/share/colcon-core/packages/ublox_gps)
+[2.496s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/gps_igvc/ublox' with build type 'ament_cmake'
+[2.496s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/gps_igvc/ublox'
+[2.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.498s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox': CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox:/home/ivdc/igvc2025/sensors/rplidar_ros/install/rplidar_ros:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox -- -j8 -l8
+[2.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox' returned '0': CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox:/home/ivdc/igvc2025/sensors/rplidar_ros/install/rplidar_ros:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox -- -j8 -l8
+[2.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox': CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox:/home/ivdc/igvc2025/sensors/rplidar_ros/install/rplidar_ros:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox
+[2.643s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox)
+[2.644s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox' for CMake module files
+[2.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox' returned '0': CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox:/home/ivdc/igvc2025/sensors/rplidar_ros/install/rplidar_ros:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox
+[2.646s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox' for CMake config files
+[2.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox', 'cmake_prefix_path')
+[2.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/share/ublox/hook/cmake_prefix_path.ps1'
+[2.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/share/ublox/hook/cmake_prefix_path.dsv'
+[2.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/share/ublox/hook/cmake_prefix_path.sh'
+[2.653s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/bin'
+[2.653s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/lib/pkgconfig/ublox.pc'
+[2.654s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/lib/python3.10/site-packages'
+[2.655s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/bin'
+[2.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/share/ublox/package.ps1'
+[2.657s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/share/ublox/package.dsv'
+[2.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/share/ublox/package.sh'
+[2.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/share/ublox/package.bash'
+[2.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/share/ublox/package.zsh'
+[2.663s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/share/colcon-core/packages/ublox)
+[2.665s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox)
+[2.666s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox' for CMake module files
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox' for CMake config files
+[2.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox', 'cmake_prefix_path')
+[2.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/share/ublox/hook/cmake_prefix_path.ps1'
+[2.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/share/ublox/hook/cmake_prefix_path.dsv'
+[2.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/share/ublox/hook/cmake_prefix_path.sh'
+[2.674s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/bin'
+[2.674s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/lib/pkgconfig/ublox.pc'
+[2.675s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/lib/python3.10/site-packages'
+[2.676s] Level 1:colcon.colcon_core.environment:checking '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/bin'
+[2.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/share/ublox/package.ps1'
+[2.680s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/share/ublox/package.dsv'
+[2.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/share/ublox/package.sh'
+[2.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/share/ublox/package.bash'
+[2.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/share/ublox/package.zsh'
+[2.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox/share/colcon-core/packages/ublox)
+[2.687s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.688s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.688s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.689s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.710s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.710s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.711s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.760s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.761s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/local_setup.ps1'
+[2.766s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/_local_setup_util_ps1.py'
+[2.772s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/setup.ps1'
+[2.776s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/local_setup.sh'
+[2.779s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/_local_setup_util_sh.py'
+[2.782s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/setup.sh'
+[2.788s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/local_setup.bash'
+[2.790s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/setup.bash'
+[2.795s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/local_setup.zsh'
+[2.798s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/setup.zsh'

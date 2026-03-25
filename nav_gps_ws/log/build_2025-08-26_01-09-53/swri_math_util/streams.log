@@ -1,0 +1,98 @@
+[0.079s] Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_math_util': /usr/bin/cmake /home/ivdc/igvc2025/nav_gps_ws/src/marti_common/swri_math_util -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util
+[0.198s] -- The C compiler identification is GNU 11.4.0
+[0.535s] -- The CXX compiler identification is GNU 11.4.0
+[0.552s] -- Detecting C compiler ABI info
+[0.961s] -- Detecting C compiler ABI info - done
+[0.973s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.978s] -- Detecting C compile features
+[0.980s] -- Detecting C compile features - done
+[0.996s] -- Detecting CXX compiler ABI info
+[1.420s] -- Detecting CXX compiler ABI info - done
+[1.420s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.450s] -- Detecting CXX compile features
+[1.450s] -- Detecting CXX compile features - done
+[1.451s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.897s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.938s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[2.018s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.029s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.048s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.079s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.125s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.236s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.243s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.500s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.580s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.706s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.724s] -- Looking for pthread.h
+[2.920s] -- Looking for pthread.h - found
+[2.923s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.210s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.211s] -- Found Threads: TRUE  
+[3.354s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.362s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.623s] -- Configuring done
+[3.733s] -- Generating done
+[3.759s] -- Build files have been written to: /home/ivdc/igvc2025/nav_gps_ws/build/swri_math_util
+[3.843s] Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_math_util' returned '0': /usr/bin/cmake /home/ivdc/igvc2025/nav_gps_ws/src/marti_common/swri_math_util -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util
+[3.844s] Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_math_util': /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/swri_math_util -- -j8 -l8
+[5.484s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.484s] [ 13%] [32mBuilding CXX object CMakeFiles/swri_math_util.dir/src/math_util.cpp.o[0m
+[5.485s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.485s] [ 26%] [32mBuilding CXX object CMakeFiles/swri_math_util.dir/src/random.cpp.o[0m
+[5.485s] [ 33%] [32mBuilding CXX object CMakeFiles/swri_math_util.dir/src/interpolation_1d.cpp.o[0m
+[5.485s] [ 40%] [32mBuilding CXX object CMakeFiles/swri_math_util.dir/src/trig_util.cpp.o[0m
+[7.578s] [ 46%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[7.690s] [ 46%] Built target gtest_main
+[11.488s] [01m[K/home/ivdc/igvc2025/nav_gps_ws/src/marti_common/swri_math_util/src/interpolation_1d.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> swri_math_util::Interpolation1D::getPoint(size_t) const[m[K’:
+[11.488s] [01m[K/home/ivdc/igvc2025/nav_gps_ws/src/marti_common/swri_math_util/src/interpolation_1d.cpp:64:69:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+[11.488s]    64 |   std::pair<double, double> Interpolation1D::getPoint(size_t index) [01;36m[Kconst[m[K
+[11.488s]       |                                                                     [01;36m[K^~~~~[m[K
+[14.893s] [ 53%] [32m[1mLinking CXX shared library libswri_math_util.so[0m
+[14.896s] [ 60%] [32m[1mLinking CXX static library libgtest.a[0m
+[15.254s] [ 60%] Built target gtest
+[15.512s] [ 60%] Built target swri_math_util
+[15.673s] [ 66%] [32mBuilding CXX object CMakeFiles/test_trig_util.dir/test/test_trig_util.cpp.o[0m
+[15.689s] [ 73%] [32mBuilding CXX object CMakeFiles/test_math_util.dir/test/test_math_util.cpp.o[0m
+[15.727s] [ 80%] [32mBuilding CXX object CMakeFiles/test_random.dir/test/test_random.cpp.o[0m
+[19.241s] [ 86%] [32m[1mLinking CXX executable test_trig_util[0m
+[19.841s] [ 93%] [32m[1mLinking CXX executable test_math_util[0m
+[19.918s] [ 93%] Built target test_trig_util
+[19.974s] [100%] [32m[1mLinking CXX executable test_random[0m
+[20.351s] [100%] Built target test_random
+[20.357s] [100%] Built target test_math_util
+[20.383s] Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_math_util' returned '0': /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/swri_math_util -- -j8 -l8
+[20.387s] Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_math_util': /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/swri_math_util
+[20.405s] -- Install configuration: ""
+[20.406s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/include/swri_math_util
+[20.406s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/include/swri_math_util/swri_math_util
+[20.406s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/include/swri_math_util/swri_math_util/constants.h
+[20.406s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/include/swri_math_util/swri_math_util/random.h
+[20.407s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/include/swri_math_util/swri_math_util/trig_util.h
+[20.407s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/include/swri_math_util/swri_math_util/stat_buffer.h
+[20.407s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/include/swri_math_util/swri_math_util/math_util.h
+[20.407s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/include/swri_math_util/swri_math_util/interpolation_1d.h
+[20.408s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/include/swri_math_util/swri_math_util/generic_ring_buffer.h
+[20.408s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/include/swri_math_util/swri_math_util/ransac.h
+[20.408s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/lib/libswri_math_util.so
+[20.410s] -- Set runtime path of "/home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/lib/libswri_math_util.so" to ""
+[20.410s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/share/ament_index/resource_index/package_run_dependencies/swri_math_util
+[20.410s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/share/ament_index/resource_index/parent_prefix_path/swri_math_util
+[20.411s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/share/swri_math_util/environment/ament_prefix_path.sh
+[20.411s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/share/swri_math_util/environment/ament_prefix_path.dsv
+[20.411s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/share/swri_math_util/environment/path.sh
+[20.412s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/share/swri_math_util/environment/path.dsv
+[20.412s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/share/swri_math_util/local_setup.bash
+[20.412s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/share/swri_math_util/local_setup.sh
+[20.412s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/share/swri_math_util/local_setup.zsh
+[20.413s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/share/swri_math_util/local_setup.dsv
+[20.413s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/share/swri_math_util/package.dsv
+[20.413s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/share/ament_index/resource_index/packages/swri_math_util
+[20.414s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/share/swri_math_util/cmake/export_swri_math_utilExport.cmake
+[20.414s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/share/swri_math_util/cmake/export_swri_math_utilExport-noconfig.cmake
+[20.414s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/share/swri_math_util/cmake/ament_cmake_export_targets-extras.cmake
+[20.414s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/share/swri_math_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.415s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/share/swri_math_util/cmake/swri_math_utilConfig.cmake
+[20.415s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/share/swri_math_util/cmake/swri_math_utilConfig-version.cmake
+[20.415s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_math_util/share/swri_math_util/package.xml
+[20.426s] Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_math_util' returned '0': /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/swri_math_util

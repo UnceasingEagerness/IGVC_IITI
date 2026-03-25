@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/swri_roscpp_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/swri_roscpp/msg/detail/test_topic_service_request__type_support_c.cpp.o"
+  "CMakeFiles/swri_roscpp_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/swri_roscpp/msg/detail/test_topic_service_request__type_support_c.cpp.o.d"
+  "CMakeFiles/swri_roscpp_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/swri_roscpp/msg/detail/test_topic_service_response__type_support_c.cpp.o"
+  "CMakeFiles/swri_roscpp_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/swri_roscpp/msg/detail/test_topic_service_response__type_support_c.cpp.o.d"
+  "libswri_roscpp__rosidl_typesupport_fastrtps_c.pdb"
+  "libswri_roscpp__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/swri_roscpp/msg/detail/test_topic_service_request__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/swri_roscpp/msg/detail/test_topic_service_request__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/swri_roscpp/msg/detail/test_topic_service_response__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/swri_roscpp/msg/detail/test_topic_service_response__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/swri_roscpp_test__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

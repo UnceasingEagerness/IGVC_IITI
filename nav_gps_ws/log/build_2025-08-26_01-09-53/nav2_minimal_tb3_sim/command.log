@@ -1,0 +1,4 @@
+Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/nav2_minimal_tb3_sim': /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/nav2_minimal_tb3_sim -- -j8 -l8
+Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/nav2_minimal_tb3_sim' returned '0': /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/nav2_minimal_tb3_sim -- -j8 -l8
+Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/nav2_minimal_tb3_sim': /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/nav2_minimal_tb3_sim
+Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/nav2_minimal_tb3_sim' returned '0': /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/nav2_minimal_tb3_sim

@@ -1,0 +1,6 @@
+Invoking command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_serialization': /usr/bin/cmake /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/gps_igvc/ublox_serialization -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization
+Invoked command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_serialization' returned '0': /usr/bin/cmake /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/gps_igvc/ublox_serialization -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_serialization
+Invoking command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_serialization': /usr/bin/cmake --build /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_serialization -- -j8 -l8
+Invoked command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_serialization' returned '0': /usr/bin/cmake --build /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_serialization -- -j8 -l8
+Invoking command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_serialization': /usr/bin/cmake --install /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_serialization
+Invoked command in '/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_serialization' returned '0': /usr/bin/cmake --install /home/ivdc/igvc2025/ros2_ws/src/gps_igvc/build/ublox_serialization

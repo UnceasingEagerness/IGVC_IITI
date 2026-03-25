@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/msg/altitude__type_support.cpp.o"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/msg/altitude__type_support.cpp.o.d"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/msg/differential_measurement__type_support.cpp.o"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/msg/differential_measurement__type_support.cpp.o.d"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/msg/dio_port_state__type_support.cpp.o"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/msg/dio_port_state__type_support.cpp.o.d"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/msg/dio_real_time_data__type_support.cpp.o"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/msg/dio_real_time_data__type_support.cpp.o.d"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/msg/direction__type_support.cpp.o"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/msg/direction__type_support.cpp.o.d"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/msg/exposure__type_support.cpp.o"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/msg/exposure__type_support.cpp.o.d"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/msg/gyro__type_support.cpp.o"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/msg/gyro__type_support.cpp.o.d"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/msg/velocity__type_support.cpp.o"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/msg/velocity__type_support.cpp.o.d"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/msg/wheel_encoder__type_support.cpp.o"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/msg/wheel_encoder__type_support.cpp.o.d"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/msg/wheel_encoder_set__type_support.cpp.o"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/msg/wheel_encoder_set__type_support.cpp.o.d"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/srv/set_exposure__type_support.cpp.o"
+  "CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/marti_sensor_msgs/srv/set_exposure__type_support.cpp.o.d"
+  "libmarti_sensor_msgs__rosidl_typesupport_cpp.pdb"
+  "libmarti_sensor_msgs__rosidl_typesupport_cpp.so"
+  "rosidl_typesupport_cpp/marti_sensor_msgs/msg/altitude__type_support.cpp"
+  "rosidl_typesupport_cpp/marti_sensor_msgs/msg/differential_measurement__type_support.cpp"
+  "rosidl_typesupport_cpp/marti_sensor_msgs/msg/dio_port_state__type_support.cpp"
+  "rosidl_typesupport_cpp/marti_sensor_msgs/msg/dio_real_time_data__type_support.cpp"
+  "rosidl_typesupport_cpp/marti_sensor_msgs/msg/direction__type_support.cpp"
+  "rosidl_typesupport_cpp/marti_sensor_msgs/msg/exposure__type_support.cpp"
+  "rosidl_typesupport_cpp/marti_sensor_msgs/msg/gyro__type_support.cpp"
+  "rosidl_typesupport_cpp/marti_sensor_msgs/msg/velocity__type_support.cpp"
+  "rosidl_typesupport_cpp/marti_sensor_msgs/msg/wheel_encoder__type_support.cpp"
+  "rosidl_typesupport_cpp/marti_sensor_msgs/msg/wheel_encoder_set__type_support.cpp"
+  "rosidl_typesupport_cpp/marti_sensor_msgs/srv/set_exposure__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/marti_sensor_msgs__rosidl_typesupport_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

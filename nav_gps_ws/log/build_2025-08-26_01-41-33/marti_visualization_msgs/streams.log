@@ -1,0 +1,164 @@
+[0.078s] Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_visualization_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/marti_visualization_msgs -- -j8 -l8
+[0.264s] [  2%] Built target marti_visualization_msgs__cpp
+[0.305s] [ 12%] Built target marti_visualization_msgs__rosidl_generator_c
+[0.430s] [ 12%] Built target ament_cmake_python_copy_marti_visualization_msgs
+[0.456s] [ 23%] Built target marti_visualization_msgs__rosidl_typesupport_cpp
+[0.507s] [ 33%] Built target marti_visualization_msgs__rosidl_typesupport_introspection_cpp
+[0.582s] [ 43%] Built target marti_visualization_msgs__rosidl_typesupport_fastrtps_c
+[0.590s] [ 53%] Built target marti_visualization_msgs__rosidl_typesupport_introspection_c
+[0.614s] [ 64%] Built target marti_visualization_msgs__rosidl_typesupport_fastrtps_cpp
+[0.620s] [ 74%] Built target marti_visualization_msgs__rosidl_typesupport_c
+[0.774s] [ 74%] Built target marti_visualization_msgs
+[0.912s] [ 76%] Built target marti_visualization_msgs__py
+[1.038s] [ 84%] Built target marti_visualization_msgs__rosidl_generator_py
+[1.218s] [ 89%] Built target marti_visualization_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.240s] [ 94%] Built target marti_visualization_msgs__rosidl_typesupport_introspection_c__pyext
+[1.262s] [100%] Built target marti_visualization_msgs__rosidl_typesupport_c__pyext
+[1.450s] running egg_info
+[1.452s] writing marti_visualization_msgs.egg-info/PKG-INFO
+[1.453s] writing dependency_links to marti_visualization_msgs.egg-info/dependency_links.txt
+[1.454s] writing top-level names to marti_visualization_msgs.egg-info/top_level.txt
+[1.459s] reading manifest file 'marti_visualization_msgs.egg-info/SOURCES.txt'
+[1.462s] writing manifest file 'marti_visualization_msgs.egg-info/SOURCES.txt'
+[1.566s] [100%] Built target ament_cmake_python_build_marti_visualization_msgs_egg
+[1.696s] Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_visualization_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/marti_visualization_msgs -- -j8 -l8
+[1.707s] Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_visualization_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/marti_visualization_msgs
+[1.815s] -- Install configuration: ""
+[1.815s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/ament_index/resource_index/rosidl_interfaces/marti_visualization_msgs
+[1.816s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs
+[1.817s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg
+[1.817s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail
+[1.818s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker__functions.c
+[1.818s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker_array__struct.h
+[1.818s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker_array__functions.h
+[1.819s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker_array__type_support.h
+[1.820s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker__type_support.h
+[1.821s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker_array__functions.c
+[1.821s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker__functions.h
+[1.828s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker__struct.h
+[1.829s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/textured_marker.h
+[1.836s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.836s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/textured_marker_array.h
+[1.836s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/environment/library_path.sh
+[1.837s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/environment/library_path.dsv
+[1.837s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/lib/libmarti_visualization_msgs__rosidl_generator_c.so
+[1.838s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs
+[1.838s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg
+[1.838s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail
+[1.838s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker_array__rosidl_typesupport_fastrtps_c.h
+[1.839s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker__rosidl_typesupport_fastrtps_c.h
+[1.839s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.840s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/lib/libmarti_visualization_msgs__rosidl_typesupport_fastrtps_c.so
+[1.840s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs
+[1.842s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg
+[1.842s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.842s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail
+[1.842s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker__rosidl_typesupport_introspection_c.h
+[1.842s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker_array__rosidl_typesupport_introspection_c.h
+[1.843s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker_array__type_support.c
+[1.843s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker__type_support.c
+[1.845s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/lib/libmarti_visualization_msgs__rosidl_typesupport_introspection_c.so
+[1.847s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/lib/libmarti_visualization_msgs__rosidl_typesupport_c.so
+[1.848s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs
+[1.848s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg
+[1.849s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/textured_marker_array.hpp
+[1.849s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail
+[1.849s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker__traits.hpp
+[1.849s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker_array__traits.hpp
+[1.852s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker_array__type_support.hpp
+[1.855s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker__struct.hpp
+[1.856s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker_array__builder.hpp
+[1.856s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker_array__struct.hpp
+[1.856s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker__type_support.hpp
+[1.856s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker__builder.hpp
+[1.858s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/textured_marker.hpp
+[1.859s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.860s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs
+[1.860s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg
+[1.860s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail
+[1.860s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.860s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/dds_fastrtps
+[1.861s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker__rosidl_typesupport_fastrtps_cpp.hpp
+[1.861s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.861s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/lib/libmarti_visualization_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.863s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs
+[1.871s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg
+[1.871s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail
+[1.872s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker__type_support.cpp
+[1.872s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker_array__rosidl_typesupport_introspection_cpp.hpp
+[1.872s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker__rosidl_typesupport_introspection_cpp.hpp
+[1.872s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/include/marti_visualization_msgs/marti_visualization_msgs/msg/detail/textured_marker_array__type_support.cpp
+[1.872s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/lib/libmarti_visualization_msgs__rosidl_typesupport_introspection_cpp.so
+[1.873s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/lib/libmarti_visualization_msgs__rosidl_typesupport_cpp.so
+[1.873s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/environment/pythonpath.sh
+[1.873s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/environment/pythonpath.dsv
+[1.874s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs-1.6.1-py3.10.egg-info
+[1.874s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs-1.6.1-py3.10.egg-info/dependency_links.txt
+[1.884s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs-1.6.1-py3.10.egg-info/SOURCES.txt
+[1.884s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs-1.6.1-py3.10.egg-info/top_level.txt
+[1.884s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs-1.6.1-py3.10.egg-info/PKG-INFO
+[1.884s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs
+[1.884s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs/_marti_visualization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.884s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs/marti_visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.885s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs/_marti_visualization_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.885s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs/_marti_visualization_msgs_s.ep.rosidl_typesupport_c.c
+[1.885s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs/marti_visualization_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.887s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs/marti_visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.887s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs/__init__.py
+[1.887s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs/msg
+[1.888s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs/msg/_textured_marker_array_s.c
+[1.889s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs/msg/_textured_marker.py
+[1.889s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs/msg/_textured_marker_s.c
+[1.889s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs/msg/_textured_marker_array.py
+[1.889s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs/msg/__init__.py
+[1.889s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs/libmarti_visualization_msgs__rosidl_generator_py.so
+[1.960s] Listing '/home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs'...
+[1.960s] Listing '/home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs/msg'...
+[1.976s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs/marti_visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.977s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs/marti_visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.977s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/local/lib/python3.10/dist-packages/marti_visualization_msgs/marti_visualization_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.977s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/lib/libmarti_visualization_msgs__rosidl_generator_py.so
+[1.977s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/msg/TexturedMarker.idl
+[1.977s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/msg/TexturedMarkerArray.idl
+[1.977s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/msg/TexturedMarker.msg
+[1.977s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/msg/TexturedMarkerArray.msg
+[1.977s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/ament_index/resource_index/package_run_dependencies/marti_visualization_msgs
+[1.977s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/ament_index/resource_index/parent_prefix_path/marti_visualization_msgs
+[1.978s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/environment/ament_prefix_path.sh
+[1.978s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/environment/ament_prefix_path.dsv
+[1.978s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/environment/path.sh
+[1.978s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/environment/path.dsv
+[1.978s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/local_setup.bash
+[1.978s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/local_setup.sh
+[1.978s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/local_setup.zsh
+[1.978s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/local_setup.dsv
+[1.978s] -- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/package.dsv
+[1.998s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/ament_index/resource_index/packages/marti_visualization_msgs
+[1.998s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/export_marti_visualization_msgs__rosidl_generator_cExport.cmake
+[1.999s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/export_marti_visualization_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.999s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/export_marti_visualization_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.999s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/export_marti_visualization_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.000s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/marti_visualization_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.000s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/marti_visualization_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.000s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/marti_visualization_msgs__rosidl_typesupport_cExport.cmake
+[2.001s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/marti_visualization_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.001s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/export_marti_visualization_msgs__rosidl_generator_cppExport.cmake
+[2.001s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/export_marti_visualization_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.002s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/export_marti_visualization_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.003s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/marti_visualization_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.003s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/marti_visualization_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.004s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/marti_visualization_msgs__rosidl_typesupport_cppExport.cmake
+[2.004s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/marti_visualization_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.005s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/export_marti_visualization_msgs__rosidl_generator_pyExport.cmake
+[2.005s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/export_marti_visualization_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.005s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/rosidl_cmake-extras.cmake
+[2.005s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.006s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.006s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.007s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.007s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.007s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.007s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/marti_visualization_msgsConfig.cmake
+[2.007s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/cmake/marti_visualization_msgsConfig-version.cmake
+[2.007s] -- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/marti_visualization_msgs/share/marti_visualization_msgs/package.xml
+[2.084s] Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/marti_visualization_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivdc/igvc2025/nav_gps_ws/install/swri_cli_tools /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/marti_visualization_msgs

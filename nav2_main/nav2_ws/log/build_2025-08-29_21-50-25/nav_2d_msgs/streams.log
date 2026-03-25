@@ -1,0 +1,255 @@
+[0.026s] Invoking command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav_2d_msgs': /usr/bin/cmake --build /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav_2d_msgs -- -j8 -l8
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_generator_c[0m
+[0.117s] [  1%] Built target nav_2d_msgs__cpp
+[0.123s] [ 12%] Built target nav_2d_msgs__rosidl_generator_c
+[0.137s] [ 12%] Built target ament_cmake_python_copy_nav_2d_msgs
+[0.139s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_cpp[0m
+[0.145s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_introspection_c[0m
+[0.146s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.152s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_c[0m
+[0.171s] [ 35%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[0.172s] [ 35%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[0.177s] [ 76%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[0.177s] [ 76%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[0.177s] [ 77%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[0.177s] [ 80%] Built target nav_2d_msgs__rosidl_typesupport_c
+[0.219s] [ 80%] Built target nav_2d_msgs
+[0.259s] [ 81%] Built target nav_2d_msgs__py
+[0.281s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_generator_py[0m
+[0.314s] [ 91%] Built target nav_2d_msgs__rosidl_generator_py
+[0.334s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_c__pyext[0m
+[0.334s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.334s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.361s] [100%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.361s] [100%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext
+[0.361s] [100%] Built target nav_2d_msgs__rosidl_typesupport_c__pyext
+[0.593s] running egg_info
+[0.595s] writing nav_2d_msgs.egg-info/PKG-INFO
+[0.596s] writing dependency_links to nav_2d_msgs.egg-info/dependency_links.txt
+[0.596s] writing top-level names to nav_2d_msgs.egg-info/top_level.txt
+[0.601s] reading manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[0.602s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[0.678s] [100%] Built target ament_cmake_python_build_nav_2d_msgs_egg
+[0.715s] Invoked command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav_2d_msgs' returned '0': /usr/bin/cmake --build /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav_2d_msgs -- -j8 -l8
+[0.720s] Invoking command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav_2d_msgs': /usr/bin/cmake --install /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav_2d_msgs
+[0.739s] -- Install configuration: ""
+[0.740s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_2d_msgs
+[0.740s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[0.740s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[0.740s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.h
+[0.740s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[0.740s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h
+[0.741s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c
+[0.741s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h
+[0.741s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.h
+[0.741s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.h
+[0.741s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.c
+[0.742s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.h
+[0.742s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.h
+[0.742s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.h
+[0.742s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c
+[0.742s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__functions.h
+[0.742s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.h
+[0.742s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__functions.h
+[0.743s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__functions.c
+[0.743s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.h
+[0.743s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.h
+[0.743s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__functions.h
+[0.743s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__functions.c
+[0.743s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.h
+[0.743s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__functions.c
+[0.744s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.h
+[0.744s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.h
+[0.744s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.h
+[0.744s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.h
+[0.744s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.745s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.h
+[0.745s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.h
+[0.745s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.h
+[0.745s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.h
+[0.745s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.h
+[0.745s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.sh
+[0.745s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.dsv
+[0.746s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so
+[0.746s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[0.746s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[0.746s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[0.746s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_c.h
+[0.746s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_c.h
+[0.747s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_c.h
+[0.747s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[0.747s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_c.h
+[0.747s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[0.747s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.747s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so
+[0.747s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[0.747s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[0.747s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.hpp
+[0.748s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.hpp
+[0.748s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[0.748s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
+[0.748s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.hpp
+[0.748s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__builder.hpp
+[0.748s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.hpp
+[0.748s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.hpp
+[0.749s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__traits.hpp
+[0.749s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__builder.hpp
+[0.749s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__traits.hpp
+[0.749s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__traits.hpp
+[0.749s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.hpp
+[0.749s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__traits.hpp
+[0.749s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.hpp
+[0.749s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.hpp
+[0.750s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__traits.hpp
+[0.750s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.hpp
+[0.750s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__builder.hpp
+[0.750s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.hpp
+[0.750s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.hpp
+[0.750s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__builder.hpp
+[0.750s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.hpp
+[0.750s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
+[0.751s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.hpp
+[0.751s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__builder.hpp
+[0.751s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__builder.hpp
+[0.751s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.hpp
+[0.751s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.hpp
+[0.751s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.hpp
+[0.751s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.hpp
+[0.752s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.752s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[0.752s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[0.752s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[0.752s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[0.752s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[0.752s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[0.752s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[0.752s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/dds_fastrtps
+[0.753s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[0.753s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[0.753s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.753s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.753s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[0.753s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[0.753s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.753s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[0.753s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c
+[0.754s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_c.h
+[0.754s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_c.h
+[0.754s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.c
+[0.754s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.c
+[0.754s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_c.h
+[0.754s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.c
+[0.754s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.c
+[0.754s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c
+[0.755s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_c.h
+[0.755s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_c.h
+[0.755s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_c.h
+[0.755s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so
+[0.755s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so
+[0.755s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[0.755s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[0.755s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[0.755s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.cpp
+[0.755s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_cpp.hpp
+[0.756s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.cpp
+[0.756s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_cpp.hpp
+[0.756s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.cpp
+[0.756s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_cpp.hpp
+[0.756s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.cpp
+[0.756s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.cpp
+[0.756s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.cpp
+[0.757s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[0.757s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[0.757s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_cpp.hpp
+[0.757s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so
+[0.757s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so
+[0.757s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.sh
+[0.757s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.dsv
+[0.757s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.18-py3.10.egg-info
+[0.757s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.18-py3.10.egg-info/dependency_links.txt
+[0.758s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.18-py3.10.egg-info/SOURCES.txt
+[0.758s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.18-py3.10.egg-info/top_level.txt
+[0.758s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.18-py3.10.egg-info/PKG-INFO
+[0.758s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs
+[0.758s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.758s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[0.758s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[0.758s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[0.758s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_c.c
+[0.759s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/__init__.py
+[0.759s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg
+[0.759s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_stamped_s.c
+[0.759s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_s.c
+[0.759s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d32_s.c
+[0.759s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_path2_d.py
+[0.759s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d32_s.c
+[0.759s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d.py
+[0.759s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_stamped.py
+[0.760s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d32.py
+[0.760s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/__init__.py
+[0.760s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d_stamped_s.c
+[0.760s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d32.py
+[0.760s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d_stamped.py
+[0.760s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_path2_d_s.c
+[0.760s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/libnav_2d_msgs__rosidl_generator_py.so
+[0.760s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.811s] Listing '/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs'...
+[0.812s] Listing '/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg'...
+[0.821s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[0.822s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[0.823s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[0.825s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_py.so
+[0.825s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.idl
+[0.826s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.idl
+[0.827s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.idl
+[0.827s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.idl
+[0.830s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.idl
+[0.830s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.idl
+[0.831s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.msg
+[0.832s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.msg
+[0.833s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.msg
+[0.835s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.msg
+[0.836s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.msg
+[0.837s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.msg
+[0.839s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/ament_index/resource_index/package_run_dependencies/nav_2d_msgs
+[0.839s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/ament_index/resource_index/parent_prefix_path/nav_2d_msgs
+[0.840s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.sh
+[0.840s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.dsv
+[0.842s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.sh
+[0.842s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.dsv
+[0.843s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.bash
+[0.843s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.sh
+[0.844s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.zsh
+[0.846s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.dsv
+[0.846s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.dsv
+[0.847s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/ament_index/resource_index/packages/nav_2d_msgs
+[0.848s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport.cmake
+[0.850s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.850s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.851s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.851s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cppExport.cmake
+[0.853s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.854s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.854s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.855s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.855s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport.cmake
+[0.856s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.857s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.857s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.858s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport.cmake
+[0.860s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.861s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport.cmake
+[0.861s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.862s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake-extras.cmake
+[0.862s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.863s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.863s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.863s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.864s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.864s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.865s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig.cmake
+[0.865s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig-version.cmake
+[0.866s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.xml
+[0.921s] Invoked command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav_2d_msgs' returned '0': /usr/bin/cmake --install /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav_2d_msgs

@@ -1,0 +1,6 @@
+Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_serial_util': /usr/bin/cmake /home/ivdc/igvc2025/nav_gps_ws/src/marti_common/swri_serial_util -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util
+Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_serial_util' returned '0': /usr/bin/cmake /home/ivdc/igvc2025/nav_gps_ws/src/marti_common/swri_serial_util -DCMAKE_INSTALL_PREFIX=/home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util
+Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_serial_util': /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/swri_serial_util -- -j8 -l8
+Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_serial_util' returned '0': /usr/bin/cmake --build /home/ivdc/igvc2025/nav_gps_ws/build/swri_serial_util -- -j8 -l8
+Invoking command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_serial_util': /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/swri_serial_util
+Invoked command in '/home/ivdc/igvc2025/nav_gps_ws/build/swri_serial_util' returned '0': /usr/bin/cmake --install /home/ivdc/igvc2025/nav_gps_ws/build/swri_serial_util

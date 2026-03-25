@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target swri_serial_util[0m
+[100%] Built target swri_serial_util
+-- Install configuration: ""
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/include/swri_serial_util
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/include/swri_serial_util/swri_serial_util
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/include/swri_serial_util/swri_serial_util/serial_port.h
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/lib/libswri_serial_util.so
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/swri_serial_util/environment/library_path.sh
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/swri_serial_util/environment/library_path.dsv
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/ament_index/resource_index/package_run_dependencies/swri_serial_util
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/ament_index/resource_index/parent_prefix_path/swri_serial_util
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/swri_serial_util/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/swri_serial_util/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/swri_serial_util/environment/path.sh
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/swri_serial_util/environment/path.dsv
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/swri_serial_util/local_setup.bash
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/swri_serial_util/local_setup.sh
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/swri_serial_util/local_setup.zsh
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/swri_serial_util/local_setup.dsv
+-- Installing: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/swri_serial_util/package.dsv
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/ament_index/resource_index/packages/swri_serial_util
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/swri_serial_util/cmake/export_swri_serial_utilExport.cmake
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/swri_serial_util/cmake/export_swri_serial_utilExport-noconfig.cmake
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/swri_serial_util/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/swri_serial_util/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/swri_serial_util/cmake/swri_serial_utilConfig.cmake
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/swri_serial_util/cmake/swri_serial_utilConfig-version.cmake
+-- Up-to-date: /home/ivdc/igvc2025/nav_gps_ws/install/swri_serial_util/share/swri_serial_util/package.xml

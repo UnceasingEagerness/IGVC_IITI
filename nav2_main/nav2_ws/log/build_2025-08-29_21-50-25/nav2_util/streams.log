@@ -1,0 +1,78 @@
+[0.041s] Invoking command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_util -- -j8 -l8
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.132s] [35m[1mConsolidate compiler generated dependencies of target nav2_util_core[0m
+[0.149s] [ 10%] Built target gtest
+[0.149s] [ 10%] Built target gtest_main
+[0.169s] [35m[1mConsolidate compiler generated dependencies of target test_execution_timer[0m
+[0.193s] [ 22%] Built target test_execution_timer
+[0.194s] [ 40%] Built target nav2_util_core
+[0.214s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_bringup[0m
+[0.214s] [35m[1mConsolidate compiler generated dependencies of target test_node_utils[0m
+[0.214s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_node[0m
+[0.214s] [35m[1mConsolidate compiler generated dependencies of target test_actions[0m
+[0.215s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_utils[0m
+[0.216s] [35m[1mConsolidate compiler generated dependencies of target test_service_client[0m
+[0.219s] [35m[1mConsolidate compiler generated dependencies of target test_string_utils[0m
+[0.243s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_cli_node[0m
+[0.250s] [ 45%] Built target test_node_utils
+[0.254s] [ 57%] Built target test_string_utils
+[0.255s] [ 57%] Built target test_service_client
+[0.255s] [ 60%] Built target lifecycle_bringup
+[0.260s] [ 65%] Built target test_lifecycle_utils
+[0.260s] [ 70%] Built target test_actions
+[0.261s] [ 75%] Built target test_lifecycle_node
+[0.277s] [35m[1mConsolidate compiler generated dependencies of target test_geometry_utils[0m
+[0.277s] [ 80%] Built target test_lifecycle_cli_node
+[0.278s] [35m[1mConsolidate compiler generated dependencies of target test_odometry_utils[0m
+[0.278s] [35m[1mConsolidate compiler generated dependencies of target test_robot_utils[0m
+[0.280s] [35m[1mConsolidate compiler generated dependencies of target test_validation_messages[0m
+[0.311s] [ 85%] Built target test_validation_messages
+[0.314s] [ 92%] Built target test_odometry_utils
+[0.314s] [ 95%] Built target test_geometry_utils
+[0.318s] [100%] Built target test_robot_utils
+[0.581s] Invoked command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_util -- -j8 -l8
+[0.585s] Invoking command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_util
+[0.603s] -- Install configuration: "Release"
+[0.603s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/include/
+[0.604s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/include//nav2_util
+[0.604s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/include//nav2_util/odometry_utils.hpp
+[0.604s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/include//nav2_util/lifecycle_node.hpp
+[0.604s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/include//nav2_util/occ_grid_values.hpp
+[0.604s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/include//nav2_util/lifecycle_utils.hpp
+[0.605s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/include//nav2_util/geometry_utils.hpp
+[0.605s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/include//nav2_util/line_iterator.hpp
+[0.605s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/include//nav2_util/robot_utils.hpp
+[0.605s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/include//nav2_util/lifecycle_service_client.hpp
+[0.605s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/include//nav2_util/service_client.hpp
+[0.605s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/include//nav2_util/simple_action_server.hpp
+[0.606s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/include//nav2_util/validate_messages.hpp
+[0.606s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/include//nav2_util/execution_timer.hpp
+[0.606s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/include//nav2_util/string_utils.hpp
+[0.606s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/include//nav2_util/node_utils.hpp
+[0.606s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/include//nav2_util/clear_entirely_costmap_service_client.hpp
+[0.606s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/include//nav2_util/node_thread.hpp
+[0.606s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/include//nav2_util/costmap.hpp
+[0.606s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/nav2_util/environment/library_path.sh
+[0.607s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/nav2_util/environment/library_path.dsv
+[0.607s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+[0.607s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+[0.607s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+[0.607s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+[0.607s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/nav2_util/environment/path.sh
+[0.607s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/nav2_util/environment/path.dsv
+[0.608s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/nav2_util/local_setup.bash
+[0.608s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/nav2_util/local_setup.sh
+[0.608s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/nav2_util/local_setup.zsh
+[0.608s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/nav2_util/local_setup.dsv
+[0.608s] -- Installing: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/nav2_util/package.dsv
+[0.608s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+[0.609s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.609s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+[0.609s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.609s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+[0.609s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+[0.609s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/share/nav2_util/package.xml
+[0.610s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/lib/libnav2_util_core.so
+[0.610s] -- Up-to-date: /home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_util/lib/nav2_util/lifecycle_bringup
+[0.613s] Invoked command in '/home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/lib:/home/ivdc/igvc2025/ros2_ws/src/robot_localization-humble-devel/install/robot_localization/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_gps/lib:/home/ivdc/igvc2025/ros2_ws/src/gps_igvc/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ivdc/igvc2025/nav2_main/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ivdc/igvc2025/nav2_main/nav2_ws/build/nav2_util

@@ -1,0 +1,8 @@
+msg/NodeInfo.idl
+msg/NodeInfo.msg
+msg/ParamInfo.idl
+msg/ParamInfo.msg
+msg/ServiceInfo.idl
+msg/ServiceInfo.msg
+msg/TopicInfo.idl
+msg/TopicInfo.msg
